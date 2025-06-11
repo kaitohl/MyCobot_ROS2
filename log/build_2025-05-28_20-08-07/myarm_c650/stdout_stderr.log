@@ -1,0 +1,65 @@
+running egg_info
+creating ../../../../build/myarm_c650/myarm_c650.egg-info
+writing ../../../../build/myarm_c650/myarm_c650.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/myarm_c650/myarm_c650.egg-info/dependency_links.txt
+writing entry points to ../../../../build/myarm_c650/myarm_c650.egg-info/entry_points.txt
+writing requirements to ../../../../build/myarm_c650/myarm_c650.egg-info/requires.txt
+writing top-level names to ../../../../build/myarm_c650/myarm_c650.egg-info/top_level.txt
+writing manifest file '../../../../build/myarm_c650/myarm_c650.egg-info/SOURCES.txt'
+reading manifest file '../../../../build/myarm_c650/myarm_c650.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../../../build/myarm_c650/myarm_c650.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/robotics/ros2_cobot/build/myarm_c650/build
+creating /home/robotics/ros2_cobot/build/myarm_c650/build/lib
+creating /home/robotics/ros2_cobot/build/myarm_c650/build/lib/myarm_c650
+copying myarm_c650/follow_display.py -> /home/robotics/ros2_cobot/build/myarm_c650/build/lib/myarm_c650
+copying myarm_c650/debug.py -> /home/robotics/ros2_cobot/build/myarm_c650/build/lib/myarm_c650
+copying myarm_c650/test.py -> /home/robotics/ros2_cobot/build/myarm_c650/build/lib/myarm_c650
+copying myarm_c650/simple_gui.py -> /home/robotics/ros2_cobot/build/myarm_c650/build/lib/myarm_c650
+copying myarm_c650/slider_control.py -> /home/robotics/ros2_cobot/build/myarm_c650/build/lib/myarm_c650
+copying myarm_c650/teleop_keyboard.py -> /home/robotics/ros2_cobot/build/myarm_c650/build/lib/myarm_c650
+copying myarm_c650/__init__.py -> /home/robotics/ros2_cobot/build/myarm_c650/build/lib/myarm_c650
+running install
+running install_lib
+creating /home/robotics/ros2_cobot/install/myarm_c650/lib/python3.10/site-packages/myarm_c650
+copying /home/robotics/ros2_cobot/build/myarm_c650/build/lib/myarm_c650/follow_display.py -> /home/robotics/ros2_cobot/install/myarm_c650/lib/python3.10/site-packages/myarm_c650
+copying /home/robotics/ros2_cobot/build/myarm_c650/build/lib/myarm_c650/debug.py -> /home/robotics/ros2_cobot/install/myarm_c650/lib/python3.10/site-packages/myarm_c650
+copying /home/robotics/ros2_cobot/build/myarm_c650/build/lib/myarm_c650/test.py -> /home/robotics/ros2_cobot/install/myarm_c650/lib/python3.10/site-packages/myarm_c650
+copying /home/robotics/ros2_cobot/build/myarm_c650/build/lib/myarm_c650/simple_gui.py -> /home/robotics/ros2_cobot/install/myarm_c650/lib/python3.10/site-packages/myarm_c650
+copying /home/robotics/ros2_cobot/build/myarm_c650/build/lib/myarm_c650/slider_control.py -> /home/robotics/ros2_cobot/install/myarm_c650/lib/python3.10/site-packages/myarm_c650
+copying /home/robotics/ros2_cobot/build/myarm_c650/build/lib/myarm_c650/teleop_keyboard.py -> /home/robotics/ros2_cobot/install/myarm_c650/lib/python3.10/site-packages/myarm_c650
+copying /home/robotics/ros2_cobot/build/myarm_c650/build/lib/myarm_c650/__init__.py -> /home/robotics/ros2_cobot/install/myarm_c650/lib/python3.10/site-packages/myarm_c650
+byte-compiling /home/robotics/ros2_cobot/install/myarm_c650/lib/python3.10/site-packages/myarm_c650/follow_display.py to follow_display.cpython-310.pyc
+byte-compiling /home/robotics/ros2_cobot/install/myarm_c650/lib/python3.10/site-packages/myarm_c650/debug.py to debug.cpython-310.pyc
+byte-compiling /home/robotics/ros2_cobot/install/myarm_c650/lib/python3.10/site-packages/myarm_c650/test.py to test.cpython-310.pyc
+byte-compiling /home/robotics/ros2_cobot/install/myarm_c650/lib/python3.10/site-packages/myarm_c650/simple_gui.py to simple_gui.cpython-310.pyc
+byte-compiling /home/robotics/ros2_cobot/install/myarm_c650/lib/python3.10/site-packages/myarm_c650/slider_control.py to slider_control.cpython-310.pyc
+byte-compiling /home/robotics/ros2_cobot/install/myarm_c650/lib/python3.10/site-packages/myarm_c650/teleop_keyboard.py to teleop_keyboard.cpython-310.pyc
+byte-compiling /home/robotics/ros2_cobot/install/myarm_c650/lib/python3.10/site-packages/myarm_c650/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/robotics/ros2_cobot/install/myarm_c650/share/ament_index
+creating /home/robotics/ros2_cobot/install/myarm_c650/share/ament_index/resource_index
+creating /home/robotics/ros2_cobot/install/myarm_c650/share/ament_index/resource_index/packages
+copying resource/myarm_c650 -> /home/robotics/ros2_cobot/install/myarm_c650/share/ament_index/resource_index/packages
+copying package.xml -> /home/robotics/ros2_cobot/install/myarm_c650/share/myarm_c650
+creating /home/robotics/ros2_cobot/install/myarm_c650/share/myarm_c650/launch
+copying launch/slider_control.launch.py -> /home/robotics/ros2_cobot/install/myarm_c650/share/myarm_c650/launch
+copying launch/mycobot_follow.launch.py -> /home/robotics/ros2_cobot/install/myarm_c650/share/myarm_c650/launch
+copying launch/teleop_keyboard.launch.py -> /home/robotics/ros2_cobot/install/myarm_c650/share/myarm_c650/launch
+copying launch/simple_gui.launch.py -> /home/robotics/ros2_cobot/install/myarm_c650/share/myarm_c650/launch
+copying launch/test.launch.py -> /home/robotics/ros2_cobot/install/myarm_c650/share/myarm_c650/launch
+creating /home/robotics/ros2_cobot/install/myarm_c650/share/myarm_c650/config
+copying config/myarm_c650.rviz -> /home/robotics/ros2_cobot/install/myarm_c650/share/myarm_c650/config
+copying config/myarm_with_marker.rviz -> /home/robotics/ros2_cobot/install/myarm_c650/share/myarm_c650/config
+running install_egg_info
+Copying ../../../../build/myarm_c650/myarm_c650.egg-info to /home/robotics/ros2_cobot/install/myarm_c650/lib/python3.10/site-packages/myarm_c650-0.0.0-py3.10.egg-info
+running install_scripts
+Installing debug script to /home/robotics/ros2_cobot/install/myarm_c650/lib/myarm_c650
+Installing follow_display script to /home/robotics/ros2_cobot/install/myarm_c650/lib/myarm_c650
+Installing simple_gui script to /home/robotics/ros2_cobot/install/myarm_c650/lib/myarm_c650
+Installing slider_control script to /home/robotics/ros2_cobot/install/myarm_c650/lib/myarm_c650
+Installing teleop_keyboard script to /home/robotics/ros2_cobot/install/myarm_c650/lib/myarm_c650
+Installing test script to /home/robotics/ros2_cobot/install/myarm_c650/lib/myarm_c650
+writing list of installed files to '/home/robotics/ros2_cobot/build/myarm_c650/install.log'

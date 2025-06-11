@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>traj_scripts</name>
+  <version>0.1.0</version>
+  <description>
+    Trajectory planning and execution node for MyCobot 280 using MoveIt 2,
+    plus a custom demo launch that adds a “ghost” robot_state_publisher.
+  </description>
+  <maintainer email="kaito.lee@queensu.ca">Kaito Hara-Lee</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- build tool for ROS 2 ament_cmake -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_cmake_python</buildtool_depend>
+
+  <!-- runtime deps -->
+  <depend>rclcpp</depend>
+  <depend>rclpy</depend>
+  <depend>moveit_ros_planning_interface</depend>
+  <depend>geometry_msgs</depend>
+  <depend>robot_state_publisher</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>moveit_msgs</depend>
+
+  <!-- for your Python launch -->
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>moveit_configs_utils</exec_depend>
+
+  <export>
+    <!-- this tells colcon to treat it as an ament_cmake package -->
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

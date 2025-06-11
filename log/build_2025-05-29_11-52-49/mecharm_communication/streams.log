@@ -1,0 +1,25 @@
+[2.621s] Invoking command in '/home/robotics/ros2_cobot/src/mycobot_ros2/mecharm/mecharm_communication': CMAKE_PREFIX_PATH=/home/robotics/ros2_cobot/install/mycobot_interfaces:/home/robotics/ros2_cobot/install/traj_scripts:/home/robotics/ros2_cobot/install/mypalletizer_interfaces:/home/robotics/ros2_cobot/install/mycobot_280rdkx5_moveit2:/home/robotics/ros2_cobot/install/mycobot_280arduino_moveit2:/home/robotics/ros2_cobot/install/mycobot_280_moveit2:/home/robotics/ros2_cobot/install/mecharm_interfaces LD_LIBRARY_PATH=/home/robotics/ros2_cobot/install/mycobot_interfaces/lib:/home/robotics/ros2_cobot/install/mypalletizer_interfaces/lib:/home/robotics/ros2_cobot/install/mecharm_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/robotics/ros2_cobot/build/mecharm_communication/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotics/ros2_cobot/install/mecharm_communication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/mecharm_communication build --build-base /home/robotics/ros2_cobot/build/mecharm_communication/build install --record /home/robotics/ros2_cobot/build/mecharm_communication/install.log --single-version-externally-managed install_data
+[2.918s] running egg_info
+[2.919s] writing ../../../../build/mecharm_communication/mecharm_communication.egg-info/PKG-INFO
+[2.919s] writing dependency_links to ../../../../build/mecharm_communication/mecharm_communication.egg-info/dependency_links.txt
+[2.920s] writing entry points to ../../../../build/mecharm_communication/mecharm_communication.egg-info/entry_points.txt
+[2.921s] writing requirements to ../../../../build/mecharm_communication/mecharm_communication.egg-info/requires.txt
+[2.921s] writing top-level names to ../../../../build/mecharm_communication/mecharm_communication.egg-info/top_level.txt
+[2.922s] reading manifest file '../../../../build/mecharm_communication/mecharm_communication.egg-info/SOURCES.txt'
+[2.922s] writing manifest file '../../../../build/mecharm_communication/mecharm_communication.egg-info/SOURCES.txt'
+[2.922s] running build
+[2.922s] running build_py
+[2.922s] running install
+[2.922s] running install_lib
+[2.924s] running install_data
+[2.924s] running install_egg_info
+[2.928s] removing '/home/robotics/ros2_cobot/install/mecharm_communication/lib/python3.10/site-packages/mecharm_communication-0.0.0-py3.10.egg-info' (and everything under it)
+[2.928s] Copying ../../../../build/mecharm_communication/mecharm_communication.egg-info to /home/robotics/ros2_cobot/install/mecharm_communication/lib/python3.10/site-packages/mecharm_communication-0.0.0-py3.10.egg-info
+[2.928s] running install_scripts
+[2.945s] Installing mecharm_services script to /home/robotics/ros2_cobot/install/mecharm_communication/lib/mecharm_communication
+[2.945s] Installing mycobot_topics script to /home/robotics/ros2_cobot/install/mecharm_communication/lib/mecharm_communication
+[2.945s] Installing mycobot_topics_jsnn script to /home/robotics/ros2_cobot/install/mecharm_communication/lib/mecharm_communication
+[2.945s] Installing mycobot_topics_pi script to /home/robotics/ros2_cobot/install/mecharm_communication/lib/mecharm_communication
+[2.946s] Installing mycobot_topics_seeed script to /home/robotics/ros2_cobot/install/mecharm_communication/lib/mecharm_communication
+[2.946s] writing list of installed files to '/home/robotics/ros2_cobot/build/mecharm_communication/install.log'
+[3.317s] Invoked command in '/home/robotics/ros2_cobot/src/mycobot_ros2/mecharm/mecharm_communication' returned '0': CMAKE_PREFIX_PATH=/home/robotics/ros2_cobot/install/mycobot_interfaces:/home/robotics/ros2_cobot/install/traj_scripts:/home/robotics/ros2_cobot/install/mypalletizer_interfaces:/home/robotics/ros2_cobot/install/mycobot_280rdkx5_moveit2:/home/robotics/ros2_cobot/install/mycobot_280arduino_moveit2:/home/robotics/ros2_cobot/install/mycobot_280_moveit2:/home/robotics/ros2_cobot/install/mecharm_interfaces LD_LIBRARY_PATH=/home/robotics/ros2_cobot/install/mycobot_interfaces/lib:/home/robotics/ros2_cobot/install/mypalletizer_interfaces/lib:/home/robotics/ros2_cobot/install/mecharm_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/robotics/ros2_cobot/build/mecharm_communication/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotics/ros2_cobot/install/mecharm_communication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/mecharm_communication build --build-base /home/robotics/ros2_cobot/build/mecharm_communication/build install --record /home/robotics/ros2_cobot/build/mecharm_communication/install.log --single-version-externally-managed install_data

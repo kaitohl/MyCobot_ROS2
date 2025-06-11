@@ -1,0 +1,3 @@
+[console_scripts]
+slider_control = mycobot_630.slider_control:main
+

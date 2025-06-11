@@ -1,0 +1,6 @@
+setup.py
+traj_scripts/__init__.py
+traj_scripts.egg-info/PKG-INFO
+traj_scripts.egg-info/SOURCES.txt
+traj_scripts.egg-info/dependency_links.txt
+traj_scripts.egg-info/top_level.txt

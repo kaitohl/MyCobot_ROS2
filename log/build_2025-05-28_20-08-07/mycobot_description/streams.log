@@ -1,0 +1,289 @@
+[0.451s] Invoking command in '/home/robotics/ros2_cobot/src/mycobot_ros2/mycobot_description': PYTHONPATH=/home/robotics/ros2_cobot/build/mycobot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotics/ros2_cobot/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mycobot_description build --build-base /home/robotics/ros2_cobot/build/mycobot_description/build install --record /home/robotics/ros2_cobot/build/mycobot_description/install.log --single-version-externally-managed install_data
+[0.626s] running egg_info
+[0.628s] creating ../../../build/mycobot_description/mycobot_description.egg-info
+[0.628s] writing ../../../build/mycobot_description/mycobot_description.egg-info/PKG-INFO
+[0.629s] writing dependency_links to ../../../build/mycobot_description/mycobot_description.egg-info/dependency_links.txt
+[0.629s] writing entry points to ../../../build/mycobot_description/mycobot_description.egg-info/entry_points.txt
+[0.629s] writing requirements to ../../../build/mycobot_description/mycobot_description.egg-info/requires.txt
+[0.629s] writing top-level names to ../../../build/mycobot_description/mycobot_description.egg-info/top_level.txt
+[0.629s] writing manifest file '../../../build/mycobot_description/mycobot_description.egg-info/SOURCES.txt'
+[0.631s] reading manifest file '../../../build/mycobot_description/mycobot_description.egg-info/SOURCES.txt'
+[0.631s] adding license file 'LICENSE'
+[0.632s] writing manifest file '../../../build/mycobot_description/mycobot_description.egg-info/SOURCES.txt'
+[0.632s] running build
+[0.632s] running build_py
+[0.632s] creating /home/robotics/ros2_cobot/build/mycobot_description/build
+[0.632s] creating /home/robotics/ros2_cobot/build/mycobot_description/build/lib
+[0.632s] creating /home/robotics/ros2_cobot/build/mycobot_description/build/lib/mycobot_description
+[0.633s] copying mycobot_description/__init__.py -> /home/robotics/ros2_cobot/build/mycobot_description/build/lib/mycobot_description
+[0.633s] running install
+[0.633s] running install_lib
+[0.633s] creating /home/robotics/ros2_cobot/install/mycobot_description/lib/python3.10/site-packages/mycobot_description
+[0.633s] copying /home/robotics/ros2_cobot/build/mycobot_description/build/lib/mycobot_description/__init__.py -> /home/robotics/ros2_cobot/install/mycobot_description/lib/python3.10/site-packages/mycobot_description
+[0.633s] byte-compiling /home/robotics/ros2_cobot/install/mycobot_description/lib/python3.10/site-packages/mycobot_description/__init__.py to __init__.cpython-310.pyc
+[0.633s] running install_data
+[0.634s] creating /home/robotics/ros2_cobot/install/mycobot_description/share/ament_index
+[0.634s] creating /home/robotics/ros2_cobot/install/mycobot_description/share/ament_index/resource_index
+[0.634s] creating /home/robotics/ros2_cobot/install/mycobot_description/share/ament_index/resource_index/packages
+[0.634s] copying resource/mycobot_description -> /home/robotics/ros2_cobot/install/mycobot_description/share/ament_index/resource_index/packages
+[0.634s] copying package.xml -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description
+[0.634s] creating /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf
+[0.634s] creating /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mypalletizer_260_pi
+[0.634s] copying urdf/mypalletizer_260_pi/suit_env.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mypalletizer_260_pi
+[0.641s] copying urdf/mypalletizer_260_pi/link2.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mypalletizer_260_pi
+[0.644s] copying urdf/mypalletizer_260_pi/link3.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mypalletizer_260_pi
+[0.647s] copying urdf/mypalletizer_260_pi/mypalletizer_260_pi.urdf -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mypalletizer_260_pi
+[0.647s] copying urdf/mypalletizer_260_pi/link1.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mypalletizer_260_pi
+[0.649s] copying urdf/mypalletizer_260_pi/mypalletizer_260_pi_aikit.urdf -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mypalletizer_260_pi
+[0.649s] copying urdf/mypalletizer_260_pi/link4.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mypalletizer_260_pi
+[0.650s] copying urdf/mypalletizer_260_pi/base.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mypalletizer_260_pi
+[0.654s] copying urdf/mypalletizer_260_pi/link5.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mypalletizer_260_pi
+[0.654s] creating /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mypalletizer_260_m5
+[0.655s] copying urdf/mypalletizer_260_m5/mypalletizer_260_m5.urdf -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mypalletizer_260_m5
+[0.655s] copying urdf/mypalletizer_260_m5/link2.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mypalletizer_260_m5
+[0.657s] copying urdf/mypalletizer_260_m5/link3.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mypalletizer_260_m5
+[0.661s] copying urdf/mypalletizer_260_m5/link1.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mypalletizer_260_m5
+[0.663s] copying urdf/mypalletizer_260_m5/link4.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mypalletizer_260_m5
+[0.664s] copying urdf/mypalletizer_260_m5/base.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mypalletizer_260_m5
+[0.667s] copying urdf/mypalletizer_260_m5/link5.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mypalletizer_260_m5
+[0.668s] creating /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_jn
+[0.668s] copying urdf/mycobot_280_jn/joint3.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_jn
+[0.671s] copying urdf/mycobot_280_jn/joint1_jet.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_jn
+[0.678s] copying urdf/mycobot_280_jn/joint3.png -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_jn
+[0.678s] copying urdf/mycobot_280_jn/joint5.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_jn
+[0.680s] copying urdf/mycobot_280_jn/joint6.png -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_jn
+[0.680s] copying urdf/mycobot_280_jn/joint7.png -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_jn
+[0.680s] copying urdf/mycobot_280_jn/joint5.png -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_jn
+[0.680s] copying urdf/mycobot_280_jn/joint2.png -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_jn
+[0.680s] copying urdf/mycobot_280_jn/joint4.png -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_jn
+[0.680s] copying urdf/mycobot_280_jn/joint7.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_jn
+[0.681s] copying urdf/mycobot_280_jn/joint2.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_jn
+[0.683s] copying urdf/mycobot_280_jn/mycobot_280_jn.urdf -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_jn
+[0.683s] copying urdf/mycobot_280_jn/joint4.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_jn
+[0.684s] copying urdf/mycobot_280_jn/joint6.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_jn
+[0.685s] creating /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_320_m5_2022
+[0.685s] copying urdf/mycobot_320_m5_2022/mycobot_320_m5_2022.urdf -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_320_m5_2022
+[0.685s] copying urdf/mycobot_320_m5_2022/link2.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_320_m5_2022
+[0.688s] copying urdf/mycobot_320_m5_2022/link3.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_320_m5_2022
+[0.691s] copying urdf/mycobot_320_m5_2022/link1.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_320_m5_2022
+[0.692s] copying urdf/mycobot_320_m5_2022/link4.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_320_m5_2022
+[0.694s] copying urdf/mycobot_320_m5_2022/link6.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_320_m5_2022
+[0.694s] copying urdf/mycobot_320_m5_2022/base.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_320_m5_2022
+[0.705s] copying urdf/mycobot_320_m5_2022/link5.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_320_m5_2022
+[0.707s] creating /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_pro_600
+[0.707s] copying urdf/mycobot_pro_600/link2.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_pro_600
+[0.711s] copying urdf/mycobot_pro_600/mycobot_pro_600.urdf -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_pro_600
+[0.712s] copying urdf/mycobot_pro_600/link3.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_pro_600
+[0.716s] copying urdf/mycobot_pro_600/link1.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_pro_600
+[0.717s] copying urdf/mycobot_pro_600/link4.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_pro_600
+[0.720s] copying urdf/mycobot_pro_600/link6.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_pro_600
+[0.722s] copying urdf/mycobot_pro_600/base.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_pro_600
+[0.724s] copying urdf/mycobot_pro_600/link5.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_pro_600
+[0.730s] creating /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_m5
+[0.730s] copying urdf/mycobot_280_m5/joint5.stl -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_m5
+[0.731s] copying urdf/mycobot_280_m5/mycobot_280_m5.urdf.xacro -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_m5
+[0.731s] copying urdf/mycobot_280_m5/mycobot_280_m5.urdf -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_m5
+[0.731s] copying urdf/mycobot_280_m5/specholder_tf.stl -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_m5
+[0.731s] copying urdf/mycobot_280_m5/joint6.stl -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_m5
+[0.731s] copying urdf/mycobot_280_m5/joint4.stl -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_m5
+[0.732s] copying urdf/mycobot_280_m5/mycobot_280_m5_ghost.urdf -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_m5
+[0.732s] copying urdf/mycobot_280_m5/joint1.stl -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_m5
+[0.732s] copying urdf/mycobot_280_m5/joint7.stl -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_m5
+[0.733s] copying urdf/mycobot_280_m5/joint2.stl -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_m5
+[0.733s] copying urdf/mycobot_280_m5/joint3.stl -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_m5
+[0.734s] creating /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_pi
+[0.734s] copying urdf/mycobot_280_pi/G_base.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_pi
+[0.738s] copying urdf/mycobot_280_pi/joint3.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_pi
+[0.741s] copying urdf/mycobot_280_pi/mycobot_280_pi_with_camera_flange_pump.urdf -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_pi
+[0.741s] copying urdf/mycobot_280_pi/pump_head.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_pi
+[0.743s] copying urdf/mycobot_280_pi/camera_flange.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_pi
+[0.745s] copying urdf/mycobot_280_pi/mycobot_280_pi_with_camera_flange.urdf -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_pi
+[0.745s] copying urdf/mycobot_280_pi/joint3.png -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_pi
+[0.745s] copying urdf/mycobot_280_pi/mycobot_280_pi_with_pump.urdf -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_pi
+[0.745s] copying urdf/mycobot_280_pi/joint1_pi.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_pi
+[0.753s] copying urdf/mycobot_280_pi/joint5.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_pi
+[0.755s] copying urdf/mycobot_280_pi/joint1.png -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_pi
+[0.755s] copying urdf/mycobot_280_pi/joint6.png -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_pi
+[0.755s] copying urdf/mycobot_280_pi/joint7.png -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_pi
+[0.755s] copying urdf/mycobot_280_pi/joint5.png -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_pi
+[0.755s] copying urdf/mycobot_280_pi/joint2.png -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_pi
+[0.755s] copying urdf/mycobot_280_pi/joint4.png -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_pi
+[0.755s] copying urdf/mycobot_280_pi/joint7.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_pi
+[0.756s] copying urdf/mycobot_280_pi/joint2.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_pi
+[0.758s] copying urdf/mycobot_280_pi/joint4.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_pi
+[0.759s] copying urdf/mycobot_280_pi/pump_box.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_pi
+[0.760s] copying urdf/mycobot_280_pi/mycobot_280_pi.urdf -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_pi
+[0.760s] copying urdf/mycobot_280_pi/joint6.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_pi
+[0.761s] creating /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mecharm_270_m5
+[0.761s] copying urdf/mecharm_270_m5/mecharm_270_m5.urdf -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mecharm_270_m5
+[0.761s] copying urdf/mecharm_270_m5/link2.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mecharm_270_m5
+[0.765s] copying urdf/mecharm_270_m5/link3.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mecharm_270_m5
+[0.768s] copying urdf/mecharm_270_m5/link1.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mecharm_270_m5
+[0.770s] copying urdf/mecharm_270_m5/link4.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mecharm_270_m5
+[0.772s] copying urdf/mecharm_270_m5/link6.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mecharm_270_m5
+[0.773s] copying urdf/mecharm_270_m5/base.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mecharm_270_m5
+[0.775s] copying urdf/mecharm_270_m5/link5.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mecharm_270_m5
+[0.776s] creating /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mecharm_270_pi
+[0.777s] copying urdf/mecharm_270_pi/link2.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mecharm_270_pi
+[0.783s] copying urdf/mecharm_270_pi/link3.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mecharm_270_pi
+[0.786s] copying urdf/mecharm_270_pi/link1.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mecharm_270_pi
+[0.790s] copying urdf/mecharm_270_pi/mecharm_270_pi.urdf -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mecharm_270_pi
+[0.790s] copying urdf/mecharm_270_pi/link4.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mecharm_270_pi
+[0.792s] copying urdf/mecharm_270_pi/link6.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mecharm_270_pi
+[0.793s] copying urdf/mecharm_270_pi/base.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mecharm_270_pi
+[0.797s] copying urdf/mecharm_270_pi/link5.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mecharm_270_pi
+[0.798s] creating /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_320_pi_2022
+[0.799s] copying urdf/mycobot_320_pi_2022/mycobot_320_pi_2022.urdf -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_320_pi_2022
+[0.799s] copying urdf/mycobot_320_pi_2022/link2.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_320_pi_2022
+[0.807s] copying urdf/mycobot_320_pi_2022/link3.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_320_pi_2022
+[0.815s] copying urdf/mycobot_320_pi_2022/link1.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_320_pi_2022
+[0.821s] copying urdf/mycobot_320_pi_2022/link4.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_320_pi_2022
+[0.825s] copying urdf/mycobot_320_pi_2022/link6.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_320_pi_2022
+[0.826s] copying urdf/mycobot_320_pi_2022/base.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_320_pi_2022
+[0.848s] copying urdf/mycobot_320_pi_2022/link5.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_320_pi_2022
+[0.852s] creating /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+[0.853s] copying urdf/mybuddy/joint3.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+[0.855s] copying urdf/mybuddy/joint3_L.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+[0.856s] copying urdf/mybuddy/joint4_R.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+[0.858s] copying urdf/mybuddy/joint3.png -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+[0.858s] copying urdf/mybuddy/joint6_L.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+[0.859s] copying urdf/mybuddy/joint5_R.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+[0.860s] copying urdf/mybuddy/mybuddy-up.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+[0.865s] copying urdf/mybuddy/joint1_L.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+[0.867s] copying urdf/mybuddy/joint6.png -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+[0.867s] copying urdf/mybuddy/joint7.png -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+[0.867s] copying urdf/mybuddy/mybuddy-down.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+[0.868s] copying urdf/mybuddy/joint5.png -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+[0.868s] copying urdf/mybuddy/joint2.png -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+[0.868s] copying urdf/mybuddy/mybuddy.urdf -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+[0.868s] copying urdf/mybuddy/joint2_L.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+[0.871s] copying urdf/mybuddy/joint4.png -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+[0.871s] copying urdf/mybuddy/joint2_R.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+[0.873s] copying urdf/mybuddy/joint3_R.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+[0.874s] copying urdf/mybuddy/joint5_L.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+[0.875s] copying urdf/mybuddy/joint6_R.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+[0.876s] copying urdf/mybuddy/joint1_R.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+[0.877s] copying urdf/mybuddy/joint4_L.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+[0.879s] creating /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/ultraArm_p340
+[0.879s] copying urdf/ultraArm_p340/suit_env.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/ultraArm_p340
+[0.885s] copying urdf/ultraArm_p340/ultraArm-1.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/ultraArm_p340
+[0.888s] copying urdf/ultraArm_p340/ultraArm_p340.urdf -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/ultraArm_p340
+[0.888s] copying urdf/ultraArm_p340/ultraArm-base.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/ultraArm_p340
+[0.889s] copying urdf/ultraArm_p340/ultraArm-2.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/ultraArm_p340
+[0.890s] copying urdf/ultraArm_p340/ultraArm-3.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/ultraArm_p340
+[0.892s] copying urdf/ultraArm_p340/ultraArm_p340_aiki.urdf -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/ultraArm_p340
+[0.892s] creating /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_x3pi
+[0.892s] copying urdf/mycobot_280_x3pi/joint3.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_x3pi
+[0.894s] copying urdf/mycobot_280_x3pi/joint3.png -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_x3pi
+[0.894s] copying urdf/mycobot_280_x3pi/mycobot_280_x3pi.urdf -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_x3pi
+[0.894s] copying urdf/mycobot_280_x3pi/joint1_pi.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_x3pi
+[0.902s] copying urdf/mycobot_280_x3pi/joint5.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_x3pi
+[0.904s] copying urdf/mycobot_280_x3pi/joint1.png -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_x3pi
+[0.904s] copying urdf/mycobot_280_x3pi/joint6.png -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_x3pi
+[0.904s] copying urdf/mycobot_280_x3pi/joint7.png -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_x3pi
+[0.904s] copying urdf/mycobot_280_x3pi/joint5.png -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_x3pi
+[0.904s] copying urdf/mycobot_280_x3pi/joint2.png -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_x3pi
+[0.904s] copying urdf/mycobot_280_x3pi/joint4.png -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_x3pi
+[0.904s] copying urdf/mycobot_280_x3pi/joint7.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_x3pi
+[0.905s] copying urdf/mycobot_280_x3pi/joint2.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_x3pi
+[0.906s] copying urdf/mycobot_280_x3pi/joint4.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_x3pi
+[0.907s] copying urdf/mycobot_280_x3pi/joint6.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_x3pi
+[0.908s] creating /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/myarm_300_pi
+[0.908s] copying urdf/myarm_300_pi/j7.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/myarm_300_pi
+[0.909s] copying urdf/myarm_300_pi/j4.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/myarm_300_pi
+[0.914s] copying urdf/myarm_300_pi/j2.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/myarm_300_pi
+[0.920s] copying urdf/myarm_300_pi/myarm_300_pi.urdf -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/myarm_300_pi
+[0.920s] copying urdf/myarm_300_pi/j1.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/myarm_300_pi
+[0.923s] copying urdf/myarm_300_pi/base.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/myarm_300_pi
+[0.927s] copying urdf/myarm_300_pi/j6.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/myarm_300_pi
+[0.928s] copying urdf/myarm_300_pi/j3.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/myarm_300_pi
+[0.931s] copying urdf/myarm_300_pi/j5.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/myarm_300_pi
+[0.933s] creating /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/myarm_c650
+[0.933s] copying urdf/myarm_c650/joint3.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/myarm_c650
+[0.952s] copying urdf/myarm_c650/myarm_c_grip_Base.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/myarm_c650
+[0.962s] copying urdf/myarm_c650/myarm_c_grip_R.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/myarm_c650
+[0.962s] copying urdf/myarm_c650/myarm_c650.urdf -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/myarm_c650
+[0.962s] copying urdf/myarm_c650/joint1.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/myarm_c650
+[0.967s] copying urdf/myarm_c650/joint5.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/myarm_c650
+[0.986s] copying urdf/myarm_c650/myarm_c_grip_L.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/myarm_c650
+[0.986s] copying urdf/myarm_c650/endeffector.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/myarm_c650
+[1.003s] copying urdf/myarm_c650/myarm_basic_base.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/myarm_c650
+[1.033s] copying urdf/myarm_c650/base.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/myarm_c650
+[1.039s] copying urdf/myarm_c650/myarm_c650.urdf.xacro -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/myarm_c650
+[1.039s] copying urdf/myarm_c650/joint2.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/myarm_c650
+[1.048s] copying urdf/myarm_c650/joint4.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/myarm_c650
+[1.059s] creating /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/myarm_m750
+[1.059s] copying urdf/myarm_m750/finger_holder.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/myarm_m750
+[1.077s] copying urdf/myarm_m750/link2.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/myarm_m750
+[1.091s] copying urdf/myarm_m750/link3.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/myarm_m750
+[1.102s] copying urdf/myarm_m750/myarm_m750.urdf.xacro -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/myarm_m750
+[1.102s] copying urdf/myarm_m750/link1.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/myarm_m750
+[1.138s] copying urdf/myarm_m750/endeffector.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/myarm_m750
+[1.151s] copying urdf/myarm_m750/link4.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/myarm_m750
+[1.165s] copying urdf/myarm_m750/finger_right.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/myarm_m750
+[1.166s] copying urdf/myarm_m750/finger_left.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/myarm_m750
+[1.167s] copying urdf/myarm_m750/link5.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/myarm_m750
+[1.179s] copying urdf/myarm_m750/myarm_m750_base.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/myarm_m750
+[1.185s] copying urdf/myarm_m750/myarm_m750.urdf -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/myarm_m750
+[1.185s] creating /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_pro_630
+[1.185s] copying urdf/mycobot_pro_630/mycobot_pro_630.urdf -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_pro_630
+[1.185s] copying urdf/mycobot_pro_630/link2.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_pro_630
+[1.186s] copying urdf/mycobot_pro_630/link3.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_pro_630
+[1.189s] copying urdf/mycobot_pro_630/link1.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_pro_630
+[1.190s] copying urdf/mycobot_pro_630/link4.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_pro_630
+[1.192s] copying urdf/mycobot_pro_630/link6.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_pro_630
+[1.193s] copying urdf/mycobot_pro_630/base.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_pro_630
+[1.195s] copying urdf/mycobot_pro_630/link5.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_pro_630
+[1.196s] creating /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_riscv
+[1.196s] copying urdf/mycobot_280_riscv/G_base.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_riscv
+[1.200s] copying urdf/mycobot_280_riscv/joint3.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_riscv
+[1.203s] copying urdf/mycobot_280_riscv/pump_head.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_riscv
+[1.205s] copying urdf/mycobot_280_riscv/camera_flange.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_riscv
+[1.208s] copying urdf/mycobot_280_riscv/joint3.png -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_riscv
+[1.208s] copying urdf/mycobot_280_riscv/joint1_pi.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_riscv
+[1.217s] copying urdf/mycobot_280_riscv/joint5.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_riscv
+[1.218s] copying urdf/mycobot_280_riscv/joint1.png -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_riscv
+[1.218s] copying urdf/mycobot_280_riscv/mycobot_280_riscv.urdf -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_riscv
+[1.218s] copying urdf/mycobot_280_riscv/mycobot_280_riscv_with_pump.urdf -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_riscv
+[1.218s] copying urdf/mycobot_280_riscv/joint6.png -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_riscv
+[1.219s] copying urdf/mycobot_280_riscv/mycobot_280_riscv_with_camera_flange_pump.urdf -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_riscv
+[1.219s] copying urdf/mycobot_280_riscv/joint7.png -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_riscv
+[1.219s] copying urdf/mycobot_280_riscv/joint5.png -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_riscv
+[1.219s] copying urdf/mycobot_280_riscv/joint2.png -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_riscv
+[1.219s] copying urdf/mycobot_280_riscv/joint4.png -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_riscv
+[1.219s] copying urdf/mycobot_280_riscv/joint7.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_riscv
+[1.220s] copying urdf/mycobot_280_riscv/joint2.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_riscv
+[1.222s] copying urdf/mycobot_280_riscv/joint4.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_riscv
+[1.222s] copying urdf/mycobot_280_riscv/pump_box.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_riscv
+[1.224s] copying urdf/mycobot_280_riscv/mycobot_280_riscv_with_camera_flange.urdf -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_riscv
+[1.224s] copying urdf/mycobot_280_riscv/joint6.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_riscv
+[1.226s] creating /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_rdkx5
+[1.226s] copying urdf/mycobot_280_rdkx5/joint3.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_rdkx5
+[1.228s] copying urdf/mycobot_280_rdkx5/joint3.png -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_rdkx5
+[1.229s] copying urdf/mycobot_280_rdkx5/joint5.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_rdkx5
+[1.230s] copying urdf/mycobot_280_rdkx5/joint1.png -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_rdkx5
+[1.231s] copying urdf/mycobot_280_rdkx5/joint6.png -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_rdkx5
+[1.231s] copying urdf/mycobot_280_rdkx5/joint7.png -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_rdkx5
+[1.231s] copying urdf/mycobot_280_rdkx5/joint5.png -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_rdkx5
+[1.231s] copying urdf/mycobot_280_rdkx5/joint2.png -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_rdkx5
+[1.231s] copying urdf/mycobot_280_rdkx5/joint4.png -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_rdkx5
+[1.231s] copying urdf/mycobot_280_rdkx5/joint7.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_rdkx5
+[1.232s] copying urdf/mycobot_280_rdkx5/joint1_rdkx5.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_rdkx5
+[1.237s] copying urdf/mycobot_280_rdkx5/joint2.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_rdkx5
+[1.239s] copying urdf/mycobot_280_rdkx5/joint4.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_rdkx5
+[1.240s] copying urdf/mycobot_280_rdkx5/mycobot_280_rdkx5.urdf -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_rdkx5
+[1.240s] copying urdf/mycobot_280_rdkx5/joint6.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_rdkx5
+[1.242s] creating /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_320_riscv
+[1.242s] copying urdf/mycobot_320_riscv/link2.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_320_riscv
+[1.251s] copying urdf/mycobot_320_riscv/link3.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_320_riscv
+[1.261s] copying urdf/mycobot_320_riscv/link1.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_320_riscv
+[1.267s] copying urdf/mycobot_320_riscv/link4.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_320_riscv
+[1.273s] copying urdf/mycobot_320_riscv/mycobot_320_riscv.urdf -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_320_riscv
+[1.273s] copying urdf/mycobot_320_riscv/link6.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_320_riscv
+[1.274s] copying urdf/mycobot_320_riscv/base.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_320_riscv
+[1.297s] copying urdf/mycobot_320_riscv/link5.dae -> /home/robotics/ros2_cobot/install/mycobot_description/share/mycobot_description/urdf/mycobot_320_riscv
+[1.302s] running install_egg_info
+[1.304s] Copying ../../../build/mycobot_description/mycobot_description.egg-info to /home/robotics/ros2_cobot/install/mycobot_description/lib/python3.10/site-packages/mycobot_description-0.0.0-py3.10.egg-info
+[1.304s] running install_scripts
+[1.318s] writing list of installed files to '/home/robotics/ros2_cobot/build/mycobot_description/install.log'
+[1.344s] Invoked command in '/home/robotics/ros2_cobot/src/mycobot_ros2/mycobot_description' returned '0': PYTHONPATH=/home/robotics/ros2_cobot/build/mycobot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotics/ros2_cobot/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mycobot_description build --build-base /home/robotics/ros2_cobot/build/mycobot_description/build install --record /home/robotics/ros2_cobot/build/mycobot_description/install.log --single-version-externally-managed install_data

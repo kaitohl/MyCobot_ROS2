@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-9355aa34a76c17be6bd2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "mypalletizer_interfaces__py",
+					"jsonFile" : "directory-mypalletizer_interfaces__py-e83a55407f6f0f0dd237.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/robotics/ros2_cobot/build/mypalletizer_interfaces/mypalletizer_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "mypalletizer_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_mypalletizer_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_mypalletizer_interfaces_egg-b04ac2d5b121c9afcd1b.json",
+					"name" : "ament_cmake_python_build_mypalletizer_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_mypalletizer_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_mypalletizer_interfaces-5b25270c8528e9cc4ac4.json",
+					"name" : "ament_cmake_python_copy_mypalletizer_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mypalletizer_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mypalletizer_interfaces-b069d00c8690c05442f1.json",
+					"name" : "mypalletizer_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mypalletizer_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mypalletizer_interfaces__cpp-37958c14c0d8a4ef979e.json",
+					"name" : "mypalletizer_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mypalletizer_interfaces__py::@d1dbd0380452c71f46ad",
+					"jsonFile" : "target-mypalletizer_interfaces__py-f0901d81c7fc24f3ddab.json",
+					"name" : "mypalletizer_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mypalletizer_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mypalletizer_interfaces__rosidl_generator_c-841c8ebd81de414bae69.json",
+					"name" : "mypalletizer_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mypalletizer_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mypalletizer_interfaces__rosidl_generator_py-c7ca7f2b1d1080a36f7a.json",
+					"name" : "mypalletizer_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mypalletizer_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mypalletizer_interfaces__rosidl_typesupport_c-cb3a6a73acb9b9f40c7b.json",
+					"name" : "mypalletizer_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mypalletizer_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mypalletizer_interfaces__rosidl_typesupport_c__pyext-3e3fd6b3adf6d5bfdef8.json",
+					"name" : "mypalletizer_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mypalletizer_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mypalletizer_interfaces__rosidl_typesupport_cpp-67245b670ef421a577c4.json",
+					"name" : "mypalletizer_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mypalletizer_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mypalletizer_interfaces__rosidl_typesupport_fastrtps_c-9ade2fe936db4f3b7c9c.json",
+					"name" : "mypalletizer_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mypalletizer_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mypalletizer_interfaces__rosidl_typesupport_fastrtps_c__pyext-f2c29a7d0d060f4e523c.json",
+					"name" : "mypalletizer_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mypalletizer_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mypalletizer_interfaces__rosidl_typesupport_fastrtps_cpp-d372601eaa087c4ac8d3.json",
+					"name" : "mypalletizer_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mypalletizer_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mypalletizer_interfaces__rosidl_typesupport_introspection_c-f345896b88e63352a75f.json",
+					"name" : "mypalletizer_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mypalletizer_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mypalletizer_interfaces__rosidl_typesupport_introspection_c__pyext-c3850ea54caa750b4aab.json",
+					"name" : "mypalletizer_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mypalletizer_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mypalletizer_interfaces__rosidl_typesupport_introspection_cpp-cbcdd1035cfb2c336d57.json",
+					"name" : "mypalletizer_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mypalletizer_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mypalletizer_interfaces_uninstall-3af704ba6691b4270f10.json",
+					"name" : "mypalletizer_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-bb8f1c8c79bd8a3c110b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/robotics/ros2_cobot/build/mypalletizer_interfaces",
+		"source" : "/home/robotics/ros2_cobot/src/mycobot_ros2/mypalletizer_260/mypalletizer_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
