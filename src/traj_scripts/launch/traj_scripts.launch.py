@@ -23,53 +23,12 @@ def generate_launch_description():
     # ld = LaunchDescription()
     ld = generate_demo_launch(moveit_config)
 
-# # ─── 1) Static TF for virtual joint (optional but safe) ───────────────────────
-#     virtual_joint_tf_path = moveit_config_package_path / "launch" / "static_virtual_joint_tfs.launch.py"
-#     if virtual_joint_tf_path.exists():
-#         ld.add_action(
-#             IncludeLaunchDescription(PythonLaunchDescriptionSource(str(virtual_joint_tf_path)))
-#         )
-
-#     # ─── 2) Robot State Publisher ────────────────────────────────────────────────
-#     ld.add_action(
-#         IncludeLaunchDescription(PythonLaunchDescriptionSource(
-#             str(moveit_config_package_path / "launch" / "rsp.launch.py"))
-#         )
-#     )
-
-#     # ─── 3) MoveIt Planning Server ───────────────────────────────────────────────
-#     ld.add_action(
-#         IncludeLaunchDescription(PythonLaunchDescriptionSource(
-#             str(moveit_config_package_path / "launch" / "move_group.launch.py"))
-#         )
-#     )
-
-#     # ─── 4) ROS 2 Control Node ───────────────────────────────────────────────────
-#     ld.add_action(Node(
-#         package="controller_manager",
-#         executable="ros2_control_node",
-#         parameters=[
-#             str(moveit_config_package_path / "config" / "ros2_controllers.yaml"),
-#         ],
-#         remappings=[
-#             ("/controller_manager/robot_description", "/robot_description"),
-#         ],
-#         output="screen"
-#     ))
-
-#     # ─── 5) Spawn Controllers ────────────────────────────────────────────────────
-#     ld.add_action(
-#         IncludeLaunchDescription(PythonLaunchDescriptionSource(
-#             str(moveit_config_package_path / "launch" / "spawn_controllers.launch.py"))
-#         )
-#     )
-
 # Ghost robot state publisher and trajectory replayer
 
     # Declare ghost publish frequency (optional tuning)
     ld.add_action(DeclareLaunchArgument(
         "ghost_publish_frequency",
-        default_value="30.0",
+        default_value="100.0",
         description="Hz for ghost robot_state_publisher"
     ))
 
@@ -100,7 +59,6 @@ def generate_launch_description():
         ]
     )
 
-
     # Add ghost replay node (publishes ghost_joint_states from planned path)
     ghost_py = Node(
         package="traj_scripts",
@@ -109,7 +67,6 @@ def generate_launch_description():
         namespace="ghost",
         output="screen"
     )
-    
     
     optplan = Node(
         package='traj_scripts',

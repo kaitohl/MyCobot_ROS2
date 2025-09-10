@@ -11,7 +11,22 @@ class GhostPublisher(Node):
     def __init__(self):
         super().__init__('ghost_trajectory_replayer')
 
+        # Configure ghost parameters
+        self.declare_parameter('ghost_publish_frequency', 100.0)
+        self.declare_parameter('ghost_speedup', 2.0)  # Default to 5x speed
+        self._freq = self.get_parameter('ghost_publish_frequency').get_parameter_value().double_value
+        self._speedup = self.get_parameter('ghost_speedup').get_parameter_value().double_value
+        
+        if self._freq <= 0.0:
+            self.get_logger().warn('ghost_publish_frequency must be > 0. Using 100.0 Hz.')
+            self._freq = 100.0
+        if self._speedup <= 0.0:
+            self.get_logger().warn('ghost_speedup must be > 0. Using 2.0.')
+            self._speedup = 2.0
+
+        # Create publisher and subscriber
         self.publisher = self.create_publisher(JointState, 'ghost_joint_states', 10)
+
         self.subscription = self.create_subscription(
             DisplayTrajectory,
             '/display_planned_path',
@@ -24,9 +39,10 @@ class GhostPublisher(Node):
         self.current_index = 0
         self.start_time = None
 
-        self.loop_timer = self.create_timer(0.01, self.replay_trajectory_loop)
+        timer_period = 1.0 / self._freq
+        self.loop_timer = self.create_timer(timer_period, self.replay_trajectory_loop)
 
-        self.get_logger().info("🟢 GhostPublisher started. Waiting for a trajectory...")
+        self.get_logger().info(f"🟢 GhostPublisher started. Waiting for a trajectory... (publish freq: {self._freq} Hz, speedup: {self._speedup}x)")
 
     def trajectory_callback(self, msg):
         if not msg.trajectory or not msg.trajectory[0].joint_trajectory.points:
@@ -41,24 +57,22 @@ class GhostPublisher(Node):
 
         self.get_logger().info(f"📦 Received new trajectory with {len(self.trajectory_points)} points. Looping playback started.")
 
-        # 🟢 Immediately publish the first joint state so the ghost robot appears properly in Slicer
-        pt = self.trajectory_points[0]
-        initial_js = JointState()
-        initial_js.name = [name + "_ghost" for name in self.joint_names]
-        initial_js.position = list(pt.positions)
-        initial_js.velocity = list(pt.velocities) if pt.velocities else []
-        initial_js.effort = list(pt.effort) if pt.effort else []
-        initial_js.header.stamp = self.get_clock().now().to_msg()
-
-        self.publisher.publish(initial_js)
-        self.get_logger().info("👻 Initial ghost pose published.")
-
 
     def replay_trajectory_loop(self):
         if not self.trajectory_points:
-            return  # No trajectory loaded yet
+            # No trajectory loaded yet, publish home position
+            home_js = JointState()
+            home_js.name = ['joint2_to_joint1_ghost', 'joint3_to_joint2_ghost', 
+                          'joint4_to_joint3_ghost', 'joint5_to_joint4_ghost', 
+                          'joint6_to_joint5_ghost', 'joint6output_to_joint6_ghost']
+            home_js.position = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+            home_js.velocity = []
+            home_js.effort = []
+            home_js.header.stamp = self.get_clock().now().to_msg()
+            self.publisher.publish(home_js)
+            return
 
-        now = time.time() - self.start_time
+        now = (time.time() - self.start_time) * self._speedup
 
         while self.current_index < len(self.trajectory_points):
             pt = self.trajectory_points[self.current_index]

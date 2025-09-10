@@ -1,0 +1,471 @@
+[0.176s] Invoking command in '/home/robotics/ros2_cobot/build/mypalletizer_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotics/ros2_cobot/build/mypalletizer_interfaces -- -j16 -l16
+[0.229s] [  0%] Built target mypalletizer_interfaces__cpp
+[0.236s] [ 12%] Built target mypalletizer_interfaces__rosidl_generator_c
+[0.247s] [ 12%] Built target ament_cmake_python_copy_mypalletizer_interfaces
+[0.273s] [ 13%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mypalletizer_interfaces/msg/detail/dds_fastrtps/mypal_coords__type_support.cpp.o[0m
+[0.273s] [ 14%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mypalletizer_interfaces/msg/detail/dds_fastrtps/mypal_angles__type_support.cpp.o[0m
+[0.273s] [ 15%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mypalletizer_interfaces/msg/mypal_angles__type_support.cpp.o[0m
+[0.275s] [ 16%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mypalletizer_interfaces/msg/detail/dds_fastrtps/mypal_set_angles__type_support.cpp.o[0m
+[0.289s] [ 17%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mypalletizer_interfaces/msg/detail/dds_fastrtps/mypal_gripper_status__type_support.cpp.o[0m
+[0.289s] [ 18%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mypalletizer_interfaces/msg/detail/dds_fastrtps/mypal_set_coords__type_support.cpp.o[0m
+[0.289s] [ 19%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mypalletizer_interfaces/msg/detail/mypal_angles__type_support_c.cpp.o[0m
+[0.289s] [ 20%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mypalletizer_interfaces/msg/mypal_set_coords__type_support.cpp.o[0m
+[0.290s] [ 21%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mypalletizer_interfaces/msg/mypal_coords__type_support.cpp.o[0m
+[0.290s] [ 22%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mypalletizer_interfaces/msg/mypal_set_angles__type_support.cpp.o[0m
+[0.290s] [ 22%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mypalletizer_interfaces/msg/detail/mypal_angles__type_support.cpp.o[0m
+[0.297s] [ 23%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mypalletizer_interfaces/msg/detail/mypal_coords__type_support.cpp.o[0m
+[0.298s] [ 35%] Built target mypalletizer_interfaces__rosidl_typesupport_c
+[0.299s] [ 35%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mypalletizer_interfaces/msg/mypal_gripper_status__type_support.cpp.o[0m
+[0.299s] [ 47%] Built target mypalletizer_interfaces__rosidl_typesupport_introspection_c
+[0.326s] [ 48%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mypalletizer_interfaces/msg/detail/mypal_coords__type_support_c.cpp.o[0m
+[0.331s] [ 49%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mypalletizer_interfaces/msg/mypal_pump_status__type_support.cpp.o[0m
+[1.106s] [ 49%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mypalletizer_interfaces/msg/detail/mypal_set_angles__type_support_c.cpp.o[0m
+[1.224s] [ 49%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mypalletizer_interfaces/msg/detail/dds_fastrtps/mypal_pump_status__type_support.cpp.o[0m
+[1.307s] [ 50%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mypalletizer_interfaces/srv/get_angles__type_support.cpp.o[0m
+[1.330s] [ 51%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mypalletizer_interfaces/msg/detail/mypal_set_angles__type_support.cpp.o[0m
+[1.386s] [ 52%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mypalletizer_interfaces/srv/set_angles__type_support.cpp.o[0m
+[1.488s] running egg_info
+[1.500s] writing mypalletizer_interfaces.egg-info/PKG-INFO
+[1.501s] writing dependency_links to mypalletizer_interfaces.egg-info/dependency_links.txt
+[1.502s] writing top-level names to mypalletizer_interfaces.egg-info/top_level.txt
+[1.516s] [ 53%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mypalletizer_interfaces/msg/detail/mypal_set_coords__type_support.cpp.o[0m
+[1.523s] reading manifest file 'mypalletizer_interfaces.egg-info/SOURCES.txt'
+[1.538s] writing manifest file 'mypalletizer_interfaces.egg-info/SOURCES.txt'
+[1.564s] [ 54%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mypalletizer_interfaces/srv/get_coords__type_support.cpp.o[0m
+[1.612s] [ 55%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mypalletizer_interfaces/msg/detail/mypal_set_coords__type_support_c.cpp.o[0m
+[1.656s] [ 56%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mypalletizer_interfaces/srv/detail/dds_fastrtps/get_angles__type_support.cpp.o[0m
+[1.822s] [ 56%] Built target ament_cmake_python_build_mypalletizer_interfaces_egg
+[1.870s] [ 57%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mypalletizer_interfaces/srv/set_coords__type_support.cpp.o[0m
+[1.873s] [ 59%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mypalletizer_interfaces/msg/detail/mypal_gripper_status__type_support.cpp.o[0m
+[1.873s] [ 58%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mypalletizer_interfaces/msg/detail/mypal_pump_status__type_support.cpp.o[0m
+[1.880s] [ 60%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mypalletizer_interfaces/msg/detail/mypal_gripper_status__type_support_c.cpp.o[0m
+[2.012s] [ 61%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mypalletizer_interfaces/msg/detail/mypal_pump_status__type_support_c.cpp.o[0m
+[2.092s] [ 61%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mypalletizer_interfaces/srv/gripper_status__type_support.cpp.o[0m
+[2.250s] [ 61%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mypalletizer_interfaces/srv/detail/get_angles__type_support.cpp.o[0m
+[2.507s] [ 62%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mypalletizer_interfaces/srv/pump_status__type_support.cpp.o[0m
+[2.534s] [ 63%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mypalletizer_interfaces/srv/detail/set_angles__type_support.cpp.o[0m
+[2.620s] [ 64%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mypalletizer_interfaces/srv/detail/get_coords__type_support.cpp.o[0m
+[2.641s] [ 65%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mypalletizer_interfaces/srv/detail/dds_fastrtps/set_angles__type_support.cpp.o[0m
+[2.727s] [ 66%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mypalletizer_interfaces/srv/detail/dds_fastrtps/get_coords__type_support.cpp.o[0m
+[2.869s] [ 67%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mypalletizer_interfaces/srv/detail/set_coords__type_support.cpp.o[0m
+[3.042s] [ 68%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mypalletizer_interfaces/srv/detail/gripper_status__type_support.cpp.o[0m
+[3.068s] [ 69%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mypalletizer_interfaces/srv/detail/get_angles__type_support_c.cpp.o[0m
+[3.258s] [ 70%] [32m[1mLinking CXX shared library libmypalletizer_interfaces__rosidl_typesupport_cpp.so[0m
+[3.302s] [ 71%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mypalletizer_interfaces/srv/detail/set_angles__type_support_c.cpp.o[0m
+[3.359s] [ 72%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mypalletizer_interfaces/srv/detail/pump_status__type_support.cpp.o[0m
+[3.537s] [ 73%] Built target mypalletizer_interfaces__rosidl_typesupport_cpp
+[3.602s] [ 73%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mypalletizer_interfaces/srv/detail/get_coords__type_support_c.cpp.o[0m
+[3.615s] [ 74%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mypalletizer_interfaces/srv/detail/dds_fastrtps/set_coords__type_support.cpp.o[0m
+[3.669s] [ 74%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mypalletizer_interfaces/srv/detail/dds_fastrtps/pump_status__type_support.cpp.o[0m
+[3.681s] [ 75%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mypalletizer_interfaces/srv/detail/dds_fastrtps/gripper_status__type_support.cpp.o[0m
+[3.802s] [ 76%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mypalletizer_interfaces/srv/detail/set_coords__type_support_c.cpp.o[0m
+[3.806s] [ 77%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mypalletizer_interfaces/srv/detail/gripper_status__type_support_c.cpp.o[0m
+[3.855s] [ 78%] [32mBuilding CXX object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mypalletizer_interfaces/srv/detail/pump_status__type_support_c.cpp.o[0m
+[4.749s] [ 79%] [32m[1mLinking CXX shared library libmypalletizer_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.788s] [ 80%] [32m[1mLinking CXX shared library libmypalletizer_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[4.803s] [ 81%] Built target mypalletizer_interfaces__rosidl_typesupport_introspection_cpp
+[4.815s] [ 82%] [32m[1mLinking CXX shared library libmypalletizer_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.896s] [ 83%] Built target mypalletizer_interfaces__rosidl_typesupport_fastrtps_c
+[4.913s] [ 83%] Built target mypalletizer_interfaces__rosidl_typesupport_fastrtps_cpp
+[4.931s] [ 83%] Built target mypalletizer_interfaces
+[4.948s] [ 84%] Built target mypalletizer_interfaces__py
+[4.975s] [ 85%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mypalletizer_interfaces/msg/_mypal_angles_s.c.o[0m
+[4.979s] [ 86%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mypalletizer_interfaces/msg/_mypal_coords_s.c.o[0m
+[4.982s] [ 87%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mypalletizer_interfaces/msg/_mypal_gripper_status_s.c.o[0m
+[4.984s] [ 88%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mypalletizer_interfaces/msg/_mypal_set_coords_s.c.o[0m
+[4.987s] [ 88%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mypalletizer_interfaces/msg/_mypal_set_angles_s.c.o[0m
+[4.991s] [ 89%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mypalletizer_interfaces/srv/_get_angles_s.c.o[0m
+[4.991s] [ 90%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mypalletizer_interfaces/srv/_set_angles_s.c.o[0m
+[4.993s] [ 91%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mypalletizer_interfaces/msg/_mypal_pump_status_s.c.o[0m
+[5.007s] [ 92%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mypalletizer_interfaces/srv/_get_coords_s.c.o[0m
+[5.025s] [ 92%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mypalletizer_interfaces/srv/_set_coords_s.c.o[0m
+[5.045s] [ 93%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mypalletizer_interfaces/srv/_gripper_status_s.c.o[0m
+[5.047s] [ 94%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mypalletizer_interfaces/srv/_pump_status_s.c.o[0m
+[5.338s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/mypalletizer_interfaces/libmypalletizer_interfaces__rosidl_generator_py.so[0m
+[5.375s] [ 95%] Built target mypalletizer_interfaces__rosidl_generator_py
+[5.402s] [ 96%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/mypalletizer_interfaces/_mypalletizer_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[5.402s] [ 97%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/mypalletizer_interfaces/_mypalletizer_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.402s] [ 97%] [32mBuilding C object CMakeFiles/mypalletizer_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/mypalletizer_interfaces/_mypalletizer_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.549s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/mypalletizer_interfaces/mypalletizer_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.551s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/mypalletizer_interfaces/mypalletizer_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.555s] [100%] [32m[1mLinking C shared library rosidl_generator_py/mypalletizer_interfaces/mypalletizer_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.606s] [100%] Built target mypalletizer_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[5.610s] [100%] Built target mypalletizer_interfaces__rosidl_typesupport_c__pyext
+[5.615s] [100%] Built target mypalletizer_interfaces__rosidl_typesupport_introspection_c__pyext
+[6.991s] Invoked command in '/home/robotics/ros2_cobot/build/mypalletizer_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotics/ros2_cobot/build/mypalletizer_interfaces -- -j16 -l16
+[7.000s] Invoking command in '/home/robotics/ros2_cobot/build/mypalletizer_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotics/ros2_cobot/build/mypalletizer_interfaces
+[7.010s] -- Install configuration: ""
+[7.010s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/ament_index/resource_index/rosidl_interfaces/mypalletizer_interfaces
+[7.011s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces
+[7.011s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv
+[7.011s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/get_coords.h
+[7.011s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/get_angles.h
+[7.011s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/set_coords.h
+[7.011s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/set_angles.h
+[7.011s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail
+[7.012s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_coords__functions.h
+[7.014s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_angles__functions.h
+[7.014s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/pump_status__functions.h
+[7.014s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_coords__functions.h
+[7.014s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/pump_status__struct.h
+[7.014s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/gripper_status__type_support.h
+[7.014s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_coords__functions.c
+[7.014s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/pump_status__functions.c
+[7.015s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_angles__functions.c
+[7.015s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_angles__type_support.h
+[7.015s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_coords__struct.h
+[7.015s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_coords__type_support.h
+[7.015s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/gripper_status__functions.h
+[7.016s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_angles__functions.c
+[7.016s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_angles__functions.h
+[7.016s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/gripper_status__functions.c
+[7.016s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_angles__type_support.h
+[7.016s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_coords__functions.c
+[7.016s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_angles__struct.h
+[7.017s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/gripper_status__struct.h
+[7.017s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_angles__struct.h
+[7.017s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_coords__type_support.h
+[7.018s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/pump_status__type_support.h
+[7.018s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_coords__struct.h
+[7.018s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/pump_status.h
+[7.018s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/gripper_status.h
+[7.018s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg
+[7.018s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/mypal_gripper_status.h
+[7.018s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/mypal_set_angles.h
+[7.018s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail
+[7.018s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_pump_status__functions.h
+[7.018s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_coords__type_support.h
+[7.018s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_coords__struct.h
+[7.019s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_coords__functions.h
+[7.019s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_angles__functions.c
+[7.019s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_gripper_status__functions.c
+[7.019s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_coords__struct.h
+[7.019s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_angles__type_support.h
+[7.019s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_angles__type_support.h
+[7.019s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_coords__functions.c
+[7.019s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_angles__functions.c
+[7.019s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_angles__struct.h
+[7.020s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_coords__functions.h
+[7.020s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_coords__type_support.h
+[7.020s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_pump_status__type_support.h
+[7.020s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_pump_status__struct.h
+[7.020s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_gripper_status__struct.h
+[7.020s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_angles__functions.h
+[7.020s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_angles__struct.h
+[7.021s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_angles__functions.h
+[7.021s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_coords__functions.c
+[7.021s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_gripper_status__functions.h
+[7.021s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_gripper_status__type_support.h
+[7.021s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_pump_status__functions.c
+[7.021s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/mypal_coords.h
+[7.021s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/rosidl_generator_c__visibility_control.h
+[7.021s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/mypal_set_coords.h
+[7.021s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/mypal_pump_status.h
+[7.021s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/mypal_angles.h
+[7.022s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/environment/library_path.sh
+[7.022s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/environment/library_path.dsv
+[7.022s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/lib/libmypalletizer_interfaces__rosidl_generator_c.so
+[7.022s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces
+[7.022s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv
+[7.023s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail
+[7.023s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_angles__rosidl_typesupport_fastrtps_c.h
+[7.023s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_coords__rosidl_typesupport_fastrtps_c.h
+[7.023s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_coords__rosidl_typesupport_fastrtps_c.h
+[7.023s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_angles__rosidl_typesupport_fastrtps_c.h
+[7.023s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/pump_status__rosidl_typesupport_fastrtps_c.h
+[7.023s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/gripper_status__rosidl_typesupport_fastrtps_c.h
+[7.023s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg
+[7.023s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail
+[7.023s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_angles__rosidl_typesupport_fastrtps_c.h
+[7.024s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_angles__rosidl_typesupport_fastrtps_c.h
+[7.024s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_pump_status__rosidl_typesupport_fastrtps_c.h
+[7.024s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_gripper_status__rosidl_typesupport_fastrtps_c.h
+[7.024s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_coords__rosidl_typesupport_fastrtps_c.h
+[7.024s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_coords__rosidl_typesupport_fastrtps_c.h
+[7.024s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.029s] -- Installing: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/lib/libmypalletizer_interfaces__rosidl_typesupport_fastrtps_c.so
+[7.038s] -- Set runtime path of "/home/robotics/ros2_cobot/install/mypalletizer_interfaces/lib/libmypalletizer_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[7.039s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces
+[7.039s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv
+[7.040s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail
+[7.040s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/gripper_status__type_support.c
+[7.040s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/gripper_status__rosidl_typesupport_introspection_c.h
+[7.040s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_coords__rosidl_typesupport_introspection_c.h
+[7.040s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_angles__rosidl_typesupport_introspection_c.h
+[7.040s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_coords__rosidl_typesupport_introspection_c.h
+[7.040s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_angles__rosidl_typesupport_introspection_c.h
+[7.040s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_angles__type_support.c
+[7.040s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/pump_status__rosidl_typesupport_introspection_c.h
+[7.040s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_coords__type_support.c
+[7.040s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_angles__type_support.c
+[7.040s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_coords__type_support.c
+[7.040s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/pump_status__type_support.c
+[7.040s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg
+[7.041s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail
+[7.041s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_coords__rosidl_typesupport_introspection_c.h
+[7.041s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_coords__type_support.c
+[7.041s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_angles__type_support.c
+[7.041s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_gripper_status__rosidl_typesupport_introspection_c.h
+[7.041s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_gripper_status__type_support.c
+[7.041s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_angles__type_support.c
+[7.042s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_coords__rosidl_typesupport_introspection_c.h
+[7.042s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_angles__rosidl_typesupport_introspection_c.h
+[7.042s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_pump_status__rosidl_typesupport_introspection_c.h
+[7.042s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_angles__rosidl_typesupport_introspection_c.h
+[7.042s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_pump_status__type_support.c
+[7.042s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_coords__type_support.c
+[7.042s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.043s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/lib/libmypalletizer_interfaces__rosidl_typesupport_introspection_c.so
+[7.045s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/lib/libmypalletizer_interfaces__rosidl_typesupport_c.so
+[7.046s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces
+[7.047s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv
+[7.047s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/get_angles.hpp
+[7.047s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/set_coords.hpp
+[7.047s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/set_angles.hpp
+[7.047s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail
+[7.047s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_angles__traits.hpp
+[7.048s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_coords__struct.hpp
+[7.048s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_angles__type_support.hpp
+[7.048s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_coords__type_support.hpp
+[7.048s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_angles__traits.hpp
+[7.048s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_angles__struct.hpp
+[7.048s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_angles__type_support.hpp
+[7.048s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/gripper_status__struct.hpp
+[7.048s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/gripper_status__type_support.hpp
+[7.048s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_coords__traits.hpp
+[7.048s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/gripper_status__builder.hpp
+[7.048s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/pump_status__struct.hpp
+[7.048s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_coords__struct.hpp
+[7.048s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/pump_status__traits.hpp
+[7.048s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/pump_status__type_support.hpp
+[7.048s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_coords__builder.hpp
+[7.048s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_coords__traits.hpp
+[7.048s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_angles__builder.hpp
+[7.048s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_angles__struct.hpp
+[7.051s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_coords__builder.hpp
+[7.055s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/pump_status__builder.hpp
+[7.055s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/gripper_status__traits.hpp
+[7.055s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_coords__type_support.hpp
+[7.055s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_angles__builder.hpp
+[7.055s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/pump_status.hpp
+[7.055s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/gripper_status.hpp
+[7.055s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/get_coords.hpp
+[7.055s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg
+[7.055s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/mypal_pump_status.hpp
+[7.055s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.055s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail
+[7.055s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_gripper_status__type_support.hpp
+[7.055s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_angles__builder.hpp
+[7.055s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_pump_status__traits.hpp
+[7.055s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_coords__builder.hpp
+[7.056s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_coords__type_support.hpp
+[7.056s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_gripper_status__traits.hpp
+[7.056s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_angles__traits.hpp
+[7.056s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_angles__builder.hpp
+[7.056s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_pump_status__type_support.hpp
+[7.074s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_coords__type_support.hpp
+[7.074s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_coords__builder.hpp
+[7.074s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_coords__struct.hpp
+[7.076s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_angles__type_support.hpp
+[7.076s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_angles__type_support.hpp
+[7.076s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_angles__struct.hpp
+[7.076s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_coords__struct.hpp
+[7.076s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_coords__traits.hpp
+[7.076s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_angles__struct.hpp
+[7.076s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_angles__traits.hpp
+[7.076s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_coords__traits.hpp
+[7.076s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_gripper_status__struct.hpp
+[7.076s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_pump_status__struct.hpp
+[7.082s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_gripper_status__builder.hpp
+[7.082s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_pump_status__builder.hpp
+[7.082s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/mypal_coords.hpp
+[7.082s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/mypal_set_angles.hpp
+[7.082s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/mypal_gripper_status.hpp
+[7.085s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/mypal_angles.hpp
+[7.085s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/mypal_set_coords.hpp
+[7.085s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces
+[7.085s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv
+[7.085s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail
+[7.085s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/dds_fastrtps
+[7.085s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/pump_status__rosidl_typesupport_fastrtps_cpp.hpp
+[7.085s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/gripper_status__rosidl_typesupport_fastrtps_cpp.hpp
+[7.086s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_coords__rosidl_typesupport_fastrtps_cpp.hpp
+[7.086s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_coords__rosidl_typesupport_fastrtps_cpp.hpp
+[7.086s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_angles__rosidl_typesupport_fastrtps_cpp.hpp
+[7.086s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_angles__rosidl_typesupport_fastrtps_cpp.hpp
+[7.086s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg
+[7.086s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail
+[7.086s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/dds_fastrtps
+[7.091s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_pump_status__rosidl_typesupport_fastrtps_cpp.hpp
+[7.091s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_coords__rosidl_typesupport_fastrtps_cpp.hpp
+[7.091s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_coords__rosidl_typesupport_fastrtps_cpp.hpp
+[7.091s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_angles__rosidl_typesupport_fastrtps_cpp.hpp
+[7.091s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_angles__rosidl_typesupport_fastrtps_cpp.hpp
+[7.091s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_gripper_status__rosidl_typesupport_fastrtps_cpp.hpp
+[7.091s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.092s] -- Installing: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/lib/libmypalletizer_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[7.092s] -- Set runtime path of "/home/robotics/ros2_cobot/install/mypalletizer_interfaces/lib/libmypalletizer_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.098s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces
+[7.099s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv
+[7.099s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail
+[7.099s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_coords__rosidl_typesupport_introspection_cpp.hpp
+[7.099s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_coords__type_support.cpp
+[7.099s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_angles__rosidl_typesupport_introspection_cpp.hpp
+[7.099s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/pump_status__type_support.cpp
+[7.099s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/pump_status__rosidl_typesupport_introspection_cpp.hpp
+[7.099s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/gripper_status__rosidl_typesupport_introspection_cpp.hpp
+[7.099s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_angles__rosidl_typesupport_introspection_cpp.hpp
+[7.099s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_angles__type_support.cpp
+[7.099s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_angles__type_support.cpp
+[7.106s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_coords__rosidl_typesupport_introspection_cpp.hpp
+[7.108s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/gripper_status__type_support.cpp
+[7.108s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_coords__type_support.cpp
+[7.108s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg
+[7.108s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail
+[7.108s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_angles__rosidl_typesupport_introspection_cpp.hpp
+[7.108s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_pump_status__rosidl_typesupport_introspection_cpp.hpp
+[7.108s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_coords__rosidl_typesupport_introspection_cpp.hpp
+[7.108s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_angles__type_support.cpp
+[7.108s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_coords__type_support.cpp
+[7.108s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_coords__type_support.cpp
+[7.109s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_coords__rosidl_typesupport_introspection_cpp.hpp
+[7.109s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_gripper_status__rosidl_typesupport_introspection_cpp.hpp
+[7.109s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_angles__type_support.cpp
+[7.109s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_gripper_status__type_support.cpp
+[7.109s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_angles__rosidl_typesupport_introspection_cpp.hpp
+[7.109s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_pump_status__type_support.cpp
+[7.109s] -- Installing: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/lib/libmypalletizer_interfaces__rosidl_typesupport_introspection_cpp.so
+[7.113s] -- Set runtime path of "/home/robotics/ros2_cobot/install/mypalletizer_interfaces/lib/libmypalletizer_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[7.113s] -- Installing: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/lib/libmypalletizer_interfaces__rosidl_typesupport_cpp.so
+[7.116s] -- Set runtime path of "/home/robotics/ros2_cobot/install/mypalletizer_interfaces/lib/libmypalletizer_interfaces__rosidl_typesupport_cpp.so" to ""
+[7.116s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/environment/pythonpath.sh
+[7.117s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/environment/pythonpath.dsv
+[7.117s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces-0.0.0-py3.10.egg-info
+[7.117s] -- Installing: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[7.117s] -- Installing: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[7.119s] -- Installing: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[7.120s] -- Installing: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[7.120s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces
+[7.120s] -- Installing: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/mypalletizer_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.120s] -- Installing: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/mypalletizer_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.120s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv
+[7.120s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv/_set_coords.py
+[7.120s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv/_get_angles_s.c
+[7.120s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv/_pump_status_s.c
+[7.120s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv/_gripper_status.py
+[7.120s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv/_get_angles.py
+[7.120s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv/_set_angles_s.c
+[7.120s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv/_get_coords.py
+[7.120s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv/_gripper_status_s.c
+[7.121s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv/_set_angles.py
+[7.121s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv/_get_coords_s.c
+[7.121s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv/_set_coords_s.c
+[7.121s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv/_pump_status.py
+[7.121s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv/__init__.py
+[7.122s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/_mypalletizer_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[7.122s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg
+[7.122s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg/_mypal_gripper_status.py
+[7.122s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg/_mypal_angles_s.c
+[7.122s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg/_mypal_coords_s.c
+[7.122s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg/_mypal_set_coords_s.c
+[7.122s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg/_mypal_coords.py
+[7.122s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg/_mypal_set_coords.py
+[7.122s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg/_mypal_set_angles.py
+[7.123s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg/_mypal_pump_status_s.c
+[7.123s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg/_mypal_gripper_status_s.c
+[7.123s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg/_mypal_set_angles_s.c
+[7.123s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg/_mypal_pump_status.py
+[7.123s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg/_mypal_angles.py
+[7.123s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg/__init__.py
+[7.123s] -- Installing: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/libmypalletizer_interfaces__rosidl_generator_py.so
+[7.123s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/_mypalletizer_interfaces_s.ep.rosidl_typesupport_c.c
+[7.123s] -- Installing: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/mypalletizer_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.123s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/_mypalletizer_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.123s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/__init__.py
+[7.129s] Listing '/home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces'...
+[7.129s] Listing '/home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg'...
+[7.129s] Listing '/home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv'...
+[7.130s] -- Installing: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/mypalletizer_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.132s] -- Set runtime path of "/home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/mypalletizer_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.132s] -- Installing: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/mypalletizer_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.132s] -- Set runtime path of "/home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/mypalletizer_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.132s] -- Installing: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/mypalletizer_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.132s] -- Set runtime path of "/home/robotics/ros2_cobot/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/mypalletizer_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.132s] -- Installing: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/lib/libmypalletizer_interfaces__rosidl_generator_py.so
+[7.132s] -- Set runtime path of "/home/robotics/ros2_cobot/install/mypalletizer_interfaces/lib/libmypalletizer_interfaces__rosidl_generator_py.so" to ""
+[7.132s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/msg/MypalAngles.idl
+[7.132s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/msg/MypalCoords.idl
+[7.132s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/msg/MypalSetAngles.idl
+[7.132s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/msg/MypalSetCoords.idl
+[7.132s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/msg/MypalGripperStatus.idl
+[7.133s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/msg/MypalPumpStatus.idl
+[7.133s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/GetAngles.idl
+[7.133s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/SetAngles.idl
+[7.133s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/GetCoords.idl
+[7.133s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/SetCoords.idl
+[7.133s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/GripperStatus.idl
+[7.133s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/PumpStatus.idl
+[7.133s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/msg/MypalAngles.msg
+[7.133s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/msg/MypalCoords.msg
+[7.133s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/msg/MypalSetAngles.msg
+[7.133s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/msg/MypalSetCoords.msg
+[7.133s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/msg/MypalGripperStatus.msg
+[7.133s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/msg/MypalPumpStatus.msg
+[7.133s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/GetAngles.srv
+[7.133s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/GetAngles_Request.msg
+[7.133s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/GetAngles_Response.msg
+[7.133s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/SetAngles.srv
+[7.133s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/SetAngles_Request.msg
+[7.133s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/SetAngles_Response.msg
+[7.133s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/GetCoords.srv
+[7.133s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/GetCoords_Request.msg
+[7.133s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/GetCoords_Response.msg
+[7.133s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/SetCoords.srv
+[7.134s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/SetCoords_Request.msg
+[7.134s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/SetCoords_Response.msg
+[7.134s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/GripperStatus.srv
+[7.134s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/GripperStatus_Request.msg
+[7.134s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/GripperStatus_Response.msg
+[7.134s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/PumpStatus.srv
+[7.134s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/PumpStatus_Request.msg
+[7.134s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/PumpStatus_Response.msg
+[7.134s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/ament_index/resource_index/package_run_dependencies/mypalletizer_interfaces
+[7.134s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/ament_index/resource_index/parent_prefix_path/mypalletizer_interfaces
+[7.134s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/environment/ament_prefix_path.sh
+[7.138s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/environment/ament_prefix_path.dsv
+[7.138s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/environment/path.sh
+[7.138s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/environment/path.dsv
+[7.138s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/local_setup.bash
+[7.138s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/local_setup.sh
+[7.138s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/local_setup.zsh
+[7.138s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/local_setup.dsv
+[7.138s] -- Installing: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/package.dsv
+[7.139s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/ament_index/resource_index/packages/mypalletizer_interfaces
+[7.140s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/export_mypalletizer_interfaces__rosidl_generator_cExport.cmake
+[7.140s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/export_mypalletizer_interfaces__rosidl_generator_cExport-noconfig.cmake
+[7.140s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/export_mypalletizer_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[7.140s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/export_mypalletizer_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.140s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/mypalletizer_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[7.140s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/mypalletizer_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.140s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/mypalletizer_interfaces__rosidl_typesupport_cExport.cmake
+[7.140s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/mypalletizer_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[7.140s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/export_mypalletizer_interfaces__rosidl_generator_cppExport.cmake
+[7.140s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/export_mypalletizer_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.140s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/export_mypalletizer_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.141s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/mypalletizer_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[7.141s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/mypalletizer_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.141s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/mypalletizer_interfaces__rosidl_typesupport_cppExport.cmake
+[7.141s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/mypalletizer_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[7.145s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/export_mypalletizer_interfaces__rosidl_generator_pyExport.cmake
+[7.145s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/export_mypalletizer_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[7.145s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/rosidl_cmake-extras.cmake
+[7.146s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.146s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.146s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[7.146s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[7.146s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.146s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.146s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/mypalletizer_interfacesConfig.cmake
+[7.146s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/mypalletizer_interfacesConfig-version.cmake
+[7.146s] -- Up-to-date: /home/robotics/ros2_cobot/install/mypalletizer_interfaces/share/mypalletizer_interfaces/package.xml
+[7.166s] Invoked command in '/home/robotics/ros2_cobot/build/mypalletizer_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotics/ros2_cobot/build/mypalletizer_interfaces
