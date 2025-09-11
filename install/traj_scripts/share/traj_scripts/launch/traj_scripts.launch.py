@@ -1,31 +1,31 @@
 from moveit_configs_utils import MoveItConfigsBuilder
 from launch import LaunchDescription
-from launch.actions import DeclareLaunchArgument
-from launch.substitutions import LaunchConfiguration, PathJoinSubstitution, Command
+from launch.actions import SetLaunchConfiguration, DeclareLaunchArgument
+from launch.substitutions import PathJoinSubstitution, Command
 from launch_ros.actions import Node
 from launch_ros.substitutions import FindPackageShare
 from launch_ros.parameter_descriptions import ParameterValue
-from launch.launch_description_sources import PythonLaunchDescriptionSource
-from launch.actions import IncludeLaunchDescription
 from pathlib import Path
 from moveit_configs_utils.launches import generate_demo_launch
 
 def generate_launch_description():
-    
-# Launch nodes for the MyCobot 280 robot with MoveIt2
-    # Load MoveIt config
     moveit_config = MoveItConfigsBuilder(
         "firefighter",
         package_name="mycobot_280_moveit2"
     ).to_moveit_configs()
 
-    # moveit_config_package_path = moveit_config.package_path
-    # ld = LaunchDescription()
-    ld = generate_demo_launch(moveit_config)
+    # Build a top-level LD
+    ld = LaunchDescription()
 
-# Ghost robot state publisher and trajectory replayer
+    # 🔑 Force use_rviz to false BEFORE generating demo actions
+    ld.add_action(SetLaunchConfiguration("use_rviz", "false"))
 
-    # Declare ghost publish frequency (optional tuning)
+    # Now pull in the demo launch actions (they will see use_rviz:=false)
+    demo_ld = generate_demo_launch(moveit_config)
+    for a in demo_ld.entities:
+        ld.add_action(a)
+
+    # Ghost robot state publisher and trajectory replayer
     ld.add_action(DeclareLaunchArgument(
         "ghost_publish_frequency",
         default_value="100.0",
@@ -39,27 +39,22 @@ def generate_launch_description():
         "mycobot_280_m5_ghost.urdf"
     ])
 
-    # Read URDF file contents at runtime
     ghost_robot_description = {
         "robot_description": ParameterValue(
             Command(["cat ", ghosturdf_file]),
             value_type=str
         )
     }
-    
-    # Add ghost robot_state_publisher node
+
     ghost_rsp = Node(
         package='robot_state_publisher',
         executable='robot_state_publisher',
         namespace='ghost',
         output='screen',
         parameters=[ghost_robot_description],
-        remappings=[
-            ('joint_states', 'ghost_joint_states'),
-        ]
+        remappings=[('joint_states', 'ghost_joint_states')],
     )
 
-    # Add ghost replay node (publishes ghost_joint_states from planned path)
     ghost_py = Node(
         package="traj_scripts",
         executable="ghost.py",
@@ -67,7 +62,7 @@ def generate_launch_description():
         namespace="ghost",
         output="screen"
     )
-    
+
     optplan = Node(
         package='traj_scripts',
         executable='plan_node',
@@ -75,7 +70,6 @@ def generate_launch_description():
         output='screen'
     )
 
-    # 6) Add both to the launch description
     ld.add_action(ghost_rsp)
     ld.add_action(ghost_py)
     ld.add_action(optplan)

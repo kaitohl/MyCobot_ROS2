@@ -24,9 +24,10 @@ class GhostPublisher(Node):
             self.get_logger().warn('ghost_speedup must be > 0. Using 2.0.')
             self._speedup = 2.0
 
-        # Create publisher and subscriber
+        # Create publisher for the ghost joint states
         self.publisher = self.create_publisher(JointState, 'ghost_joint_states', 10)
 
+        # Create subscriber to listen to /display_planned_path topic
         self.subscription = self.create_subscription(
             DisplayTrajectory,
             '/display_planned_path',
@@ -40,6 +41,8 @@ class GhostPublisher(Node):
         self.start_time = None
 
         timer_period = 1.0 / self._freq
+        
+        # Call the replay function at the specified frequency
         self.loop_timer = self.create_timer(timer_period, self.replay_trajectory_loop)
 
         self.get_logger().info(f"🟢 GhostPublisher started. Waiting for a trajectory... (publish freq: {self._freq} Hz, speedup: {self._speedup}x)")
@@ -59,8 +62,9 @@ class GhostPublisher(Node):
 
 
     def replay_trajectory_loop(self):
+        
+        # Check if no trajectory loaded yet, publish home position
         if not self.trajectory_points:
-            # No trajectory loaded yet, publish home position
             home_js = JointState()
             home_js.name = ['joint2_to_joint1_ghost', 'joint3_to_joint2_ghost', 
                           'joint4_to_joint3_ghost', 'joint5_to_joint4_ghost', 

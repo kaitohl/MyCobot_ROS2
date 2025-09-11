@@ -35,6 +35,7 @@ class GhostPublisher(Node):
             10
         )
 
+        # Initialize variables
         self.joint_names = []
         self.trajectory_points = []
         self.current_index = 0
@@ -76,14 +77,19 @@ class GhostPublisher(Node):
             self.publisher.publish(home_js)
             return
 
+        # Calculate current time in the trajectory
         now = (time.time() - self.start_time) * self._speedup
 
+        # Loop through trajectory points based on elapsed time
         while self.current_index < len(self.trajectory_points):
+            
+            # Extract the current trajectory point and its target time
             pt = self.trajectory_points[self.current_index]
             target_time = pt.time_from_start.sec + pt.time_from_start.nanosec / 1e9
-
+            
+            # Wait for the right time
             if now < target_time:
-                return  # Wait for the right time
+                return  
 
             # Append _ghost to each joint name
             ghost_joint_names = [name + "_ghost" for name in self.joint_names]
@@ -95,9 +101,9 @@ class GhostPublisher(Node):
             js.velocity = list(pt.velocities) if pt.velocities else []
             js.effort = list(pt.effort) if pt.effort else []
             js.header.stamp = self.get_clock().now().to_msg()
-
             self.publisher.publish(js)
 
+            # Move to the next trajectory point
             self.current_index += 1
 
         # Once done, loop again
