@@ -14,13 +14,12 @@ def generate_launch_description():
         package_name="mycobot_280_moveit2"
     ).to_moveit_configs()
 
-    # Build a top-level LD
     ld = LaunchDescription()
 
-    # 🔑 Force use_rviz to false BEFORE generating demo actions
-    ld.add_action(SetLaunchConfiguration("use_rviz", "false"))
+    # Set launch argument "use_rviz" to false to disable RViz in the demo launch
+    ld.add_action(SetLaunchConfiguration("use_rviz", "true"))
 
-    # Now pull in the demo launch actions (they will see use_rviz:=false)
+    # Crete demo launch
     demo_ld = generate_demo_launch(moveit_config)
     for a in demo_ld.entities:
         ld.add_action(a)

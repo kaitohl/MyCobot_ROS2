@@ -17,7 +17,7 @@ def generate_launch_description():
     ld = LaunchDescription()
 
     # Set launch argument "use_rviz" to false to disable RViz in the demo launch
-    ld.add_action(SetLaunchConfiguration("use_rviz", "false"))
+    ld.add_action(SetLaunchConfiguration("use_rviz", "true"))
 
     # Crete demo launch
     demo_ld = generate_demo_launch(moveit_config)
