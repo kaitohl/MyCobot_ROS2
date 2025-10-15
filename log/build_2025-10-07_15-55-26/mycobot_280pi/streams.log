@@ -1,0 +1,31 @@
+[2.932s] Invoking command in '/home/robotics/ros2_cobot/src/mycobot_ros2/mycobot_280/mycobot_280pi': AMENT_PREFIX_PATH=/home/robotics/ros2_cobot/install/mycobot_description:${AMENT_PREFIX_PATH} PYTHONPATH=/home/robotics/ros2_cobot/build/mycobot_280pi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotics/ros2_cobot/install/mycobot_280pi/lib/python3.10/site-packages:/home/robotics/ros2_cobot/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/mycobot_280pi build --build-base /home/robotics/ros2_cobot/build/mycobot_280pi/build install --record /home/robotics/ros2_cobot/build/mycobot_280pi/install.log --single-version-externally-managed install_data
+[3.077s] running egg_info
+[3.078s] writing ../../../../build/mycobot_280pi/mycobot_280pi.egg-info/PKG-INFO
+[3.078s] writing dependency_links to ../../../../build/mycobot_280pi/mycobot_280pi.egg-info/dependency_links.txt
+[3.078s] writing entry points to ../../../../build/mycobot_280pi/mycobot_280pi.egg-info/entry_points.txt
+[3.078s] writing requirements to ../../../../build/mycobot_280pi/mycobot_280pi.egg-info/requires.txt
+[3.078s] writing top-level names to ../../../../build/mycobot_280pi/mycobot_280pi.egg-info/top_level.txt
+[3.080s] reading manifest file '../../../../build/mycobot_280pi/mycobot_280pi.egg-info/SOURCES.txt'
+[3.080s] adding license file 'LICENSE'
+[3.081s] writing manifest file '../../../../build/mycobot_280pi/mycobot_280pi.egg-info/SOURCES.txt'
+[3.081s] running build
+[3.081s] running build_py
+[3.082s] running install
+[3.082s] running install_lib
+[3.083s] running install_data
+[3.084s] running install_egg_info
+[3.085s] removing '/home/robotics/ros2_cobot/install/mycobot_280pi/lib/python3.10/site-packages/mycobot_280pi-0.0.0-py3.10.egg-info' (and everything under it)
+[3.085s] Copying ../../../../build/mycobot_280pi/mycobot_280pi.egg-info to /home/robotics/ros2_cobot/install/mycobot_280pi/lib/python3.10/site-packages/mycobot_280pi-0.0.0-py3.10.egg-info
+[3.085s] running install_scripts
+[3.098s] Installing camera_display script to /home/robotics/ros2_cobot/install/mycobot_280pi/lib/mycobot_280pi
+[3.099s] Installing detect_marker script to /home/robotics/ros2_cobot/install/mycobot_280pi/lib/mycobot_280pi
+[3.099s] Installing follow_display script to /home/robotics/ros2_cobot/install/mycobot_280pi/lib/mycobot_280pi
+[3.099s] Installing following_marker script to /home/robotics/ros2_cobot/install/mycobot_280pi/lib/mycobot_280pi
+[3.099s] Installing listen_real script to /home/robotics/ros2_cobot/install/mycobot_280pi/lib/mycobot_280pi
+[3.099s] Installing listen_real_of_topic script to /home/robotics/ros2_cobot/install/mycobot_280pi/lib/mycobot_280pi
+[3.099s] Installing opencv_camera script to /home/robotics/ros2_cobot/install/mycobot_280pi/lib/mycobot_280pi
+[3.099s] Installing simple_gui script to /home/robotics/ros2_cobot/install/mycobot_280pi/lib/mycobot_280pi
+[3.099s] Installing slider_control script to /home/robotics/ros2_cobot/install/mycobot_280pi/lib/mycobot_280pi
+[3.099s] Installing teleop_keyboard script to /home/robotics/ros2_cobot/install/mycobot_280pi/lib/mycobot_280pi
+[3.099s] writing list of installed files to '/home/robotics/ros2_cobot/build/mycobot_280pi/install.log'
+[3.210s] Invoked command in '/home/robotics/ros2_cobot/src/mycobot_ros2/mycobot_280/mycobot_280pi' returned '0': AMENT_PREFIX_PATH=/home/robotics/ros2_cobot/install/mycobot_description:${AMENT_PREFIX_PATH} PYTHONPATH=/home/robotics/ros2_cobot/build/mycobot_280pi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotics/ros2_cobot/install/mycobot_280pi/lib/python3.10/site-packages:/home/robotics/ros2_cobot/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/mycobot_280pi build --build-base /home/robotics/ros2_cobot/build/mycobot_280pi/build install --record /home/robotics/ros2_cobot/build/mycobot_280pi/install.log --single-version-externally-managed install_data

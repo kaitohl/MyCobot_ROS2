@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-a5d6d7c95ab0bbd0fb29.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "traj_scripts",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_traj_scripts_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_traj_scripts_egg-ffc60dc1c713f88069cb.json",
+					"name" : "ament_cmake_python_build_traj_scripts_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_traj_scripts::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_traj_scripts-997bb03668f9e768bc4e.json",
+					"name" : "ament_cmake_python_copy_traj_scripts",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plan_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plan_node-737c3a8df8eaa4ec35c3.json",
+					"name" : "plan_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "traj_runner_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-traj_runner_node-aaf01cab7959dd5acefb.json",
+					"name" : "traj_runner_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "traj_scripts_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-traj_scripts_uninstall-2bbd8ee5e6c3047f589d.json",
+					"name" : "traj_scripts_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-c154ba53a58fdb039a70.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/robotics/ros2_cobot/build/traj_scripts",
+		"source" : "/home/robotics/ros2_cobot/src/traj_scripts"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

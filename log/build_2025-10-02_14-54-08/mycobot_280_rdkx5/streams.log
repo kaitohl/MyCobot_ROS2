@@ -1,0 +1,26 @@
+[1.407s] Invoking command in '/home/robotics/ros2_cobot/src/mycobot_ros2/mycobot_280/mycobot_280_rdkx5': AMENT_PREFIX_PATH=/home/robotics/ros2_cobot/install/mycobot_communication:/home/robotics/ros2_cobot/install/mycobot_interfaces:/home/robotics/ros2_cobot/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotics/ros2_cobot/install/mycobot_interfaces LD_LIBRARY_PATH=/home/robotics/ros2_cobot/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robotics/ros2_cobot/build/mycobot_280_rdkx5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotics/ros2_cobot/install/mycobot_280_rdkx5/lib/python3.10/site-packages:/home/robotics/ros2_cobot/install/mycobot_communication/lib/python3.10/site-packages:/home/robotics/ros2_cobot/install/mycobot_interfaces/local/lib/python3.10/dist-packages:/home/robotics/ros2_cobot/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/mycobot_280_rdkx5 build --build-base /home/robotics/ros2_cobot/build/mycobot_280_rdkx5/build install --record /home/robotics/ros2_cobot/build/mycobot_280_rdkx5/install.log --single-version-externally-managed install_data
+[1.561s] running egg_info
+[1.562s] writing ../../../../build/mycobot_280_rdkx5/mycobot_280_rdkx5.egg-info/PKG-INFO
+[1.562s] writing dependency_links to ../../../../build/mycobot_280_rdkx5/mycobot_280_rdkx5.egg-info/dependency_links.txt
+[1.562s] writing entry points to ../../../../build/mycobot_280_rdkx5/mycobot_280_rdkx5.egg-info/entry_points.txt
+[1.562s] writing requirements to ../../../../build/mycobot_280_rdkx5/mycobot_280_rdkx5.egg-info/requires.txt
+[1.562s] writing top-level names to ../../../../build/mycobot_280_rdkx5/mycobot_280_rdkx5.egg-info/top_level.txt
+[1.564s] reading manifest file '../../../../build/mycobot_280_rdkx5/mycobot_280_rdkx5.egg-info/SOURCES.txt'
+[1.565s] adding license file 'LICENSE'
+[1.565s] writing manifest file '../../../../build/mycobot_280_rdkx5/mycobot_280_rdkx5.egg-info/SOURCES.txt'
+[1.565s] running build
+[1.565s] running build_py
+[1.566s] running install
+[1.566s] running install_lib
+[1.567s] running install_data
+[1.567s] running install_egg_info
+[1.568s] removing '/home/robotics/ros2_cobot/install/mycobot_280_rdkx5/lib/python3.10/site-packages/mycobot_280_rdkx5-0.0.0-py3.10.egg-info' (and everything under it)
+[1.569s] Copying ../../../../build/mycobot_280_rdkx5/mycobot_280_rdkx5.egg-info to /home/robotics/ros2_cobot/install/mycobot_280_rdkx5/lib/python3.10/site-packages/mycobot_280_rdkx5-0.0.0-py3.10.egg-info
+[1.569s] running install_scripts
+[1.583s] Installing follow_display script to /home/robotics/ros2_cobot/install/mycobot_280_rdkx5/lib/mycobot_280_rdkx5
+[1.583s] Installing listen_real script to /home/robotics/ros2_cobot/install/mycobot_280_rdkx5/lib/mycobot_280_rdkx5
+[1.583s] Installing simple_gui script to /home/robotics/ros2_cobot/install/mycobot_280_rdkx5/lib/mycobot_280_rdkx5
+[1.583s] Installing slider_control script to /home/robotics/ros2_cobot/install/mycobot_280_rdkx5/lib/mycobot_280_rdkx5
+[1.583s] Installing teleop_keyboard script to /home/robotics/ros2_cobot/install/mycobot_280_rdkx5/lib/mycobot_280_rdkx5
+[1.584s] writing list of installed files to '/home/robotics/ros2_cobot/build/mycobot_280_rdkx5/install.log'
+[1.612s] Invoked command in '/home/robotics/ros2_cobot/src/mycobot_ros2/mycobot_280/mycobot_280_rdkx5' returned '0': AMENT_PREFIX_PATH=/home/robotics/ros2_cobot/install/mycobot_communication:/home/robotics/ros2_cobot/install/mycobot_interfaces:/home/robotics/ros2_cobot/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotics/ros2_cobot/install/mycobot_interfaces LD_LIBRARY_PATH=/home/robotics/ros2_cobot/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robotics/ros2_cobot/build/mycobot_280_rdkx5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotics/ros2_cobot/install/mycobot_280_rdkx5/lib/python3.10/site-packages:/home/robotics/ros2_cobot/install/mycobot_communication/lib/python3.10/site-packages:/home/robotics/ros2_cobot/install/mycobot_interfaces/local/lib/python3.10/dist-packages:/home/robotics/ros2_cobot/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/mycobot_280_rdkx5 build --build-base /home/robotics/ros2_cobot/build/mycobot_280_rdkx5/build install --record /home/robotics/ros2_cobot/build/mycobot_280_rdkx5/install.log --single-version-externally-managed install_data

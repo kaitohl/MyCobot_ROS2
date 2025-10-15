@@ -1,0 +1,13 @@
+/home/robotics/ros2_cobot/build/traj_scripts/CMakeFiles/uninstall.dir
+/home/robotics/ros2_cobot/build/traj_scripts/CMakeFiles/traj_scripts_uninstall.dir
+/home/robotics/ros2_cobot/build/traj_scripts/CMakeFiles/traj_runner_node.dir
+/home/robotics/ros2_cobot/build/traj_scripts/CMakeFiles/plan_node.dir
+/home/robotics/ros2_cobot/build/traj_scripts/CMakeFiles/ament_cmake_python_copy_traj_scripts.dir
+/home/robotics/ros2_cobot/build/traj_scripts/CMakeFiles/ament_cmake_python_build_traj_scripts_egg.dir
+/home/robotics/ros2_cobot/build/traj_scripts/CMakeFiles/test.dir
+/home/robotics/ros2_cobot/build/traj_scripts/CMakeFiles/edit_cache.dir
+/home/robotics/ros2_cobot/build/traj_scripts/CMakeFiles/rebuild_cache.dir
+/home/robotics/ros2_cobot/build/traj_scripts/CMakeFiles/list_install_components.dir
+/home/robotics/ros2_cobot/build/traj_scripts/CMakeFiles/install.dir
+/home/robotics/ros2_cobot/build/traj_scripts/CMakeFiles/install/local.dir
+/home/robotics/ros2_cobot/build/traj_scripts/CMakeFiles/install/strip.dir

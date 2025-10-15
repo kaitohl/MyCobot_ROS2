@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="firefighter">
+
+  <!-- A property for potential parameterization -->
+  <xacro:property name="width" value=".2" />
+
+  <!-- Link Definitions -->
+
+  <link name="joint1_ghost">
+    <visual>
+      <geometry>
+        <mesh filename="package://mycobot_description/urdf/mycobot_280_m5/joint1.stl"/>
+      </geometry>
+      <origin xyz="0.0 0 0" rpy="0 0 -1.5708"/>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="package://mycobot_description/urdf/mycobot_280_m5/joint1.stl"/>
+      </geometry>
+      <origin xyz="0.0 0 0" rpy="0 0 -1.5708"/>
+    </collision>
+  </link>
+
+  <link name="joint2_ghost">
+    <visual>
+      <geometry>
+        <mesh filename="package://mycobot_description/urdf/mycobot_280_m5/joint2.stl"/>
+      </geometry>
+      <origin xyz="0.0 0 -0.06096" rpy="0 0 -1.5708"/>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="package://mycobot_description/urdf/mycobot_280_m5/joint2.stl"/>
+      </geometry>
+      <origin xyz="0.0 0 -0.06096" rpy="0 0 -1.5708"/>
+    </collision>
+  </link>
+
+  <link name="joint3_ghost">
+    <visual>
+      <geometry>
+        <mesh filename="package://mycobot_description/urdf/mycobot_280_m5/joint3.stl"/>
+      </geometry>
+      <origin xyz="0.0 0 0.03256" rpy="0 -1.5708 0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="package://mycobot_description/urdf/mycobot_280_m5/joint3.stl"/>
+      </geometry>
+      <origin xyz="0.0 0 0.03256" rpy="0 -1.5708 0"/>
+    </collision>
+  </link>
+
+  <link name="joint4_ghost">
+    <visual>
+      <geometry>
+        <mesh filename="package://mycobot_description/urdf/mycobot_280_m5/joint4.stl"/>
+      </geometry>
+      <origin xyz="0.0 0 0.03056" rpy="0 -1.5708 0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="package://mycobot_description/urdf/mycobot_280_m5/joint4.stl"/>
+      </geometry>
+      <origin xyz="0.0 0 0.03056" rpy="0 -1.5708 0"/>
+    </collision>
+  </link>
+
+  <link name="joint5_ghost">
+    <visual>
+      <geometry>
+        <mesh filename="package://mycobot_description/urdf/mycobot_280_m5/joint5.stl"/>
+      </geometry>
+      <origin xyz="0.0 0 -0.03356" rpy="-1.5708 0 0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="package://mycobot_description/urdf/mycobot_280_m5/joint5.stl"/>
+      </geometry>
+      <origin xyz="0.0 0 -0.03356" rpy="-1.5708 0 0"/>
+    </collision>
+  </link>
+
+  <link name="joint6_ghost">
+    <visual>
+      <geometry>
+        <mesh filename="package://mycobot_description/urdf/mycobot_280_m5/joint6.stl"/>
+      </geometry>
+      <origin xyz="0 0.00 -0.038" rpy="0 0 0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="package://mycobot_description/urdf/mycobot_280_m5/joint6.stl"/>
+      </geometry>
+      <origin xyz="0 0.00 -0.038" rpy="0 0 0"/>
+    </collision>
+  </link>
+
+  <link name="joint6_flange_ghost">
+    <visual>
+      <geometry>
+        <mesh filename="package://mycobot_description/urdf/mycobot_280_m5/joint7.stl"/>
+      </geometry>
+      <origin xyz="0.0 0 -0.012" rpy="0 0 0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="package://mycobot_description/urdf/mycobot_280_m5/joint7.stl"/>
+      </geometry>
+      <origin xyz="0.0 0 -0.012" rpy="0 0 0"/>
+    </collision>
+  </link>
+  
+  <!-- New Piece: specholder_tf link -->
+  <link name="specholder_tf_ghost">
+    <visual>
+      <geometry>
+        <mesh filename="package://mycobot_description/urdf/mycobot_280_m5/specholder_tf.stl"/>
+      </geometry>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="package://mycobot_description/urdf/mycobot_280_m5/specholder_tf.stl"/>
+      </geometry>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+    </collision>
+  </link>
+  
+  <!-- Joint Definitions for the original robot -->
+
+  <joint name="joint2_to_joint1_ghost" type="revolute">
+    <axis xyz="0 0 1"/>
+    <limit effort="1000.0" lower="-3.14" upper="3.14159" velocity="0"/>
+    <parent link="joint1_ghost"/>
+    <child link="joint2_ghost"/>
+    <origin xyz="0 0 0.13156" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint3_to_joint2_ghost" type="revolute">
+    <axis xyz="0 0 1"/>
+    <limit effort="1000.0" lower="-3.14" upper="3.14159" velocity="0"/>
+    <parent link="joint2_ghost"/>
+    <child link="joint3_ghost"/>
+    <origin xyz="0 0 0" rpy="0 1.5708 -1.5708"/>
+  </joint>
+
+  <joint name="joint4_to_joint3_ghost" type="revolute">
+    <axis xyz="0 0 1"/>
+    <limit effort="1000.0" lower="-3.14" upper="3.14159" velocity="0"/>
+    <parent link="joint3_ghost"/>
+    <child link="joint4_ghost"/>
+    <origin xyz="-0.1104 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint5_to_joint4_ghost" type="revolute">
+    <axis xyz="0 0 1"/>
+    <limit effort="1000.0" lower="-3.14" upper="3.14159" velocity="0"/>
+    <parent link="joint4_ghost"/>
+    <child link="joint5_ghost"/>
+    <origin xyz="-0.096 0 0.06462" rpy="0 0 -1.5708"/>
+  </joint>
+
+  <joint name="joint6_to_joint5_ghost" type="revolute">
+    <axis xyz="0 0 1"/>
+    <limit effort="1000.0" lower="-3.14" upper="3.14159" velocity="0"/>
+    <parent link="joint5_ghost"/>
+    <child link="joint6_ghost"/>
+    <origin xyz="0 -0.07318 0" rpy="1.5708 -1.5708 0"/>
+  </joint>
+
+  <joint name="joint6output_to_joint6_ghost" type="revolute">
+    <axis xyz="0 0 1"/>
+    <limit effort="1000.0" lower="-3.14" upper="3.14159" velocity="0"/>
+    <parent link="joint6_ghost"/>
+    <child link="joint6_flange_ghost"/>
+    <origin xyz="0 0.0456 0" rpy="-1.5708 0 0"/>
+  </joint>
+
+  <!-- Fixed joint attaching the specholder_tf link to joint6_flange with a Z offset -->
+  <joint name="specholder_tf_joint_ghost" type="fixed">
+    <parent link="joint6_flange_ghost"/>
+    <child link="specholder_tf_ghost"/>
+    <!-- This origin shifts the specholder_tf 0.014 m upward (along the Z-axis) relative to joint6_flange -->
+    <origin xyz="0 0 -0.014" rpy="0 0 0"/>
+  </joint>
+
+</robot>
+
