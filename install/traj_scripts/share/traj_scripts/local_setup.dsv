@@ -1,3 +1,0 @@
-source;share/traj_scripts/environment/ament_prefix_path.sh
-source;share/traj_scripts/environment/path.sh
-source;share/traj_scripts/environment/pythonpath.sh

@@ -1,1 +1,0 @@
-Invoking command in '/home/robotics/ros2_cobot/build/mycobot_interfaces': /usr/bin/cmake --build /home/robotics/ros2_cobot/build/mycobot_interfaces -- -j16 -l16

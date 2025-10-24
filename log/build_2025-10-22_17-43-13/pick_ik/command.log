@@ -1,6 +1,0 @@
-Invoking command in '/home/robotics/ros2_cobot/build/pick_ik': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robotics/ros2_cobot/src/pick_ik -DCMAKE_INSTALL_PREFIX=/home/robotics/ros2_cobot/install/pick_ik
-Invoked command in '/home/robotics/ros2_cobot/build/pick_ik' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robotics/ros2_cobot/src/pick_ik -DCMAKE_INSTALL_PREFIX=/home/robotics/ros2_cobot/install/pick_ik
-Invoking command in '/home/robotics/ros2_cobot/build/pick_ik': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotics/ros2_cobot/build/pick_ik -- -j16 -l16
-Invoked command in '/home/robotics/ros2_cobot/build/pick_ik' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotics/ros2_cobot/build/pick_ik -- -j16 -l16
-Invoking command in '/home/robotics/ros2_cobot/build/pick_ik': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotics/ros2_cobot/build/pick_ik
-Invoked command in '/home/robotics/ros2_cobot/build/pick_ik' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotics/ros2_cobot/build/pick_ik
