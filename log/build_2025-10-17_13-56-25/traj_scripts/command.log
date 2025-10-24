@@ -1,0 +1,2 @@
+Invoking command in '/home/robotics/ros2_cobot/build/traj_scripts': /usr/bin/cmake --build /home/robotics/ros2_cobot/build/traj_scripts -- -j16 -l16
+Invoked command in '/home/robotics/ros2_cobot/build/traj_scripts' returned '2': /usr/bin/cmake --build /home/robotics/ros2_cobot/build/traj_scripts -- -j16 -l16

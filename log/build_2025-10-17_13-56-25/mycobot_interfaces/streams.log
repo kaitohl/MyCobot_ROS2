@@ -1,0 +1,23 @@
+[0.134s] Invoking command in '/home/robotics/ros2_cobot/build/mycobot_interfaces': /usr/bin/cmake --build /home/robotics/ros2_cobot/build/mycobot_interfaces -- -j16 -l16
+[0.207s] [  0%] Built target mycobot_interfaces__cpp
+[0.225s] [  1%] Built target ament_cmake_python_copy_mycobot_interfaces
+[0.225s] [ 12%] Built target mycobot_interfaces__rosidl_generator_c
+[0.244s] [ 24%] Built target mycobot_interfaces__rosidl_typesupport_introspection_cpp
+[0.251s] [ 47%] Built target mycobot_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.251s] [ 46%] Built target mycobot_interfaces__rosidl_typesupport_cpp
+[0.253s] [ 59%] Built target mycobot_interfaces__rosidl_typesupport_c
+[0.257s] [ 71%] Built target mycobot_interfaces__rosidl_typesupport_introspection_c
+[0.259s] [ 83%] Built target mycobot_interfaces__rosidl_typesupport_fastrtps_c
+[0.274s] [ 83%] Built target mycobot_interfaces
+[0.288s] [ 84%] Built target mycobot_interfaces__py
+[0.313s] [ 95%] Built target mycobot_interfaces__rosidl_generator_py
+[0.332s] [ 98%] Built target mycobot_interfaces__rosidl_typesupport_c__pyext
+[0.333s] [100%] Built target mycobot_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.333s] [100%] Built target mycobot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.374s] running egg_info
+[0.374s] writing mycobot_interfaces.egg-info/PKG-INFO
+[0.374s] writing dependency_links to mycobot_interfaces.egg-info/dependency_links.txt
+[0.374s] writing top-level names to mycobot_interfaces.egg-info/top_level.txt
+[0.376s] reading manifest file 'mycobot_interfaces.egg-info/SOURCES.txt'
+[0.376s] writing manifest file 'mycobot_interfaces.egg-info/SOURCES.txt'
+[0.401s] [100%] Built target ament_cmake_python_build_mycobot_interfaces_egg

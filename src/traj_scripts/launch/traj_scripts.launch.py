@@ -62,15 +62,44 @@ def generate_launch_description():
         output="screen"
     )
 
-    optplan = Node(
+    # Graph IK node - generates multiple IK solutions per target point
+    graph_ik_node = Node(
         package='traj_scripts',
-        executable='plan_node',
-        name='optangles_planner',
-        output='screen'
+        executable='graph_ik_node',
+        name='graph_ik_node',
+        output='screen',
+        parameters=[
+            moveit_config.robot_description,
+            moveit_config.robot_description_semantic,
+            moveit_config.robot_description_kinematics,
+        ]
+    )
+
+    # Add the trajectory runner node to run with MoveIt config loaded
+    traj_runner = Node(
+        package='traj_scripts',
+        executable='traj_runner_node',
+        name='traj_runner_node',
+        output='screen',
+        parameters=[
+            moveit_config.robot_description,
+            moveit_config.robot_description_semantic,
+            moveit_config.robot_description_kinematics,
+        ]
     )
 
     ld.add_action(ghost_rsp)
     ld.add_action(ghost_py)
-    ld.add_action(optplan)
+    ld.add_action(graph_ik_node)
+    ld.add_action(traj_runner)
+
+    # TSP point cloud ordering node (listens for JSON path, publishes ordered points)
+    tsp_node = Node(
+        package='traj_scripts',
+        executable='tsp_pointcloud_node.py',
+        name='tsp_pointcloud_node',
+        output='screen'
+    )
+    ld.add_action(tsp_node)
 
     return ld

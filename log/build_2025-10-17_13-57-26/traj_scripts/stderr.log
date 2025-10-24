@@ -1,0 +1,671 @@
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:[m[K In member function ‘[01m[Kvoid GraphIKNode::pointsCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:126:33:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KtoMsg(tf2::Quaternion&)[m[K’
+  126 |   pose1.orientation = [01;31m[Ktf2::toMsg(q)[m[K;
+      |                       [01;31m[K~~~~~~~~~~^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:43[m[K,
+                 from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:42[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:62[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/tf2/tf2/convert.hpp:129:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class A, class B> B tf2::toMsg(const A&)[m[K’
+  129 | B [01;36m[KtoMsg[m[K(const A & a);
+      |   [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/humble/include/tf2/tf2/convert.hpp:129:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:126:33:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KB[m[K’
+  126 |   pose1.orientation = [01;36m[Ktf2::toMsg(q)[m[K;
+      |                       [01;36m[K~~~~~~~~~~^~~[m[K
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:158:32:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KtoMsg(tf2::Quaternion&)[m[K’
+  158 |   pose.orientation = [01;31m[Ktf2::toMsg(q)[m[K;
+      |                      [01;31m[K~~~~~~~~~~^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:43[m[K,
+                 from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:42[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:62[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/tf2/tf2/convert.hpp:129:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class A, class B> B tf2::toMsg(const A&)[m[K’
+  129 | B [01;36m[KtoMsg[m[K(const A & a);
+      |   [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/humble/include/tf2/tf2/convert.hpp:129:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:158:32:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KB[m[K’
+  158 |   pose.orientation = [01;36m[Ktf2::toMsg(q)[m[K;
+      |                      [01;36m[K~~~~~~~~~~^~~[m[K
+In file included from [01m[K/usr/include/boost/graph/adjacency_list.hpp:255[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:7[m[K:
+/usr/include/boost/graph/detail/adjacency_list.hpp: In instantiation of ‘[01m[Kstruct boost::detail::adj_list_any_edge_pmap::bind_<boost::adjacency_list<boost::vecS, boost::vecS, boost::directedS, std::vector<double, std::allocator<double> >, double>, double, boost::edge_weight_t>[m[K’:
+[01m[K/usr/include/boost/graph/detail/adjacency_list.hpp:2796:12:[m[K   required from ‘[01m[Kstruct boost::detail::adj_list_choose_edge_pmap<boost::edge_weight_t, boost::adjacency_list<boost::vecS, boost::vecS, boost::directedS, std::vector<double, std::allocator<double> >, double>, double>[m[K’
+[01m[K/usr/include/boost/graph/detail/adjacency_list.hpp:2804:16:[m[K   required from ‘[01m[Kstruct boost::detail::adj_list_edge_property_selector::bind_<boost::adjacency_list<boost::vecS, boost::vecS, boost::directedS, std::vector<double, std::allocator<double> >, double>, double, boost::edge_weight_t>[m[K’
+[01m[K/usr/include/boost/graph/properties.hpp:218:12:[m[K   required from ‘[01m[Kstruct boost::detail::edge_property_map<boost::adjacency_list<boost::vecS, boost::vecS, boost::directedS, std::vector<double, std::allocator<double> >, double>, boost::edge_weight_t>[m[K’
+[01m[K/usr/include/boost/graph/properties.hpp:234:8:[m[K   required from ‘[01m[Kstruct boost::property_map<boost::adjacency_list<boost::vecS, boost::vecS, boost::directedS, std::vector<double, std::allocator<double> >, double>, boost::edge_weight_t, void>[m[K’
+[01m[K/usr/include/boost/graph/detail/adjacency_list.hpp:1738:5:[m[K   required by substitution of ‘[01m[Ktemplate<class Config, class Base, class Property> typename boost::property_map<typename Config::graph_type, Property>::type boost::get(Property, boost::adj_list_helper<Config, Base>&) [with Config = boost::detail::adj_list_gen<boost::adjacency_list<boost::vecS, boost::vecS, boost::directedS, std::vector<double, std::allocator<double> >, double>, boost::vecS, boost::vecS, boost::directedS, std::vector<double, std::allocator<double> >, double, boost::no_property, boost::listS>::config; Base = boost::directed_graph_helper<boost::detail::adj_list_gen<boost::adjacency_list<boost::vecS, boost::vecS, boost::directedS, std::vector<double, std::allocator<double> >, double>, boost::vecS, boost::vecS, boost::directedS, std::vector<double, std::allocator<double> >, double, boost::no_property, boost::listS>::config>; Property = boost::edge_weight_t][m[K’
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K   required from here
+[01m[K/usr/include/boost/graph/detail/adjacency_list.hpp:2759:33:[m[K [01;31m[Kerror: [m[Kforming reference to void
+ 2759 |             typedef value_type& [01;31m[Kreference[m[K;
+      |                                 [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/boost/graph/detail/adjacency_list.hpp:2760:39:[m[K [01;31m[Kerror: [m[Kforming reference to void
+ 2760 |             typedef const value_type& [01;31m[Kconst_reference[m[K;
+      |                                       [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/boost/graph/detail/adjacency_list.hpp:2765:17:[m[K [01;31m[Kerror: [m[Kforming reference to void
+ 2765 |                 [01;31m[Ktype[m[K;
+      |                 [01;31m[K^~~~[m[K
+[01m[K/usr/include/boost/graph/detail/adjacency_list.hpp:2769:17:[m[K [01;31m[Kerror: [m[Kforming reference to void
+ 2769 |                 [01;31m[Kconst_type[m[K;
+      |                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kget(boost::edge_weight_t, Graph&)[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;31m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;31m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/graph/adjacency_list.hpp:27[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:7[m[K:
+[01m[K/usr/include/boost/property_map/property_map.hpp:129:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> const T& get(const T*, std::ptrdiff_t)[m[K’
+  129 |   inline const T& [01;36m[Kget[m[K(const T* pa, std::ptrdiff_t k) { return pa[k]; }
+      |                   [01;36m[K^~~[m[K
+[01m[K/usr/include/boost/property_map/property_map.hpp:129:19:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst T*[m[K’ and ‘[01m[Kboost::edge_weight_t[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:36[m[K,
+                 from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:1[m[K:
+[01m[K/usr/include/c++/11/utility:223:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<long unsigned int _Int, class _Tp1, class _Tp2> constexpr typename std::tuple_element<_Int, std::pair<_Tp1, _Tp2> >::type& std::get(std::pair<_Tp1, _Tp2>&)[m[K’
+  223 |     [01;36m[Kget[m[K(pair<_Tp1, _Tp2>& __in) noexcept
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/utility:223:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::pair<_Tp1, _Tp2>[m[K’ and ‘[01m[Kboost::edge_weight_t[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:36[m[K,
+                 from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:1[m[K:
+[01m[K/usr/include/c++/11/utility:228:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<long unsigned int _Int, class _Tp1, class _Tp2> constexpr typename std::tuple_element<_Int, std::pair<_Tp1, _Tp2> >::type&& std::get(std::pair<_Tp1, _Tp2>&&)[m[K’
+  228 |     [01;36m[Kget[m[K(pair<_Tp1, _Tp2>&& __in) noexcept
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/utility:228:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::pair<_Tp1, _Tp2>[m[K’ and ‘[01m[Kboost::edge_weight_t[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:36[m[K,
+                 from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:1[m[K:
+[01m[K/usr/include/c++/11/utility:233:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<long unsigned int _Int, class _Tp1, class _Tp2> constexpr const typename std::tuple_element<_Int, std::pair<_Tp1, _Tp2> >::type& std::get(const std::pair<_Tp1, _Tp2>&)[m[K’
+  233 |     [01;36m[Kget[m[K(const pair<_Tp1, _Tp2>& __in) noexcept
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/utility:233:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::pair<_Tp1, _Tp2>[m[K’ and ‘[01m[Kboost::edge_weight_t[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:36[m[K,
+                 from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:1[m[K:
+[01m[K/usr/include/c++/11/utility:238:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<long unsigned int _Int, class _Tp1, class _Tp2> constexpr const typename std::tuple_element<_Int, std::pair<_Tp1, _Tp2> >::type&& std::get(const std::pair<_Tp1, _Tp2>&&)[m[K’
+  238 |     [01;36m[Kget[m[K(const pair<_Tp1, _Tp2>&& __in) noexcept
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/utility:238:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::pair<_Tp1, _Tp2>[m[K’ and ‘[01m[Kboost::edge_weight_t[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:36[m[K,
+                 from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:1[m[K:
+[01m[K/usr/include/c++/11/utility:247:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> constexpr _Tp& std::get(std::pair<_T1, _T2>&)[m[K’
+  247 |     [01;36m[Kget[m[K(pair<_Tp, _Up>& __p) noexcept
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/utility:247:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::pair<_T1, _T2>[m[K’ and ‘[01m[Kboost::edge_weight_t[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:36[m[K,
+                 from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:1[m[K:
+[01m[K/usr/include/c++/11/utility:252:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> constexpr const _Tp& std::get(const std::pair<_T1, _T2>&)[m[K’
+  252 |     [01;36m[Kget[m[K(const pair<_Tp, _Up>& __p) noexcept
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/utility:252:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::pair<_T1, _T2>[m[K’ and ‘[01m[Kboost::edge_weight_t[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:36[m[K,
+                 from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:1[m[K:
+[01m[K/usr/include/c++/11/utility:257:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> constexpr _Tp&& std::get(std::pair<_T1, _T2>&&)[m[K’
+  257 |     [01;36m[Kget[m[K(pair<_Tp, _Up>&& __p) noexcept
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/utility:257:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::pair<_T1, _T2>[m[K’ and ‘[01m[Kboost::edge_weight_t[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:36[m[K,
+                 from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:1[m[K:
+[01m[K/usr/include/c++/11/utility:262:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> constexpr const _Tp&& std::get(const std::pair<_T1, _T2>&&)[m[K’
+  262 |     [01;36m[Kget[m[K(const pair<_Tp, _Up>&& __p) noexcept
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/utility:262:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::pair<_T1, _T2>[m[K’ and ‘[01m[Kboost::edge_weight_t[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:36[m[K,
+                 from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:1[m[K:
+[01m[K/usr/include/c++/11/utility:267:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> constexpr _Tp& std::get(std::pair<_Up, _Tp>&)[m[K’
+  267 |     [01;36m[Kget[m[K(pair<_Up, _Tp>& __p) noexcept
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/utility:267:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::pair<_Up, _Tp>[m[K’ and ‘[01m[Kboost::edge_weight_t[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:36[m[K,
+                 from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:1[m[K:
+[01m[K/usr/include/c++/11/utility:272:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> constexpr const _Tp& std::get(const std::pair<_Up, _Tp>&)[m[K’
+  272 |     [01;36m[Kget[m[K(const pair<_Up, _Tp>& __p) noexcept
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/utility:272:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::pair<_Up, _Tp>[m[K’ and ‘[01m[Kboost::edge_weight_t[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:36[m[K,
+                 from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:1[m[K:
+[01m[K/usr/include/c++/11/utility:277:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> constexpr _Tp&& std::get(std::pair<_Up, _Tp>&&)[m[K’
+  277 |     [01;36m[Kget[m[K(pair<_Up, _Tp>&& __p) noexcept
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/utility:277:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::pair<_Up, _Tp>[m[K’ and ‘[01m[Kboost::edge_weight_t[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:36[m[K,
+                 from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:1[m[K:
+[01m[K/usr/include/c++/11/utility:282:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> constexpr const _Tp&& std::get(const std::pair<_Up, _Tp>&&)[m[K’
+  282 |     [01;36m[Kget[m[K(const pair<_Up, _Tp>&& __p) noexcept
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/utility:282:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::pair<_Up, _Tp>[m[K’ and ‘[01m[Kboost::edge_weight_t[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:1[m[K:
+[01m[K/usr/include/c++/11/array:361:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<long unsigned int _Int, class _Tp, long unsigned int _Nm> constexpr _Tp& std::get(std::array<_Tp, _Nm>&)[m[K’
+  361 |     [01;36m[Kget[m[K(array<_Tp, _Nm>& __arr) noexcept
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/array:361:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::array<_Tp, _Nm>[m[K’ and ‘[01m[Kboost::edge_weight_t[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:1[m[K:
+[01m[K/usr/include/c++/11/array:369:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<long unsigned int _Int, class _Tp, long unsigned int _Nm> constexpr _Tp&& std::get(std::array<_Tp, _Nm>&&)[m[K’
+  369 |     [01;36m[Kget[m[K(array<_Tp, _Nm>&& __arr) noexcept
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/array:369:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::array<_Tp, _Nm>[m[K’ and ‘[01m[Kboost::edge_weight_t[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:1[m[K:
+[01m[K/usr/include/c++/11/array:377:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<long unsigned int _Int, class _Tp, long unsigned int _Nm> constexpr const _Tp& std::get(const std::array<_Tp, _Nm>&)[m[K’
+  377 |     [01;36m[Kget[m[K(const array<_Tp, _Nm>& __arr) noexcept
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/array:377:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::array<_Tp, _Nm>[m[K’ and ‘[01m[Kboost::edge_weight_t[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:1[m[K:
+[01m[K/usr/include/c++/11/array:385:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<long unsigned int _Int, class _Tp, long unsigned int _Nm> constexpr const _Tp&& std::get(const std::array<_Tp, _Nm>&&)[m[K’
+  385 |     [01;36m[Kget[m[K(const array<_Tp, _Nm>&& __arr) noexcept
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/array:385:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::array<_Tp, _Nm>[m[K’ and ‘[01m[Kboost::edge_weight_t[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:1[m[K:
+[01m[K/usr/include/c++/11/tuple:1393:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<long unsigned int __i, class ... _Elements> constexpr std::__tuple_element_t<__i, std::tuple<_UTypes ...> >& std::get(std::tuple<_UTypes ...>&)[m[K’
+ 1393 |     [01;36m[Kget[m[K(tuple<_Elements...>& __t) noexcept
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/tuple:1393:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::tuple<_UTypes ...>[m[K’ and ‘[01m[Kboost::edge_weight_t[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:1[m[K:
+[01m[K/usr/include/c++/11/tuple:1399:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<long unsigned int __i, class ... _Elements> constexpr std::__tuple_element_t<__i, std::tuple<_UTypes ...> >& std::get(const std::tuple<_UTypes ...>&)[m[K’
+ 1399 |     [01;36m[Kget[m[K(const tuple<_Elements...>& __t) noexcept
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/tuple:1399:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::tuple<_UTypes ...>[m[K’ and ‘[01m[Kboost::edge_weight_t[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:1[m[K:
+[01m[K/usr/include/c++/11/tuple:1405:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<long unsigned int __i, class ... _Elements> constexpr std::__tuple_element_t<__i, std::tuple<_UTypes ...> >&& std::get(std::tuple<_UTypes ...>&&)[m[K’
+ 1405 |     [01;36m[Kget[m[K(tuple<_Elements...>&& __t) noexcept
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/tuple:1405:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::tuple<_UTypes ...>[m[K’ and ‘[01m[Kboost::edge_weight_t[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:1[m[K:
+[01m[K/usr/include/c++/11/tuple:1414:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<long unsigned int __i, class ... _Elements> constexpr std::__tuple_element_t<__i, std::tuple<_UTypes ...> >&& std::get(const std::tuple<_UTypes ...>&&)[m[K’
+ 1414 |     [01;36m[Kget[m[K(const tuple<_Elements...>&& __t) noexcept
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/tuple:1414:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::tuple<_UTypes ...>[m[K’ and ‘[01m[Kboost::edge_weight_t[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:1[m[K:
+[01m[K/usr/include/c++/11/tuple:1449:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Types> constexpr _Tp& std::get(std::tuple<_UTypes ...>&)[m[K’
+ 1449 |     [01;36m[Kget[m[K(tuple<_Types...>& __t) noexcept
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/tuple:1449:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::tuple<_UTypes ...>[m[K’ and ‘[01m[Kboost::edge_weight_t[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:1[m[K:
+[01m[K/usr/include/c++/11/tuple:1460:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Types> constexpr _Tp&& std::get(std::tuple<_UTypes ...>&&)[m[K’
+ 1460 |     [01;36m[Kget[m[K(tuple<_Types...>&& __t) noexcept
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/tuple:1460:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::tuple<_UTypes ...>[m[K’ and ‘[01m[Kboost::edge_weight_t[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:1[m[K:
+[01m[K/usr/include/c++/11/tuple:1471:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Types> constexpr const _Tp& std::get(const std::tuple<_UTypes ...>&)[m[K’
+ 1471 |     [01;36m[Kget[m[K(const tuple<_Types...>& __t) noexcept
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/tuple:1471:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::tuple<_UTypes ...>[m[K’ and ‘[01m[Kboost::edge_weight_t[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:1[m[K:
+[01m[K/usr/include/c++/11/tuple:1483:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Types> constexpr const _Tp&& std::get(const std::tuple<_UTypes ...>&&)[m[K’
+ 1483 |     [01;36m[Kget[m[K(const tuple<_Types...>&& __t) noexcept
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/tuple:1483:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::tuple<_UTypes ...>[m[K’ and ‘[01m[Kboost::edge_weight_t[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:1[m[K:
+[01m[K/usr/include/c++/11/variant:1676:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<long unsigned int _Np, class ... _Types> constexpr std::variant_alternative_t<_Np, std::variant<_Types ...> >& std::get(std::variant<_Types ...>&)[m[K’
+ 1676 |     [01;36m[Kget[m[K(variant<_Types...>& __v)
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/variant:1676:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::variant<_Types ...>[m[K’ and ‘[01m[Kboost::edge_weight_t[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:1[m[K:
+[01m[K/usr/include/c++/11/variant:1687:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<long unsigned int _Np, class ... _Types> constexpr std::variant_alternative_t<_Np, std::variant<_Types ...> >&& std::get(std::variant<_Types ...>&&)[m[K’
+ 1687 |     [01;36m[Kget[m[K(variant<_Types...>&& __v)
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/variant:1687:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::variant<_Types ...>[m[K’ and ‘[01m[Kboost::edge_weight_t[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:1[m[K:
+[01m[K/usr/include/c++/11/variant:1698:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<long unsigned int _Np, class ... _Types> constexpr std::variant_alternative_t<_Np, std::variant<_Types ...> >& std::get(const std::variant<_Types ...>&)[m[K’
+ 1698 |     [01;36m[Kget[m[K(const variant<_Types...>& __v)
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/variant:1698:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::variant<_Types ...>[m[K’ and ‘[01m[Kboost::edge_weight_t[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:1[m[K:
+[01m[K/usr/include/c++/11/variant:1709:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<long unsigned int _Np, class ... _Types> constexpr std::variant_alternative_t<_Np, std::variant<_Types ...> >&& std::get(const std::variant<_Types ...>&&)[m[K’
+ 1709 |     [01;36m[Kget[m[K(const variant<_Types...>&& __v)
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/variant:1709:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::variant<_Types ...>[m[K’ and ‘[01m[Kboost::edge_weight_t[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:1[m[K:
+[01m[K/usr/include/c++/11/variant:1117:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Types> constexpr _Tp& std::get(std::variant<_Types ...>&)[m[K’
+ 1117 |     constexpr _Tp& [01;36m[Kget[m[K(variant<_Types...>& __v)
+      |                    [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/variant:1117:20:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::variant<_Types ...>[m[K’ and ‘[01m[Kboost::edge_weight_t[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:1[m[K:
+[01m[K/usr/include/c++/11/variant:1126:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Types> constexpr _Tp&& std::get(std::variant<_Types ...>&&)[m[K’
+ 1126 |     constexpr _Tp&& [01;36m[Kget[m[K(variant<_Types...>&& __v)
+      |                     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/variant:1126:21:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::variant<_Types ...>[m[K’ and ‘[01m[Kboost::edge_weight_t[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:1[m[K:
+[01m[K/usr/include/c++/11/variant:1136:26:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Types> constexpr const _Tp& std::get(const std::variant<_Types ...>&)[m[K’
+ 1136 |     constexpr const _Tp& [01;36m[Kget[m[K(const variant<_Types...>& __v)
+      |                          [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/variant:1136:26:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::variant<_Types ...>[m[K’ and ‘[01m[Kboost::edge_weight_t[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:1[m[K:
+[01m[K/usr/include/c++/11/variant:1145:27:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Types> constexpr const _Tp&& std::get(const std::variant<_Types ...>&&)[m[K’
+ 1145 |     constexpr const _Tp&& [01;36m[Kget[m[K(const variant<_Types...>&& __v)
+      |                           [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/variant:1145:27:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::variant<_Types ...>[m[K’ and ‘[01m[Kboost::edge_weight_t[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/graph/breadth_first_search.hpp:26[m[K,
+                 from [01m[K/usr/include/boost/graph/dijkstra_shortest_paths.hpp:21[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:8[m[K:
+[01m[K/usr/include/boost/graph/two_bit_color_map.hpp:68:27:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class IndexMap> boost::two_bit_color_type boost::get(const boost::two_bit_color_map<IndexMap>&, typename boost::property_traits<PMap>::key_type)[m[K’
+   68 | inline two_bit_color_type [01;36m[Kget[m[K(const two_bit_color_map< IndexMap >& pm,
+      |                           [01;36m[K^~~[m[K
+[01m[K/usr/include/boost/graph/two_bit_color_map.hpp:68:27:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst boost::two_bit_color_map<IndexMap>[m[K’ and ‘[01m[Kboost::edge_weight_t[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/graph/adjacency_list.hpp:255[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:7[m[K:
+[01m[K/usr/include/boost/graph/detail/adjacency_list.hpp:1765:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Config, class Base, class Property, class Key> typename boost::property_traits<typename boost::property_map<typename Config::graph_type, Property>::const_type>::reference boost::get(Property, const boost::adj_list_helper<Config, Base>&, const Key&)[m[K’
+ 1765 | [01;36m[Kget[m[K(Property p, const adj_list_helper< Config, Base >& g, const Key& key)
+      | [01;36m[K^~~[m[K
+[01m[K/usr/include/boost/graph/detail/adjacency_list.hpp:1765:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/graph/adjacency_list.hpp:255[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:7[m[K:
+[01m[K/usr/include/boost/graph/detail/adjacency_list.hpp:1757:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Config, class Base, class Property, class Key> typename boost::property_traits<typename boost::property_map<typename Config::graph_type, Property>::type>::reference boost::get(Property, boost::adj_list_helper<Config, Base>&, const Key&)[m[K’
+ 1757 | [01;36m[Kget[m[K(Property p, adj_list_helper< Config, Base >& g, const Key& key)
+      | [01;36m[K^~~[m[K
+[01m[K/usr/include/boost/graph/detail/adjacency_list.hpp:1757:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/graph/adjacency_list.hpp:255[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:7[m[K:
+[01m[K/usr/include/boost/graph/detail/adjacency_list.hpp:1747:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Config, class Base, class Property> typename boost::property_map<typename Config::graph_type, Property>::const_type boost::get(Property, const boost::adj_list_helper<Config, Base>&)[m[K’
+ 1747 | [01;36m[Kget[m[K(Property p, const adj_list_helper< Config, Base >& g)
+      | [01;36m[K^~~[m[K
+[01m[K/usr/include/boost/graph/detail/adjacency_list.hpp:1747:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/boost/graph/detail/adjacency_list.hpp:1738:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Config, class Base, class Property> typename boost::property_map<typename Config::graph_type, Property>::type boost::get(Property, boost::adj_list_helper<Config, Base>&)[m[K’
+ 1738 |     [01;36m[Kget[m[K(Property p, adj_list_helper< Config, Base >& g)
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/boost/graph/detail/adjacency_list.hpp:1738:5:[m[K [01;36m[Knote: [m[K  substitution of deduced template arguments resulted in errors seen above
+[01m[K/usr/include/boost/graph/detail/adjacency_list.hpp:424:55:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Tag, class Vertex, class EdgeVec, class Property> const typename boost::property_value<Property, Tag>::type& boost::get(Tag, const boost::detail::stored_ra_edge_iter<Vertex, EdgeVec, Property>&)[m[K’
+  424 | const typename property_value< Property, Tag >::type& [01;36m[Kget[m[K(Tag property_tag,
+      |                                                       [01;36m[K^~~[m[K
+[01m[K/usr/include/boost/graph/detail/adjacency_list.hpp:424:55:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  ‘[01m[KGraph[m[K’ {aka ‘[01m[Kboost::adjacency_list<boost::vecS, boost::vecS, boost::directedS, std::vector<double, std::allocator<double> >, double>[m[K’} is not derived from ‘[01m[Kconst boost::detail::stored_ra_edge_iter<Vertex, EdgeVec, Property>[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/graph/adjacency_list.hpp:255[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:7[m[K:
+[01m[K/usr/include/boost/graph/detail/adjacency_list.hpp:417:55:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Tag, class Vertex, class Iter, class Property> const typename boost::property_value<Property, Tag>::type& boost::get(Tag, const boost::detail::stored_edge_iter<Vertex, Iter, Property>&)[m[K’
+  417 | const typename property_value< Property, Tag >::type& [01;36m[Kget[m[K(Tag property_tag,
+      |                                                       [01;36m[K^~~[m[K
+[01m[K/usr/include/boost/graph/detail/adjacency_list.hpp:417:55:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  ‘[01m[KGraph[m[K’ {aka ‘[01m[Kboost::adjacency_list<boost::vecS, boost::vecS, boost::directedS, std::vector<double, std::allocator<double> >, double>[m[K’} is not derived from ‘[01m[Kconst boost::detail::stored_edge_iter<Vertex, Iter, Property>[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/graph/adjacency_list.hpp:255[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:7[m[K:
+[01m[K/usr/include/boost/graph/detail/adjacency_list.hpp:410:55:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Tag, class Vertex, class Property> const typename boost::property_value<Property, Tag>::type& boost::get(Tag, const boost::detail::stored_edge_property<Vertex, Property>&)[m[K’
+  410 | const typename property_value< Property, Tag >::type& [01;36m[Kget[m[K(
+      |                                                       [01;36m[K^~~[m[K
+[01m[K/usr/include/boost/graph/detail/adjacency_list.hpp:410:55:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  ‘[01m[KGraph[m[K’ {aka ‘[01m[Kboost::adjacency_list<boost::vecS, boost::vecS, boost::directedS, std::vector<double, std::allocator<double> >, double>[m[K’} is not derived from ‘[01m[Kconst boost::detail::stored_edge_property<Vertex, Property>[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/optional.hpp:15[m[K,
+                 from [01m[K/usr/include/boost/graph/named_graph.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/graph/adjacency_list.hpp:36[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:7[m[K:
+[01m[K/usr/include/boost/optional/optional.hpp:1546:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> typename boost::optional<T>::pointer_type boost::get(boost::optional<T>*)[m[K’
+ 1546 | [01;36m[Kget[m[K ( optional<T>* opt )
+      | [01;36m[K^~~[m[K
+[01m[K/usr/include/boost/optional/optional.hpp:1546:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kboost::optional<T>*[m[K’ and ‘[01m[Kboost::edge_weight_t[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/optional.hpp:15[m[K,
+                 from [01m[K/usr/include/boost/graph/named_graph.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/graph/adjacency_list.hpp:36[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:7[m[K:
+[01m[K/usr/include/boost/optional/optional.hpp:1538:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> typename boost::optional<T>::pointer_const_type boost::get(const boost::optional<T>*)[m[K’
+ 1538 | [01;36m[Kget[m[K ( optional<T> const* opt )
+      | [01;36m[K^~~[m[K
+[01m[K/usr/include/boost/optional/optional.hpp:1538:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst boost::optional<T>*[m[K’ and ‘[01m[Kboost::edge_weight_t[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/optional.hpp:15[m[K,
+                 from [01m[K/usr/include/boost/graph/named_graph.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/graph/adjacency_list.hpp:36[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:7[m[K:
+[01m[K/usr/include/boost/optional/optional.hpp:1528:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> typename boost::optional<T>::reference_type boost::get(boost::optional<T>&)[m[K’
+ 1528 | [01;36m[Kget[m[K ( optional<T>& opt )
+      | [01;36m[K^~~[m[K
+[01m[K/usr/include/boost/optional/optional.hpp:1528:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kboost::optional<T>[m[K’ and ‘[01m[Kboost::edge_weight_t[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/optional.hpp:15[m[K,
+                 from [01m[K/usr/include/boost/graph/named_graph.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/graph/adjacency_list.hpp:36[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:7[m[K:
+[01m[K/usr/include/boost/optional/optional.hpp:1520:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> typename boost::optional<T>::reference_const_type boost::get(const boost::optional<T>&)[m[K’
+ 1520 | [01;36m[Kget[m[K ( optional<T> const& opt )
+      | [01;36m[K^~~[m[K
+[01m[K/usr/include/boost/optional/optional.hpp:1520:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst boost::optional<T>[m[K’ and ‘[01m[Kboost::edge_weight_t[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/graph/named_graph.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/graph/adjacency_list.hpp:36[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:7[m[K:
+[01m[K/usr/include/boost/multi_index_container.hpp:1198:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<int N, class Value, class IndexSpecifierList, class Allocator> typename boost::multi_index::nth_index<boost::multi_index::multi_index_container<Value, IndexSpecifierList, Allocator>, N>::type& boost::multi_index::get(boost::multi_index::multi_index_container<Value, IndexSpecifierList, Allocator>&)[m[K’
+ 1198 | [01;36m[Kget[m[K(
+      | [01;36m[K^~~[m[K
+[01m[K/usr/include/boost/multi_index_container.hpp:1198:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kboost::multi_index::multi_index_container<Value, IndexSpecifierList, Allocator>[m[K’ and ‘[01m[Kboost::edge_weight_t[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/graph/named_graph.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/graph/adjacency_list.hpp:36[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:7[m[K:
+[01m[K/usr/include/boost/multi_index_container.hpp:1221:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<int N, class Value, class IndexSpecifierList, class Allocator> const typename boost::multi_index::nth_index<boost::multi_index::multi_index_container<Value, IndexSpecifierList, Allocator>, N>::type& boost::multi_index::get(const boost::multi_index::multi_index_container<Value, IndexSpecifierList, Allocator>&)[m[K’
+ 1221 | [01;36m[Kget[m[K(
+      | [01;36m[K^~~[m[K
+[01m[K/usr/include/boost/multi_index_container.hpp:1221:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst boost::multi_index::multi_index_container<Value, IndexSpecifierList, Allocator>[m[K’ and ‘[01m[Kboost::edge_weight_t[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/graph/named_graph.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/graph/adjacency_list.hpp:36[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:7[m[K:
+[01m[K/usr/include/boost/multi_index_container.hpp:1266:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Tag, class Value, class IndexSpecifierList, class Allocator> typename boost::multi_index::index<boost::multi_index::multi_index_container<Value, IndexSpecifierList, Allocator>, Tag>::type& boost::multi_index::get(boost::multi_index::multi_index_container<Value, IndexSpecifierList, Allocator>&)[m[K’
+ 1266 | [01;36m[Kget[m[K(
+      | [01;36m[K^~~[m[K
+[01m[K/usr/include/boost/multi_index_container.hpp:1266:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kboost::multi_index::multi_index_container<Value, IndexSpecifierList, Allocator>[m[K’ and ‘[01m[Kboost::edge_weight_t[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/graph/named_graph.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/graph/adjacency_list.hpp:36[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:7[m[K:
+[01m[K/usr/include/boost/multi_index_container.hpp:1285:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Tag, class Value, class IndexSpecifierList, class Allocator> const typename boost::multi_index::index<boost::multi_index::multi_index_container<Value, IndexSpecifierList, Allocator>, Tag>::type& boost::multi_index::get(const boost::multi_index::multi_index_container<Value, IndexSpecifierList, Allocator>&)[m[K’
+ 1285 | [01;36m[Kget[m[K(
+      | [01;36m[K^~~[m[K
+[01m[K/usr/include/boost/multi_index_container.hpp:1285:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst boost::multi_index::multi_index_container<Value, IndexSpecifierList, Allocator>[m[K’ and ‘[01m[Kboost::edge_weight_t[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/graph/adjacency_list.hpp:27[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:7[m[K:
+[01m[K/usr/include/boost/property_map/property_map.hpp:302:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class PropertyMap, class Reference, class K> Reference boost::get(const boost::put_get_helper<Reference, PropertyMap>&, const K&)[m[K’
+  302 |   [01;36m[Kget[m[K(const put_get_helper<Reference, PropertyMap>& pa, const K& k)
+      |   [01;36m[K^~~[m[K
+[01m[K/usr/include/boost/property_map/property_map.hpp:302:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst boost::put_get_helper<Reference, PropertyMap>[m[K’ and ‘[01m[Kboost::edge_weight_t[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/graph/adjacency_list.hpp:27[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:7[m[K:
+[01m[K/usr/include/boost/property_map/property_map.hpp:165:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class K, class V> const typename boost::readable_property_map_archetype<KeyArchetype, ValueArchetype>::reference& boost::get(const boost::readable_property_map_archetype<K, V>&, const typename boost::readable_property_map_archetype<K, V>::key_type&)[m[K’
+  165 |   [01;36m[Kget[m[K(const readable_property_map_archetype<K,V>&,
+      |   [01;36m[K^~~[m[K
+[01m[K/usr/include/boost/property_map/property_map.hpp:165:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst boost::readable_property_map_archetype<K, V>[m[K’ and ‘[01m[Kboost::edge_weight_t[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/tuple/tuple.hpp:28[m[K,
+                 from [01m[K/usr/include/boost/unordered/detail/implementation.hpp:31[m[K,
+                 from [01m[K/usr/include/boost/unordered/detail/set.hpp:6[m[K,
+                 from [01m[K/usr/include/boost/unordered/unordered_set.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/unordered_set.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/graph/adjacency_list.hpp:20[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:7[m[K:
+[01m[K/usr/include/boost/tuple/detail/tuple_basic.hpp:231:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<int N, class HT, class TT> typename boost::tuples::access_traits<typename boost::tuples::element<N, boost::tuples::cons<HT, TT> >::type>::const_type boost::tuples::get(const boost::tuples::cons<HT, TT>&)[m[K’
+  231 | [01;36m[Kget[m[K(const cons<HT, TT>& c) {
+      | [01;36m[K^~~[m[K
+[01m[K/usr/include/boost/tuple/detail/tuple_basic.hpp:231:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst boost::tuples::cons<HT, TT>[m[K’ and ‘[01m[Kboost::edge_weight_t[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/tuple/tuple.hpp:28[m[K,
+                 from [01m[K/usr/include/boost/unordered/detail/implementation.hpp:31[m[K,
+                 from [01m[K/usr/include/boost/unordered/detail/set.hpp:6[m[K,
+                 from [01m[K/usr/include/boost/unordered/unordered_set.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/unordered_set.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/graph/adjacency_list.hpp:20[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:7[m[K:
+[01m[K/usr/include/boost/tuple/detail/tuple_basic.hpp:217:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<int N, class HT, class TT> typename boost::tuples::access_traits<typename boost::tuples::element<N, boost::tuples::cons<HT, TT> >::type>::non_const_type boost::tuples::get(boost::tuples::cons<HT, TT>&)[m[K’
+  217 | [01;36m[Kget[m[K(cons<HT, TT>& c) {
+      | [01;36m[K^~~[m[K
+[01m[K/usr/include/boost/tuple/detail/tuple_basic.hpp:217:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/graph_ik.cpp:189:92:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kboost::tuples::cons<HT, TT>[m[K’ and ‘[01m[Kboost::edge_weight_t[m[K’
+  189 |         boost::predecessor_map(&predecessors[0]).distance_map(&distances[0]).weight_map([01;36m[Kget(boost::edge_weight, graph)[m[K));
+      |                                                                                         [01;36m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/graph_ik_node.dir/build.make:76: CMakeFiles/graph_ik_node.dir/src/graph_ik.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:168: CMakeFiles/graph_ik_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

@@ -1,5 +1,5 @@
 /home/robotics/ros2_cobot/install/traj_scripts/lib/traj_scripts/traj_runner_node
-/home/robotics/ros2_cobot/install/traj_scripts/lib/traj_scripts/plan_node
+/home/robotics/ros2_cobot/install/traj_scripts/lib/traj_scripts/graph_ik_node
 /home/robotics/ros2_cobot/install/traj_scripts/share/traj_scripts/launch/traj_scripts.launch.py
 /home/robotics/ros2_cobot/install/traj_scripts/share/traj_scripts/launch/__pycache__/traj_scripts.launch.cpython-310.pyc
 /home/robotics/ros2_cobot/install/traj_scripts/share/traj_scripts/environment/pythonpath.sh
@@ -10,6 +10,7 @@
 /home/robotics/ros2_cobot/install/traj_scripts/local/lib/python3.10/dist-packages/traj_scripts-0.1.0-py3.10.egg-info/PKG-INFO
 /home/robotics/ros2_cobot/install/traj_scripts/local/lib/python3.10/dist-packages/traj_scripts/__init__.py
 /home/robotics/ros2_cobot/install/traj_scripts/lib/traj_scripts/ghost.py
+/home/robotics/ros2_cobot/install/traj_scripts/lib/traj_scripts/tsp_pointcloud_node.py
 /home/robotics/ros2_cobot/install/traj_scripts/share/ament_index/resource_index/package_run_dependencies/traj_scripts
 /home/robotics/ros2_cobot/install/traj_scripts/share/ament_index/resource_index/parent_prefix_path/traj_scripts
 /home/robotics/ros2_cobot/install/traj_scripts/share/traj_scripts/environment/ament_prefix_path.sh

@@ -1361,8 +1361,150 @@ CMakeFiles/traj_runner_node.dir/src/traj_scripts.cpp.o: /home/robotics/ros2_cobo
   /opt/ros/humble/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__traits.hpp \
   /opt/ros/humble/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__type_support.hpp \
   /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
-  /opt/ros/humble/include/moveit_move_group_interface_export.h
+  /opt/ros/humble/include/moveit_move_group_interface_export.h \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__type_support.hpp \
+  /usr/include/nlohmann/json.hpp \
+  /usr/include/nlohmann/adl_serializer.hpp \
+  /usr/include/nlohmann/detail/conversions/from_json.hpp \
+  /usr/include/c++/11/forward_list \
+  /usr/include/c++/11/bits/forward_list.h \
+  /usr/include/c++/11/bits/forward_list.tcc \
+  /usr/include/c++/11/valarray \
+  /usr/include/c++/11/bits/valarray_array.h \
+  /usr/include/c++/11/bits/valarray_array.tcc \
+  /usr/include/c++/11/bits/valarray_before.h \
+  /usr/include/c++/11/bits/slice_array.h \
+  /usr/include/c++/11/bits/valarray_after.h \
+  /usr/include/c++/11/bits/gslice.h \
+  /usr/include/c++/11/bits/gslice_array.h \
+  /usr/include/c++/11/bits/mask_array.h \
+  /usr/include/c++/11/bits/indirect_array.h \
+  /usr/include/nlohmann/detail/exceptions.hpp \
+  /usr/include/nlohmann/detail/value_t.hpp \
+  /usr/include/nlohmann/detail/string_escape.hpp \
+  /usr/include/nlohmann/detail/macro_scope.hpp \
+  /usr/include/nlohmann/thirdparty/hedley/hedley.hpp \
+  /usr/include/nlohmann/detail/meta/detected.hpp \
+  /usr/include/nlohmann/detail/meta/void_t.hpp \
+  /usr/include/nlohmann/detail/input/position_t.hpp \
+  /usr/include/nlohmann/detail/meta/cpp_future.hpp \
+  /usr/include/nlohmann/detail/meta/identity_tag.hpp \
+  /usr/include/nlohmann/detail/meta/type_traits.hpp \
+  /usr/include/nlohmann/detail/iterators/iterator_traits.hpp \
+  /usr/include/nlohmann/detail/meta/call_std/begin.hpp \
+  /usr/include/nlohmann/detail/meta/call_std/end.hpp \
+  /usr/include/nlohmann/json_fwd.hpp \
+  /usr/include/c++/11/filesystem \
+  /usr/include/c++/11/bits/fs_fwd.h \
+  /usr/include/c++/11/bits/fs_path.h \
+  /usr/include/c++/11/bits/fs_dir.h \
+  /usr/include/c++/11/bits/fs_ops.h \
+  /usr/include/nlohmann/detail/conversions/to_json.hpp \
+  /usr/include/nlohmann/detail/iterators/iteration_proxy.hpp \
+  /usr/include/nlohmann/byte_container_with_subtype.hpp \
+  /usr/include/nlohmann/detail/hash.hpp \
+  /usr/include/nlohmann/detail/input/binary_reader.hpp \
+  /usr/include/nlohmann/detail/input/input_adapters.hpp \
+  /usr/include/nlohmann/detail/input/json_sax.hpp \
+  /usr/include/nlohmann/detail/input/lexer.hpp \
+  /usr/include/nlohmann/detail/meta/is_sax.hpp \
+  /usr/include/nlohmann/detail/input/parser.hpp \
+  /usr/include/nlohmann/detail/iterators/internal_iterator.hpp \
+  /usr/include/nlohmann/detail/iterators/primitive_iterator.hpp \
+  /usr/include/nlohmann/detail/iterators/iter_impl.hpp \
+  /usr/include/nlohmann/detail/iterators/json_reverse_iterator.hpp \
+  /usr/include/nlohmann/detail/json_pointer.hpp \
+  /usr/include/nlohmann/detail/json_ref.hpp \
+  /usr/include/nlohmann/detail/output/binary_writer.hpp \
+  /usr/include/nlohmann/detail/output/output_adapters.hpp \
+  /usr/include/nlohmann/detail/output/serializer.hpp \
+  /usr/include/nlohmann/detail/conversions/to_chars.hpp \
+  /usr/include/nlohmann/ordered_map.hpp \
+  /usr/include/nlohmann/detail/macro_unscope.hpp \
+  /usr/include/nlohmann/thirdparty/hedley/hedley_undef.hpp
 
+
+/usr/include/nlohmann/ordered_map.hpp:
+
+/usr/include/nlohmann/detail/conversions/to_chars.hpp:
+
+/usr/include/nlohmann/detail/output/output_adapters.hpp:
+
+/usr/include/nlohmann/detail/output/binary_writer.hpp:
+
+/usr/include/nlohmann/detail/json_pointer.hpp:
+
+/usr/include/nlohmann/detail/iterators/json_reverse_iterator.hpp:
+
+/usr/include/nlohmann/detail/iterators/primitive_iterator.hpp:
+
+/usr/include/nlohmann/detail/input/parser.hpp:
+
+/usr/include/nlohmann/detail/meta/is_sax.hpp:
+
+/usr/include/nlohmann/detail/input/lexer.hpp:
+
+/usr/include/nlohmann/detail/input/json_sax.hpp:
+
+/usr/include/nlohmann/detail/input/input_adapters.hpp:
+
+/usr/include/nlohmann/detail/input/binary_reader.hpp:
+
+/usr/include/nlohmann/byte_container_with_subtype.hpp:
+
+/usr/include/c++/11/bits/fs_ops.h:
+
+/usr/include/c++/11/bits/fs_dir.h:
+
+/usr/include/c++/11/bits/fs_fwd.h:
+
+/usr/include/c++/11/filesystem:
+
+/usr/include/nlohmann/detail/meta/call_std/begin.hpp:
+
+/usr/include/nlohmann/detail/meta/identity_tag.hpp:
+
+/usr/include/nlohmann/detail/meta/cpp_future.hpp:
+
+/usr/include/nlohmann/detail/input/position_t.hpp:
+
+/usr/include/nlohmann/detail/meta/void_t.hpp:
+
+/usr/include/nlohmann/detail/meta/detected.hpp:
+
+/usr/include/nlohmann/thirdparty/hedley/hedley.hpp:
+
+/usr/include/nlohmann/detail/string_escape.hpp:
+
+/usr/include/nlohmann/detail/exceptions.hpp:
+
+/usr/include/c++/11/bits/indirect_array.h:
+
+/usr/include/nlohmann/json_fwd.hpp:
+
+/usr/include/c++/11/bits/mask_array.h:
+
+/usr/include/c++/11/bits/gslice.h:
+
+/usr/include/c++/11/bits/valarray_before.h:
+
+/usr/include/c++/11/valarray:
+
+/usr/include/c++/11/bits/forward_list.h:
+
+/usr/include/c++/11/forward_list:
+
+/usr/include/nlohmann/detail/conversions/from_json.hpp:
+
+/usr/include/nlohmann/adl_serializer.hpp:
+
+/usr/include/nlohmann/json.hpp:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp:
 
 /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
 
@@ -1544,6 +1686,8 @@ CMakeFiles/traj_runner_node.dir/src/traj_scripts.cpp.o: /home/robotics/ros2_cobo
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__traits.hpp:
 
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp:
+
 /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/grasp__builder.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__struct.hpp:
@@ -1624,6 +1768,8 @@ CMakeFiles/traj_runner_node.dir/src/traj_scripts.cpp.o: /home/robotics/ros2_cobo
 
 /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__traits.hpp:
 
+/usr/include/c++/11/bits/valarray_array.tcc:
+
 /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__builder.hpp:
 
 /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__struct.hpp:
@@ -1637,6 +1783,8 @@ CMakeFiles/traj_runner_node.dir/src/traj_scripts.cpp.o: /home/robotics/ros2_cobo
 /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
 
 /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__builder.hpp:
+
+/usr/include/c++/11/bits/fs_path.h:
 
 /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
 
@@ -1768,6 +1916,8 @@ CMakeFiles/traj_runner_node.dir/src/traj_scripts.cpp.o: /home/robotics/ros2_cobo
 
 /usr/include/signal.h:
 
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp:
+
 /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__struct.hpp:
 
 /opt/ros/humble/include/rmw/rmw/network_flow_endpoint_array.h:
@@ -1787,6 +1937,8 @@ CMakeFiles/traj_runner_node.dir/src/traj_scripts.cpp.o: /home/robotics/ros2_cobo
 /opt/ros/humble/include/rcl/rcl/logging_rosout.h:
 
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp:
+
+/usr/include/nlohmann/detail/meta/type_traits.hpp:
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp:
 
@@ -1885,6 +2037,8 @@ CMakeFiles/traj_runner_node.dir/src/traj_scripts.cpp.o: /home/robotics/ros2_cobo
 /opt/ros/humble/include/rclcpp/rclcpp/time.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/guard_condition.hpp:
+
+/usr/include/nlohmann/detail/json_ref.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/contexts/default_context.hpp:
 
@@ -2004,6 +2158,8 @@ CMakeFiles/traj_runner_node.dir/src/traj_scripts.cpp.o: /home/robotics/ros2_cobo
 
 /usr/include/c++/11/bits/list.tcc:
 
+/usr/include/nlohmann/detail/conversions/to_json.hpp:
+
 /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp:
@@ -2073,6 +2229,8 @@ CMakeFiles/traj_runner_node.dir/src/traj_scripts.cpp.o: /home/robotics/ros2_cobo
 /opt/ros/humble/include/rmw/rmw/localhost.h:
 
 /opt/ros/humble/include/rmw/rmw/domain_id.h:
+
+/usr/include/c++/11/bits/valarray_after.h:
 
 /opt/ros/humble/include/rmw/rmw/init_options.h:
 
@@ -2334,6 +2492,8 @@ CMakeFiles/traj_runner_node.dir/src/traj_scripts.cpp.o: /home/robotics/ros2_cobo
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
+/usr/include/nlohmann/thirdparty/hedley/hedley_undef.hpp:
+
 /usr/include/c++/11/tr1/beta_function.tcc:
 
 /usr/include/eigen3/Eigen/src/Geometry/RotationBase.h:
@@ -2342,9 +2502,13 @@ CMakeFiles/traj_runner_node.dir/src/traj_scripts.cpp.o: /home/robotics/ros2_cobo
 
 /usr/include/c++/11/array:
 
+/usr/include/c++/11/bits/slice_array.h:
+
 /usr/include/boost/mpl/limits/arity.hpp:
 
 /usr/include/c++/11/bits/sstream.tcc:
+
+/usr/include/nlohmann/detail/output/serializer.hpp:
 
 /usr/include/boost/mpl/aux_/value_wknd.hpp:
 
@@ -2355,6 +2519,8 @@ CMakeFiles/traj_runner_node.dir/src/traj_scripts.cpp.o: /home/robotics/ros2_cobo
 /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+/usr/include/nlohmann/detail/hash.hpp:
 
 /opt/ros/humble/include/rcutils/rcutils/types.h:
 
@@ -2438,6 +2604,8 @@ CMakeFiles/traj_runner_node.dir/src/traj_scripts.cpp.o: /home/robotics/ros2_cobo
 
 /usr/include/c++/11/bits/stl_function.h:
 
+/usr/include/nlohmann/detail/macro_scope.hpp:
+
 /opt/ros/humble/include/rcl/rcl/wait.h:
 
 /usr/include/c++/11/bits/predefined_ops.h:
@@ -2459,6 +2627,8 @@ CMakeFiles/traj_runner_node.dir/src/traj_scripts.cpp.o: /home/robotics/ros2_cobo
 /usr/include/c++/11/ext/atomicity.h:
 
 /usr/include/c++/11/bits/stl_iterator.h:
+
+/usr/include/nlohmann/detail/iterators/iteration_proxy.hpp:
 
 /usr/include/boost/preprocessor/arithmetic/inc.hpp:
 
@@ -2547,6 +2717,8 @@ CMakeFiles/traj_runner_node.dir/src/traj_scripts.cpp.o: /home/robotics/ros2_cobo
 /usr/include/c++/11/bits/stl_list.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics_state.hpp:
+
+/usr/include/nlohmann/detail/iterators/iterator_traits.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:
 
@@ -2840,6 +3012,8 @@ CMakeFiles/traj_runner_node.dir/src/traj_scripts.cpp.o: /home/robotics/ros2_cobo
 
 /usr/include/c++/11/bits/stl_set.h:
 
+/usr/include/c++/11/bits/forward_list.tcc:
+
 /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:
 
 /opt/ros/humble/include/rcl/rcl/graph.h:
@@ -2889,6 +3063,8 @@ CMakeFiles/traj_runner_node.dir/src/traj_scripts.cpp.o: /home/robotics/ros2_cobo
 /opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set.hpp:
+
+/usr/include/c++/11/bits/valarray_array.h:
 
 /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/joint_limits.hpp:
 
@@ -3148,6 +3324,8 @@ CMakeFiles/traj_runner_node.dir/src/traj_scripts.cpp.o: /home/robotics/ros2_cobo
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp:
 
+/usr/include/nlohmann/detail/meta/call_std/end.hpp:
+
 /usr/include/c++/11/bits/char_traits.h:
 
 /usr/include/c++/11/bits/concept_check.h:
@@ -3169,6 +3347,8 @@ CMakeFiles/traj_runner_node.dir/src/traj_scripts.cpp.o: /home/robotics/ros2_cobo
 /opt/ros/humble/include/rcpputils/rcpputils/shared_library.hpp:
 
 /opt/ros/humble/include/rcutils/rcutils/shared_library.h:
+
+/usr/include/nlohmann/detail/value_t.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_topics_interface.hpp:
 
@@ -3335,6 +3515,8 @@ CMakeFiles/traj_runner_node.dir/src/traj_scripts.cpp.o: /home/robotics/ros2_cobo
 /opt/ros/humble/include/moveit/macros/class_forward.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp:
+
+/usr/include/nlohmann/detail/macro_unscope.hpp:
 
 /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h:
 
@@ -3552,6 +3734,8 @@ CMakeFiles/traj_runner_node.dir/src/traj_scripts.cpp.o: /home/robotics/ros2_cobo
 
 /usr/include/boost/preprocessor/comma_if.hpp:
 
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:
+
 /usr/include/boost/random/traits.hpp:
 
 /usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:
@@ -3683,6 +3867,8 @@ CMakeFiles/traj_runner_node.dir/src/traj_scripts.cpp.o: /home/robotics/ros2_cobo
 /usr/include/eigen3/Eigen/src/Core/util/Macros.h:
 
 /usr/include/boost/preprocessor/list/fold_right.hpp:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__type_support.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/allocator/allocator_deleter.hpp:
 
@@ -3819,6 +4005,8 @@ CMakeFiles/traj_runner_node.dir/src/traj_scripts.cpp.o: /home/robotics/ros2_cobo
 /opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_lost.h:
 
 /usr/include/eigen3/Eigen/src/Householder/BlockHouseholder.h:
+
+/usr/include/c++/11/bits/gslice_array.h:
 
 /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:
 
@@ -4002,6 +4190,8 @@ CMakeFiles/traj_runner_node.dir/src/traj_scripts.cpp.o: /home/robotics/ros2_cobo
 
 /usr/include/eigen3/Eigen/src/Geometry/OrthoMethods.h:
 
+/usr/include/nlohmann/detail/iterators/internal_iterator.hpp:
+
 /usr/include/eigen3/Eigen/src/Geometry/Homogeneous.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__builder.hpp:
@@ -4009,6 +4199,8 @@ CMakeFiles/traj_runner_node.dir/src/traj_scripts.cpp.o: /home/robotics/ros2_cobo
 /usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:
 
 /usr/include/eigen3/Eigen/src/Geometry/AngleAxis.h:
+
+/usr/include/nlohmann/detail/iterators/iter_impl.hpp:
 
 /usr/include/boost/mpl/aux_/config/gcc.hpp:
 

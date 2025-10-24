@@ -1,0 +1,22 @@
+[  0%] Built target mycobot_interfaces__cpp
+[  1%] Built target ament_cmake_python_copy_mycobot_interfaces
+[ 12%] Built target mycobot_interfaces__rosidl_generator_c
+[ 24%] Built target mycobot_interfaces__rosidl_typesupport_introspection_cpp
+[ 47%] Built target mycobot_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 46%] Built target mycobot_interfaces__rosidl_typesupport_cpp
+[ 59%] Built target mycobot_interfaces__rosidl_typesupport_c
+[ 71%] Built target mycobot_interfaces__rosidl_typesupport_introspection_c
+[ 83%] Built target mycobot_interfaces__rosidl_typesupport_fastrtps_c
+[ 83%] Built target mycobot_interfaces
+[ 84%] Built target mycobot_interfaces__py
+[ 95%] Built target mycobot_interfaces__rosidl_generator_py
+[ 98%] Built target mycobot_interfaces__rosidl_typesupport_c__pyext
+[100%] Built target mycobot_interfaces__rosidl_typesupport_introspection_c__pyext
+[100%] Built target mycobot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+running egg_info
+writing mycobot_interfaces.egg-info/PKG-INFO
+writing dependency_links to mycobot_interfaces.egg-info/dependency_links.txt
+writing top-level names to mycobot_interfaces.egg-info/top_level.txt
+reading manifest file 'mycobot_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'mycobot_interfaces.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_mycobot_interfaces_egg

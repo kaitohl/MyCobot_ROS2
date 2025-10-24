@@ -1,0 +1,12 @@
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/traj_scripts.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/traj_scripts.cpp:27:41:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> > > waypoints[m[K’
+   27 | or<geometry_msgs::msg::Pose> [01;31m[Kwaypoints[m[K;
+      |                              [01;31m[K^~~~~~~~~[m[K
+
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/traj_scripts.cpp:21:41:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> > > waypoints[m[K’ previously declared here
+   21 | or<geometry_msgs::msg::Pose> [01;36m[Kwaypoints[m[K;
+      |                              [01;36m[K^~~~~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/traj_runner_node.dir/build.make:76: CMakeFiles/traj_runner_node.dir/src/traj_scripts.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:142: CMakeFiles/traj_runner_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

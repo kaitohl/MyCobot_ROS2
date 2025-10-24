@@ -14,6 +14,7 @@ find_package(moveit_ros_planning_interface REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(moveit_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(tf2_eigen REQUIRED)
 
 # build your node
 add_executable(traj_runner_node src/traj_scripts.cpp)
@@ -24,16 +25,20 @@ ament_target_dependencies(traj_runner_node
   moveit_msgs
 )
 
-add_executable(plan_node src/plan.cpp)
-ament_target_dependencies(plan_node
+
+# Add graph_ik node
+add_executable(graph_ik_node src/graph_ik.cpp)
+ament_target_dependencies(graph_ik_node
   rclcpp
   moveit_ros_planning_interface
   std_msgs
+  geometry_msgs
+  tf2_eigen
 )
 
 # install the executable
 install(
-  TARGETS traj_runner_node plan_node
+  TARGETS traj_runner_node graph_ik_node
   DESTINATION lib/${PROJECT_NAME}
 )
 
@@ -50,6 +55,7 @@ ament_python_install_package(${PROJECT_NAME})
 # Install Python executables
 install(PROGRAMS
   scripts/ghost.py
+  scripts/tsp_pointcloud_node.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

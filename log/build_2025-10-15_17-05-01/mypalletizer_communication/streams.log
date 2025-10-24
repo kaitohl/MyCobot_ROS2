@@ -1,0 +1,23 @@
+[3.861s] Invoking command in '/home/robotics/ros2_cobot/src/mycobot_ros2/mypalletizer_260/mypalletizer_communication': CMAKE_PREFIX_PATH=/home/robotics/ros2_cobot/install/mypalletizer_interfaces:/home/robotics/ros2_cobot/install/traj_scripts:/home/robotics/ros2_cobot/install/mycobot_interfaces:/home/robotics/ros2_cobot/install/mycobot_280rdkx5_moveit2:/home/robotics/ros2_cobot/install/mycobot_280arduino_moveit2:/home/robotics/ros2_cobot/install/mycobot_280_moveit2:/home/robotics/ros2_cobot/install/mecharm_interfaces PYTHONPATH=/home/robotics/ros2_cobot/build/mypalletizer_communication/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotics/ros2_cobot/install/mypalletizer_communication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/mypalletizer_communication build --build-base /home/robotics/ros2_cobot/build/mypalletizer_communication/build install --record /home/robotics/ros2_cobot/build/mypalletizer_communication/install.log --single-version-externally-managed install_data
+[4.213s] running egg_info
+[4.214s] writing ../../../../build/mypalletizer_communication/mypalletizer_communication.egg-info/PKG-INFO
+[4.215s] writing dependency_links to ../../../../build/mypalletizer_communication/mypalletizer_communication.egg-info/dependency_links.txt
+[4.215s] writing entry points to ../../../../build/mypalletizer_communication/mypalletizer_communication.egg-info/entry_points.txt
+[4.215s] writing requirements to ../../../../build/mypalletizer_communication/mypalletizer_communication.egg-info/requires.txt
+[4.215s] writing top-level names to ../../../../build/mypalletizer_communication/mypalletizer_communication.egg-info/top_level.txt
+[4.222s] reading manifest file '../../../../build/mypalletizer_communication/mypalletizer_communication.egg-info/SOURCES.txt'
+[4.223s] writing manifest file '../../../../build/mypalletizer_communication/mypalletizer_communication.egg-info/SOURCES.txt'
+[4.223s] running build
+[4.223s] running build_py
+[4.227s] running install
+[4.227s] running install_lib
+[4.230s] running install_data
+[4.233s] running install_egg_info
+[4.233s] removing '/home/robotics/ros2_cobot/install/mypalletizer_communication/lib/python3.10/site-packages/mypalletizer_communication-0.0.0-py3.10.egg-info' (and everything under it)
+[4.233s] Copying ../../../../build/mypalletizer_communication/mypalletizer_communication.egg-info to /home/robotics/ros2_cobot/install/mypalletizer_communication/lib/python3.10/site-packages/mypalletizer_communication-0.0.0-py3.10.egg-info
+[4.240s] running install_scripts
+[4.269s] Installing mypalletizer_services script to /home/robotics/ros2_cobot/install/mypalletizer_communication/lib/mypalletizer_communication
+[4.269s] Installing mypalletizer_topics script to /home/robotics/ros2_cobot/install/mypalletizer_communication/lib/mypalletizer_communication
+[4.269s] Installing mypalletizer_topics_seeed script to /home/robotics/ros2_cobot/install/mypalletizer_communication/lib/mypalletizer_communication
+[4.269s] writing list of installed files to '/home/robotics/ros2_cobot/build/mypalletizer_communication/install.log'
+[4.450s] Invoked command in '/home/robotics/ros2_cobot/src/mycobot_ros2/mypalletizer_260/mypalletizer_communication' returned '0': CMAKE_PREFIX_PATH=/home/robotics/ros2_cobot/install/mypalletizer_interfaces:/home/robotics/ros2_cobot/install/traj_scripts:/home/robotics/ros2_cobot/install/mycobot_interfaces:/home/robotics/ros2_cobot/install/mycobot_280rdkx5_moveit2:/home/robotics/ros2_cobot/install/mycobot_280arduino_moveit2:/home/robotics/ros2_cobot/install/mycobot_280_moveit2:/home/robotics/ros2_cobot/install/mecharm_interfaces PYTHONPATH=/home/robotics/ros2_cobot/build/mypalletizer_communication/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotics/ros2_cobot/install/mypalletizer_communication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/mypalletizer_communication build --build-base /home/robotics/ros2_cobot/build/mypalletizer_communication/build install --record /home/robotics/ros2_cobot/build/mypalletizer_communication/install.log --single-version-externally-managed install_data
