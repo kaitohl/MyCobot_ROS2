@@ -18,6 +18,7 @@ $ source install/setup.bash
 ```bash
 $ ros2 launch traj_scripts traj_scripts.launch.py
 ```
+- This launch file starts Rviz, robot state publisher, move_group, controllers, and static virtual joints.
 **Step 4:** In a new terminal, launch 3D Slicer and open SlicerROS2. 
 ``` bash
 $ cd ~/Slicer-SuperBuild-Debug/Slicer-build
