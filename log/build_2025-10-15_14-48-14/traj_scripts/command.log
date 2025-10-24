@@ -1,0 +1,4 @@
+Invoking command in '/home/robotics/ros2_cobot/build/traj_scripts': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotics/ros2_cobot/build/traj_scripts -- -j16 -l16
+Invoked command in '/home/robotics/ros2_cobot/build/traj_scripts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotics/ros2_cobot/build/traj_scripts -- -j16 -l16
+Invoking command in '/home/robotics/ros2_cobot/build/traj_scripts': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotics/ros2_cobot/build/traj_scripts
+Invoked command in '/home/robotics/ros2_cobot/build/traj_scripts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotics/ros2_cobot/build/traj_scripts

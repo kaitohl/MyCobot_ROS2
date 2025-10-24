@@ -1,0 +1,25 @@
+[2.360s] Invoking command in '/home/robotics/ros2_cobot/src/mycobot_ros2/myArm/myarm_300': AMENT_PREFIX_PATH=/home/robotics/ros2_cobot/install/mycobot_description:${AMENT_PREFIX_PATH} PYTHONPATH=/home/robotics/ros2_cobot/build/myarm_300/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotics/ros2_cobot/install/myarm_300/lib/python3.10/site-packages:/home/robotics/ros2_cobot/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/myarm_300 build --build-base /home/robotics/ros2_cobot/build/myarm_300/build install --record /home/robotics/ros2_cobot/build/myarm_300/install.log --single-version-externally-managed install_data
+[2.548s] running egg_info
+[2.548s] writing ../../../../build/myarm_300/myarm_300.egg-info/PKG-INFO
+[2.549s] writing dependency_links to ../../../../build/myarm_300/myarm_300.egg-info/dependency_links.txt
+[2.549s] writing entry points to ../../../../build/myarm_300/myarm_300.egg-info/entry_points.txt
+[2.549s] writing requirements to ../../../../build/myarm_300/myarm_300.egg-info/requires.txt
+[2.549s] writing top-level names to ../../../../build/myarm_300/myarm_300.egg-info/top_level.txt
+[2.551s] reading manifest file '../../../../build/myarm_300/myarm_300.egg-info/SOURCES.txt'
+[2.552s] adding license file 'LICENSE'
+[2.552s] writing manifest file '../../../../build/myarm_300/myarm_300.egg-info/SOURCES.txt'
+[2.552s] running build
+[2.552s] running build_py
+[2.553s] running install
+[2.553s] running install_lib
+[2.555s] running install_data
+[2.555s] running install_egg_info
+[2.557s] removing '/home/robotics/ros2_cobot/install/myarm_300/lib/python3.10/site-packages/myarm_300-0.0.0-py3.10.egg-info' (and everything under it)
+[2.557s] Copying ../../../../build/myarm_300/myarm_300.egg-info to /home/robotics/ros2_cobot/install/myarm_300/lib/python3.10/site-packages/myarm_300-0.0.0-py3.10.egg-info
+[2.558s] running install_scripts
+[2.572s] Installing follow_display script to /home/robotics/ros2_cobot/install/myarm_300/lib/myarm_300
+[2.572s] Installing simple_gui script to /home/robotics/ros2_cobot/install/myarm_300/lib/myarm_300
+[2.572s] Installing slider_control script to /home/robotics/ros2_cobot/install/myarm_300/lib/myarm_300
+[2.572s] Installing teleop_keyboard script to /home/robotics/ros2_cobot/install/myarm_300/lib/myarm_300
+[2.572s] writing list of installed files to '/home/robotics/ros2_cobot/build/myarm_300/install.log'
+[2.928s] Invoked command in '/home/robotics/ros2_cobot/src/mycobot_ros2/myArm/myarm_300' returned '0': AMENT_PREFIX_PATH=/home/robotics/ros2_cobot/install/mycobot_description:${AMENT_PREFIX_PATH} PYTHONPATH=/home/robotics/ros2_cobot/build/myarm_300/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotics/ros2_cobot/install/myarm_300/lib/python3.10/site-packages:/home/robotics/ros2_cobot/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/myarm_300 build --build-base /home/robotics/ros2_cobot/build/myarm_300/build install --record /home/robotics/ros2_cobot/build/myarm_300/install.log --single-version-externally-managed install_data

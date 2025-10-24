@@ -1,0 +1,21 @@
+[0.598s] Invoking command in '/home/robotics/ros2_cobot/src/mycobot_ros2/mycobot_description': PYTHONPATH=/home/robotics/ros2_cobot/build/mycobot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotics/ros2_cobot/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mycobot_description build --build-base /home/robotics/ros2_cobot/build/mycobot_description/build install --record /home/robotics/ros2_cobot/build/mycobot_description/install.log --single-version-externally-managed install_data
+[0.801s] running egg_info
+[0.801s] writing ../../../build/mycobot_description/mycobot_description.egg-info/PKG-INFO
+[0.801s] writing dependency_links to ../../../build/mycobot_description/mycobot_description.egg-info/dependency_links.txt
+[0.801s] writing entry points to ../../../build/mycobot_description/mycobot_description.egg-info/entry_points.txt
+[0.801s] writing requirements to ../../../build/mycobot_description/mycobot_description.egg-info/requires.txt
+[0.801s] writing top-level names to ../../../build/mycobot_description/mycobot_description.egg-info/top_level.txt
+[0.803s] reading manifest file '../../../build/mycobot_description/mycobot_description.egg-info/SOURCES.txt'
+[0.804s] adding license file 'LICENSE'
+[0.806s] writing manifest file '../../../build/mycobot_description/mycobot_description.egg-info/SOURCES.txt'
+[0.806s] running build
+[0.806s] running build_py
+[0.806s] running install
+[0.806s] running install_lib
+[0.807s] running install_data
+[0.810s] running install_egg_info
+[0.812s] removing '/home/robotics/ros2_cobot/install/mycobot_description/lib/python3.10/site-packages/mycobot_description-0.0.0-py3.10.egg-info' (and everything under it)
+[0.812s] Copying ../../../build/mycobot_description/mycobot_description.egg-info to /home/robotics/ros2_cobot/install/mycobot_description/lib/python3.10/site-packages/mycobot_description-0.0.0-py3.10.egg-info
+[0.813s] running install_scripts
+[0.827s] writing list of installed files to '/home/robotics/ros2_cobot/build/mycobot_description/install.log'
+[1.318s] Invoked command in '/home/robotics/ros2_cobot/src/mycobot_ros2/mycobot_description' returned '0': PYTHONPATH=/home/robotics/ros2_cobot/build/mycobot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotics/ros2_cobot/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mycobot_description build --build-base /home/robotics/ros2_cobot/build/mycobot_description/build install --record /home/robotics/ros2_cobot/build/mycobot_description/install.log --single-version-externally-managed install_data

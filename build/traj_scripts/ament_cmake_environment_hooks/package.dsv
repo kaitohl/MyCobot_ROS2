@@ -1,0 +1,4 @@
+source;share/traj_scripts/local_setup.bash
+source;share/traj_scripts/local_setup.dsv
+source;share/traj_scripts/local_setup.sh
+source;share/traj_scripts/local_setup.zsh

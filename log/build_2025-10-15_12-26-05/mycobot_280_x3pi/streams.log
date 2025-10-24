@@ -1,0 +1,31 @@
+[2.795s] Invoking command in '/home/robotics/ros2_cobot/src/mycobot_ros2/mycobot_280/mycobot_280_x3pi': AMENT_PREFIX_PATH=/home/robotics/ros2_cobot/install/mycobot_description:${AMENT_PREFIX_PATH} PYTHONPATH=/home/robotics/ros2_cobot/build/mycobot_280_x3pi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotics/ros2_cobot/install/mycobot_280_x3pi/lib/python3.10/site-packages:/home/robotics/ros2_cobot/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/mycobot_280_x3pi build --build-base /home/robotics/ros2_cobot/build/mycobot_280_x3pi/build install --record /home/robotics/ros2_cobot/build/mycobot_280_x3pi/install.log --single-version-externally-managed install_data
+[3.062s] running egg_info
+[3.062s] writing ../../../../build/mycobot_280_x3pi/mycobot_280_x3pi.egg-info/PKG-INFO
+[3.063s] writing dependency_links to ../../../../build/mycobot_280_x3pi/mycobot_280_x3pi.egg-info/dependency_links.txt
+[3.063s] writing entry points to ../../../../build/mycobot_280_x3pi/mycobot_280_x3pi.egg-info/entry_points.txt
+[3.063s] writing requirements to ../../../../build/mycobot_280_x3pi/mycobot_280_x3pi.egg-info/requires.txt
+[3.063s] writing top-level names to ../../../../build/mycobot_280_x3pi/mycobot_280_x3pi.egg-info/top_level.txt
+[3.066s] reading manifest file '../../../../build/mycobot_280_x3pi/mycobot_280_x3pi.egg-info/SOURCES.txt'
+[3.066s] adding license file 'LICENSE'
+[3.066s] writing manifest file '../../../../build/mycobot_280_x3pi/mycobot_280_x3pi.egg-info/SOURCES.txt'
+[3.067s] running build
+[3.067s] running build_py
+[3.068s] running install
+[3.068s] running install_lib
+[3.070s] running install_data
+[3.070s] running install_egg_info
+[3.072s] removing '/home/robotics/ros2_cobot/install/mycobot_280_x3pi/lib/python3.10/site-packages/mycobot_280_x3pi-0.0.0-py3.10.egg-info' (and everything under it)
+[3.072s] Copying ../../../../build/mycobot_280_x3pi/mycobot_280_x3pi.egg-info to /home/robotics/ros2_cobot/install/mycobot_280_x3pi/lib/python3.10/site-packages/mycobot_280_x3pi-0.0.0-py3.10.egg-info
+[3.073s] running install_scripts
+[3.094s] Installing camera_display script to /home/robotics/ros2_cobot/install/mycobot_280_x3pi/lib/mycobot_280_x3pi
+[3.094s] Installing detect_marker script to /home/robotics/ros2_cobot/install/mycobot_280_x3pi/lib/mycobot_280_x3pi
+[3.094s] Installing follow_display script to /home/robotics/ros2_cobot/install/mycobot_280_x3pi/lib/mycobot_280_x3pi
+[3.094s] Installing following_marker script to /home/robotics/ros2_cobot/install/mycobot_280_x3pi/lib/mycobot_280_x3pi
+[3.094s] Installing listen_real script to /home/robotics/ros2_cobot/install/mycobot_280_x3pi/lib/mycobot_280_x3pi
+[3.095s] Installing listen_real_of_topic script to /home/robotics/ros2_cobot/install/mycobot_280_x3pi/lib/mycobot_280_x3pi
+[3.095s] Installing opencv_camera script to /home/robotics/ros2_cobot/install/mycobot_280_x3pi/lib/mycobot_280_x3pi
+[3.095s] Installing simple_gui script to /home/robotics/ros2_cobot/install/mycobot_280_x3pi/lib/mycobot_280_x3pi
+[3.095s] Installing slider_control script to /home/robotics/ros2_cobot/install/mycobot_280_x3pi/lib/mycobot_280_x3pi
+[3.095s] Installing teleop_keyboard script to /home/robotics/ros2_cobot/install/mycobot_280_x3pi/lib/mycobot_280_x3pi
+[3.096s] writing list of installed files to '/home/robotics/ros2_cobot/build/mycobot_280_x3pi/install.log'
+[3.425s] Invoked command in '/home/robotics/ros2_cobot/src/mycobot_ros2/mycobot_280/mycobot_280_x3pi' returned '0': AMENT_PREFIX_PATH=/home/robotics/ros2_cobot/install/mycobot_description:${AMENT_PREFIX_PATH} PYTHONPATH=/home/robotics/ros2_cobot/build/mycobot_280_x3pi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotics/ros2_cobot/install/mycobot_280_x3pi/lib/python3.10/site-packages:/home/robotics/ros2_cobot/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/mycobot_280_x3pi build --build-base /home/robotics/ros2_cobot/build/mycobot_280_x3pi/build install --record /home/robotics/ros2_cobot/build/mycobot_280_x3pi/install.log --single-version-externally-managed install_data

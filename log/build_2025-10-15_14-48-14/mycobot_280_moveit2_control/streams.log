@@ -1,0 +1,24 @@
+[2.914s] Invoking command in '/home/robotics/ros2_cobot/src/mycobot_ros2/mycobot_280/mycobot_280_moveit2_control': AMENT_PREFIX_PATH=/home/robotics/ros2_cobot/install/mycobot_description:${AMENT_PREFIX_PATH} PYTHONPATH=/home/robotics/ros2_cobot/build/mycobot_280_moveit2_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotics/ros2_cobot/install/mycobot_280_moveit2_control/lib/python3.10/site-packages:/home/robotics/ros2_cobot/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/mycobot_280_moveit2_control build --build-base /home/robotics/ros2_cobot/build/mycobot_280_moveit2_control/build install --record /home/robotics/ros2_cobot/build/mycobot_280_moveit2_control/install.log --single-version-externally-managed install_data
+[3.119s] running egg_info
+[3.121s] writing ../../../../build/mycobot_280_moveit2_control/mycobot_280_moveit2_control.egg-info/PKG-INFO
+[3.121s] writing dependency_links to ../../../../build/mycobot_280_moveit2_control/mycobot_280_moveit2_control.egg-info/dependency_links.txt
+[3.121s] writing entry points to ../../../../build/mycobot_280_moveit2_control/mycobot_280_moveit2_control.egg-info/entry_points.txt
+[3.121s] writing requirements to ../../../../build/mycobot_280_moveit2_control/mycobot_280_moveit2_control.egg-info/requires.txt
+[3.121s] writing top-level names to ../../../../build/mycobot_280_moveit2_control/mycobot_280_moveit2_control.egg-info/top_level.txt
+[3.124s] reading manifest file '../../../../build/mycobot_280_moveit2_control/mycobot_280_moveit2_control.egg-info/SOURCES.txt'
+[3.124s] adding license file 'LICENSE'
+[3.124s] writing manifest file '../../../../build/mycobot_280_moveit2_control/mycobot_280_moveit2_control.egg-info/SOURCES.txt'
+[3.126s] running build
+[3.126s] running build_py
+[3.126s] running install
+[3.126s] running install_lib
+[3.127s] running install_data
+[3.127s] running install_egg_info
+[3.129s] removing '/home/robotics/ros2_cobot/install/mycobot_280_moveit2_control/lib/python3.10/site-packages/mycobot_280_moveit2_control-0.0.0-py3.10.egg-info' (and everything under it)
+[3.129s] Copying ../../../../build/mycobot_280_moveit2_control/mycobot_280_moveit2_control.egg-info to /home/robotics/ros2_cobot/install/mycobot_280_moveit2_control/lib/python3.10/site-packages/mycobot_280_moveit2_control-0.0.0-py3.10.egg-info
+[3.130s] running install_scripts
+[3.154s] Installing sync_plan script to /home/robotics/ros2_cobot/install/mycobot_280_moveit2_control/lib/mycobot_280_moveit2_control
+[3.155s] Installing sync_plan_arduino script to /home/robotics/ros2_cobot/install/mycobot_280_moveit2_control/lib/mycobot_280_moveit2_control
+[3.155s] Installing sync_plan_rdkx5 script to /home/robotics/ros2_cobot/install/mycobot_280_moveit2_control/lib/mycobot_280_moveit2_control
+[3.155s] writing list of installed files to '/home/robotics/ros2_cobot/build/mycobot_280_moveit2_control/install.log'
+[3.694s] Invoked command in '/home/robotics/ros2_cobot/src/mycobot_ros2/mycobot_280/mycobot_280_moveit2_control' returned '0': AMENT_PREFIX_PATH=/home/robotics/ros2_cobot/install/mycobot_description:${AMENT_PREFIX_PATH} PYTHONPATH=/home/robotics/ros2_cobot/build/mycobot_280_moveit2_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotics/ros2_cobot/install/mycobot_280_moveit2_control/lib/python3.10/site-packages:/home/robotics/ros2_cobot/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/mycobot_280_moveit2_control build --build-base /home/robotics/ros2_cobot/build/mycobot_280_moveit2_control/build install --record /home/robotics/ros2_cobot/build/mycobot_280_moveit2_control/install.log --single-version-externally-managed install_data

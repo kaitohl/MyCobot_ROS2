@@ -1,0 +1,26 @@
+[2.401s] Invoking command in '/home/robotics/ros2_cobot/src/mycobot_ros2/mycobot_communication': AMENT_PREFIX_PATH=/home/robotics/ros2_cobot/install/mycobot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotics/ros2_cobot/install/mycobot_interfaces LD_LIBRARY_PATH=/home/robotics/ros2_cobot/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robotics/ros2_cobot/build/mycobot_communication/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotics/ros2_cobot/install/mycobot_communication/lib/python3.10/site-packages:/home/robotics/ros2_cobot/install/mycobot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mycobot_communication build --build-base /home/robotics/ros2_cobot/build/mycobot_communication/build install --record /home/robotics/ros2_cobot/build/mycobot_communication/install.log --single-version-externally-managed install_data
+[2.656s] running egg_info
+[2.656s] writing ../../../build/mycobot_communication/mycobot_communication.egg-info/PKG-INFO
+[2.656s] writing dependency_links to ../../../build/mycobot_communication/mycobot_communication.egg-info/dependency_links.txt
+[2.657s] writing entry points to ../../../build/mycobot_communication/mycobot_communication.egg-info/entry_points.txt
+[2.657s] writing requirements to ../../../build/mycobot_communication/mycobot_communication.egg-info/requires.txt
+[2.657s] writing top-level names to ../../../build/mycobot_communication/mycobot_communication.egg-info/top_level.txt
+[2.661s] reading manifest file '../../../build/mycobot_communication/mycobot_communication.egg-info/SOURCES.txt'
+[2.661s] adding license file 'LICENSE'
+[2.663s] writing manifest file '../../../build/mycobot_communication/mycobot_communication.egg-info/SOURCES.txt'
+[2.663s] running build
+[2.663s] running build_py
+[2.663s] running install
+[2.664s] running install_lib
+[2.666s] running install_data
+[2.666s] running install_egg_info
+[2.668s] removing '/home/robotics/ros2_cobot/install/mycobot_communication/lib/python3.10/site-packages/mycobot_communication-0.0.0-py3.10.egg-info' (and everything under it)
+[2.668s] Copying ../../../build/mycobot_communication/mycobot_communication.egg-info to /home/robotics/ros2_cobot/install/mycobot_communication/lib/python3.10/site-packages/mycobot_communication-0.0.0-py3.10.egg-info
+[2.669s] running install_scripts
+[2.691s] Installing mycobot_services script to /home/robotics/ros2_cobot/install/mycobot_communication/lib/mycobot_communication
+[2.692s] Installing mycobot_topics script to /home/robotics/ros2_cobot/install/mycobot_communication/lib/mycobot_communication
+[2.692s] Installing mycobot_topics_jsnn script to /home/robotics/ros2_cobot/install/mycobot_communication/lib/mycobot_communication
+[2.692s] Installing mycobot_topics_pi script to /home/robotics/ros2_cobot/install/mycobot_communication/lib/mycobot_communication
+[2.692s] Installing mycobot_topics_seeed script to /home/robotics/ros2_cobot/install/mycobot_communication/lib/mycobot_communication
+[2.693s] writing list of installed files to '/home/robotics/ros2_cobot/build/mycobot_communication/install.log'
+[2.829s] Invoked command in '/home/robotics/ros2_cobot/src/mycobot_ros2/mycobot_communication' returned '0': AMENT_PREFIX_PATH=/home/robotics/ros2_cobot/install/mycobot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotics/ros2_cobot/install/mycobot_interfaces LD_LIBRARY_PATH=/home/robotics/ros2_cobot/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robotics/ros2_cobot/build/mycobot_communication/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotics/ros2_cobot/install/mycobot_communication/lib/python3.10/site-packages:/home/robotics/ros2_cobot/install/mycobot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mycobot_communication build --build-base /home/robotics/ros2_cobot/build/mycobot_communication/build install --record /home/robotics/ros2_cobot/build/mycobot_communication/install.log --single-version-externally-managed install_data

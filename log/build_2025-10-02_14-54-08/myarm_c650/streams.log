@@ -1,0 +1,27 @@
+[1.424s] Invoking command in '/home/robotics/ros2_cobot/src/mycobot_ros2/myArm/myarm_c650': AMENT_PREFIX_PATH=/home/robotics/ros2_cobot/install/mycobot_communication:/home/robotics/ros2_cobot/install/mycobot_interfaces:/home/robotics/ros2_cobot/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotics/ros2_cobot/install/mycobot_interfaces LD_LIBRARY_PATH=/home/robotics/ros2_cobot/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robotics/ros2_cobot/build/myarm_c650/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotics/ros2_cobot/install/myarm_c650/lib/python3.10/site-packages:/home/robotics/ros2_cobot/install/mycobot_communication/lib/python3.10/site-packages:/home/robotics/ros2_cobot/install/mycobot_interfaces/local/lib/python3.10/dist-packages:/home/robotics/ros2_cobot/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/myarm_c650 build --build-base /home/robotics/ros2_cobot/build/myarm_c650/build install --record /home/robotics/ros2_cobot/build/myarm_c650/install.log --single-version-externally-managed install_data
+[1.578s] running egg_info
+[1.578s] writing ../../../../build/myarm_c650/myarm_c650.egg-info/PKG-INFO
+[1.578s] writing dependency_links to ../../../../build/myarm_c650/myarm_c650.egg-info/dependency_links.txt
+[1.579s] writing entry points to ../../../../build/myarm_c650/myarm_c650.egg-info/entry_points.txt
+[1.579s] writing requirements to ../../../../build/myarm_c650/myarm_c650.egg-info/requires.txt
+[1.579s] writing top-level names to ../../../../build/myarm_c650/myarm_c650.egg-info/top_level.txt
+[1.580s] reading manifest file '../../../../build/myarm_c650/myarm_c650.egg-info/SOURCES.txt'
+[1.580s] adding license file 'LICENSE'
+[1.581s] writing manifest file '../../../../build/myarm_c650/myarm_c650.egg-info/SOURCES.txt'
+[1.581s] running build
+[1.581s] running build_py
+[1.581s] running install
+[1.582s] running install_lib
+[1.583s] running install_data
+[1.583s] running install_egg_info
+[1.584s] removing '/home/robotics/ros2_cobot/install/myarm_c650/lib/python3.10/site-packages/myarm_c650-0.0.0-py3.10.egg-info' (and everything under it)
+[1.585s] Copying ../../../../build/myarm_c650/myarm_c650.egg-info to /home/robotics/ros2_cobot/install/myarm_c650/lib/python3.10/site-packages/myarm_c650-0.0.0-py3.10.egg-info
+[1.585s] running install_scripts
+[1.598s] Installing debug script to /home/robotics/ros2_cobot/install/myarm_c650/lib/myarm_c650
+[1.598s] Installing follow_display script to /home/robotics/ros2_cobot/install/myarm_c650/lib/myarm_c650
+[1.599s] Installing simple_gui script to /home/robotics/ros2_cobot/install/myarm_c650/lib/myarm_c650
+[1.599s] Installing slider_control script to /home/robotics/ros2_cobot/install/myarm_c650/lib/myarm_c650
+[1.599s] Installing teleop_keyboard script to /home/robotics/ros2_cobot/install/myarm_c650/lib/myarm_c650
+[1.599s] Installing test script to /home/robotics/ros2_cobot/install/myarm_c650/lib/myarm_c650
+[1.599s] writing list of installed files to '/home/robotics/ros2_cobot/build/myarm_c650/install.log'
+[1.630s] Invoked command in '/home/robotics/ros2_cobot/src/mycobot_ros2/myArm/myarm_c650' returned '0': AMENT_PREFIX_PATH=/home/robotics/ros2_cobot/install/mycobot_communication:/home/robotics/ros2_cobot/install/mycobot_interfaces:/home/robotics/ros2_cobot/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotics/ros2_cobot/install/mycobot_interfaces LD_LIBRARY_PATH=/home/robotics/ros2_cobot/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robotics/ros2_cobot/build/myarm_c650/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotics/ros2_cobot/install/myarm_c650/lib/python3.10/site-packages:/home/robotics/ros2_cobot/install/mycobot_communication/lib/python3.10/site-packages:/home/robotics/ros2_cobot/install/mycobot_interfaces/local/lib/python3.10/dist-packages:/home/robotics/ros2_cobot/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/myarm_c650 build --build-base /home/robotics/ros2_cobot/build/myarm_c650/build install --record /home/robotics/ros2_cobot/build/myarm_c650/install.log --single-version-externally-managed install_data

@@ -1,0 +1,33 @@
+[0.227s] Invoking command in '/home/robotics/ros2_cobot/build/traj_scripts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics/ros2_cobot/install/ultraarm:/home/robotics/ros2_cobot/install/mypalletizer_communication:/home/robotics/ros2_cobot/install/mypalletizer_260_pi:/home/robotics/ros2_cobot/install/mypalletizer_260:/home/robotics/ros2_cobot/install/myarm_m750:/home/robotics/ros2_cobot/install/myarm_c650:/home/robotics/ros2_cobot/install/mycobot_communication:/home/robotics/ros2_cobot/install/mecharm_communication:/home/robotics/ros2_cobot/install/mycobot_630:/home/robotics/ros2_cobot/install/mycobot_600:/home/robotics/ros2_cobot/install/mycobot_320pi:/home/robotics/ros2_cobot/install/mycobot_320_riscv:/home/robotics/ros2_cobot/install/mycobot_320:/home/robotics/ros2_cobot/install/mycobot_280pi:/home/robotics/ros2_cobot/install/mycobot_280jn:/home/robotics/ros2_cobot/install/mycobot_280_x3pi:/home/robotics/ros2_cobot/install/mycobot_280_riscv:/home/robotics/ros2_cobot/install/mycobot_280_rdkx5:/home/robotics/ros2_cobot/install/mycobot_280_moveit2_control:/home/robotics/ros2_cobot/install/mycobot_280_arduino:/home/robotics/ros2_cobot/install/mycobot_280:/home/robotics/ros2_cobot/install/mybuddy:/home/robotics/ros2_cobot/install/myarm_300:/home/robotics/ros2_cobot/install/mecharm_pi:/home/robotics/ros2_cobot/install/mecharm:/home/robotics/ros2_cobot/install/mycobot_description:/opt/ros/humble /usr/bin/cmake --build /home/robotics/ros2_cobot/build/traj_scripts -- -j16 -l16
+[0.290s] [35m[1mConsolidate compiler generated dependencies of target traj_runner_node[0m
+[0.308s] [  0%] Built target ament_cmake_python_copy_traj_scripts
+[0.338s] [ 50%] Built target plan_node
+[0.348s] [ 75%] [32mBuilding CXX object CMakeFiles/traj_runner_node.dir/src/traj_scripts.cpp.o[0m
+[0.574s] running egg_info
+[0.575s] writing traj_scripts.egg-info/PKG-INFO
+[0.575s] writing dependency_links to traj_scripts.egg-info/dependency_links.txt
+[0.575s] writing top-level names to traj_scripts.egg-info/top_level.txt
+[0.577s] reading manifest file 'traj_scripts.egg-info/SOURCES.txt'
+[0.577s] writing manifest file 'traj_scripts.egg-info/SOURCES.txt'
+[0.651s] [ 75%] Built target ament_cmake_python_build_traj_scripts_egg
+[4.870s] [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/traj_scripts.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[4.871s] [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/traj_scripts.cpp:27:41:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> > > waypoints[m[K’
+[4.871s]    27 | or<geometry_msgs::msg::Pose> [01;31m[Kwaypoints[m[K;
+[4.871s]       |                              [01;31m[K^~~~~~~~~[m[K
+[4.871s] 
+[4.871s] [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/traj_scripts.cpp:21:41:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> > > waypoints[m[K’ previously declared here
+[4.871s]    21 | or<geometry_msgs::msg::Pose> [01;36m[Kwaypoints[m[K;
+[4.871s]       |                              [01;36m[K^~~~~~~~~[m[K
+[4.871s] 
+[4.882s] [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/traj_scripts.cpp:121:69:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<moveit::planning_interface::MoveGroupInterface::Plan> plans[m[K’
+[4.882s]   121 | rface::MoveGroupInterface::Plan> [01;31m[Kplans[m[K;
+[4.882s]       |                                  [01;31m[K^~~~~[m[K
+[4.882s] 
+[4.882s] [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/traj_scripts.cpp:60:69:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<moveit::planning_interface::MoveGroupInterface::Plan> plans[m[K’ previously declared here
+[4.882s]    60 | rface::MoveGroupInterface::Plan> [01;36m[Kplans[m[K;
+[4.882s]       |                                  [01;36m[K^~~~~[m[K
+[4.883s] 
+[7.193s] gmake[2]: *** [CMakeFiles/traj_runner_node.dir/build.make:76: CMakeFiles/traj_runner_node.dir/src/traj_scripts.cpp.o] Error 1
+[7.194s] gmake[1]: *** [CMakeFiles/Makefile2:142: CMakeFiles/traj_runner_node.dir/all] Error 2
+[7.194s] gmake: *** [Makefile:146: all] Error 2
+[7.719s] Invoked command in '/home/robotics/ros2_cobot/build/traj_scripts' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics/ros2_cobot/install/ultraarm:/home/robotics/ros2_cobot/install/mypalletizer_communication:/home/robotics/ros2_cobot/install/mypalletizer_260_pi:/home/robotics/ros2_cobot/install/mypalletizer_260:/home/robotics/ros2_cobot/install/myarm_m750:/home/robotics/ros2_cobot/install/myarm_c650:/home/robotics/ros2_cobot/install/mycobot_communication:/home/robotics/ros2_cobot/install/mecharm_communication:/home/robotics/ros2_cobot/install/mycobot_630:/home/robotics/ros2_cobot/install/mycobot_600:/home/robotics/ros2_cobot/install/mycobot_320pi:/home/robotics/ros2_cobot/install/mycobot_320_riscv:/home/robotics/ros2_cobot/install/mycobot_320:/home/robotics/ros2_cobot/install/mycobot_280pi:/home/robotics/ros2_cobot/install/mycobot_280jn:/home/robotics/ros2_cobot/install/mycobot_280_x3pi:/home/robotics/ros2_cobot/install/mycobot_280_riscv:/home/robotics/ros2_cobot/install/mycobot_280_rdkx5:/home/robotics/ros2_cobot/install/mycobot_280_moveit2_control:/home/robotics/ros2_cobot/install/mycobot_280_arduino:/home/robotics/ros2_cobot/install/mycobot_280:/home/robotics/ros2_cobot/install/mybuddy:/home/robotics/ros2_cobot/install/myarm_300:/home/robotics/ros2_cobot/install/mecharm_pi:/home/robotics/ros2_cobot/install/mecharm:/home/robotics/ros2_cobot/install/mycobot_description:/opt/ros/humble /usr/bin/cmake --build /home/robotics/ros2_cobot/build/traj_scripts -- -j16 -l16

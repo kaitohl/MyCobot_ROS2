@@ -1,0 +1,54 @@
+[0.177s] Invoking command in '/home/robotics/ros2_cobot/build/traj_scripts': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotics/ros2_cobot/build/traj_scripts -- -j16 -l16
+[0.232s] [35m[1mConsolidate compiler generated dependencies of target plan_node[0m
+[0.253s] [  0%] Built target ament_cmake_python_copy_traj_scripts
+[0.357s] [ 25%] [32mBuilding CXX object CMakeFiles/plan_node.dir/src/plan.cpp.o[0m
+[0.357s] [ 50%] [32mBuilding CXX object CMakeFiles/traj_runner_node.dir/src/traj_scripts.cpp.o[0m
+[1.507s] running egg_info
+[1.512s] writing traj_scripts.egg-info/PKG-INFO
+[1.513s] writing dependency_links to traj_scripts.egg-info/dependency_links.txt
+[1.517s] writing top-level names to traj_scripts.egg-info/top_level.txt
+[1.535s] reading manifest file 'traj_scripts.egg-info/SOURCES.txt'
+[1.543s] writing manifest file 'traj_scripts.egg-info/SOURCES.txt'
+[1.866s] [ 50%] Built target ament_cmake_python_build_traj_scripts_egg
+[11.061s] [ 75%] [32m[1mLinking CXX executable traj_runner_node[0m
+[11.530s] [ 75%] Built target traj_runner_node
+[14.415s] [100%] [32m[1mLinking CXX executable plan_node[0m
+[14.932s] [100%] Built target plan_node
+[14.942s] Invoked command in '/home/robotics/ros2_cobot/build/traj_scripts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotics/ros2_cobot/build/traj_scripts -- -j16 -l16
+[14.943s] Invoking command in '/home/robotics/ros2_cobot/build/traj_scripts': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotics/ros2_cobot/build/traj_scripts
+[14.949s] -- Install configuration: ""
+[14.949s] -- Installing: /home/robotics/ros2_cobot/install/traj_scripts/lib/traj_scripts/traj_runner_node
+[14.950s] -- Set runtime path of "/home/robotics/ros2_cobot/install/traj_scripts/lib/traj_scripts/traj_runner_node" to ""
+[14.950s] -- Installing: /home/robotics/ros2_cobot/install/traj_scripts/lib/traj_scripts/plan_node
+[14.954s] -- Set runtime path of "/home/robotics/ros2_cobot/install/traj_scripts/lib/traj_scripts/plan_node" to ""
+[14.954s] -- Up-to-date: /home/robotics/ros2_cobot/install/traj_scripts/share/traj_scripts/launch
+[14.954s] -- Installing: /home/robotics/ros2_cobot/install/traj_scripts/share/traj_scripts/launch/traj_scripts.launch.py
+[14.954s] -- Up-to-date: /home/robotics/ros2_cobot/install/traj_scripts/share/traj_scripts/launch/__pycache__
+[14.954s] -- Installing: /home/robotics/ros2_cobot/install/traj_scripts/share/traj_scripts/launch/__pycache__/traj_scripts.launch.cpython-310.pyc
+[14.955s] -- Up-to-date: /home/robotics/ros2_cobot/install/traj_scripts/share/traj_scripts/environment/pythonpath.sh
+[14.955s] -- Up-to-date: /home/robotics/ros2_cobot/install/traj_scripts/share/traj_scripts/environment/pythonpath.dsv
+[14.955s] -- Up-to-date: /home/robotics/ros2_cobot/install/traj_scripts/local/lib/python3.10/dist-packages/traj_scripts-0.1.0-py3.10.egg-info
+[14.955s] -- Installing: /home/robotics/ros2_cobot/install/traj_scripts/local/lib/python3.10/dist-packages/traj_scripts-0.1.0-py3.10.egg-info/dependency_links.txt
+[14.955s] -- Installing: /home/robotics/ros2_cobot/install/traj_scripts/local/lib/python3.10/dist-packages/traj_scripts-0.1.0-py3.10.egg-info/top_level.txt
+[14.955s] -- Installing: /home/robotics/ros2_cobot/install/traj_scripts/local/lib/python3.10/dist-packages/traj_scripts-0.1.0-py3.10.egg-info/SOURCES.txt
+[14.955s] -- Installing: /home/robotics/ros2_cobot/install/traj_scripts/local/lib/python3.10/dist-packages/traj_scripts-0.1.0-py3.10.egg-info/PKG-INFO
+[14.955s] -- Up-to-date: /home/robotics/ros2_cobot/install/traj_scripts/local/lib/python3.10/dist-packages/traj_scripts
+[14.955s] -- Up-to-date: /home/robotics/ros2_cobot/install/traj_scripts/local/lib/python3.10/dist-packages/traj_scripts/__init__.py
+[14.974s] Listing '/home/robotics/ros2_cobot/install/traj_scripts/local/lib/python3.10/dist-packages/traj_scripts'...
+[14.976s] -- Up-to-date: /home/robotics/ros2_cobot/install/traj_scripts/lib/traj_scripts/ghost.py
+[14.976s] -- Up-to-date: /home/robotics/ros2_cobot/install/traj_scripts/share/ament_index/resource_index/package_run_dependencies/traj_scripts
+[14.977s] -- Up-to-date: /home/robotics/ros2_cobot/install/traj_scripts/share/ament_index/resource_index/parent_prefix_path/traj_scripts
+[14.977s] -- Up-to-date: /home/robotics/ros2_cobot/install/traj_scripts/share/traj_scripts/environment/ament_prefix_path.sh
+[14.977s] -- Up-to-date: /home/robotics/ros2_cobot/install/traj_scripts/share/traj_scripts/environment/ament_prefix_path.dsv
+[14.977s] -- Up-to-date: /home/robotics/ros2_cobot/install/traj_scripts/share/traj_scripts/environment/path.sh
+[14.977s] -- Up-to-date: /home/robotics/ros2_cobot/install/traj_scripts/share/traj_scripts/environment/path.dsv
+[14.977s] -- Up-to-date: /home/robotics/ros2_cobot/install/traj_scripts/share/traj_scripts/local_setup.bash
+[14.977s] -- Up-to-date: /home/robotics/ros2_cobot/install/traj_scripts/share/traj_scripts/local_setup.sh
+[14.977s] -- Up-to-date: /home/robotics/ros2_cobot/install/traj_scripts/share/traj_scripts/local_setup.zsh
+[14.977s] -- Up-to-date: /home/robotics/ros2_cobot/install/traj_scripts/share/traj_scripts/local_setup.dsv
+[14.977s] -- Installing: /home/robotics/ros2_cobot/install/traj_scripts/share/traj_scripts/package.dsv
+[14.977s] -- Up-to-date: /home/robotics/ros2_cobot/install/traj_scripts/share/ament_index/resource_index/packages/traj_scripts
+[14.977s] -- Up-to-date: /home/robotics/ros2_cobot/install/traj_scripts/share/traj_scripts/cmake/traj_scriptsConfig.cmake
+[14.977s] -- Up-to-date: /home/robotics/ros2_cobot/install/traj_scripts/share/traj_scripts/cmake/traj_scriptsConfig-version.cmake
+[14.977s] -- Up-to-date: /home/robotics/ros2_cobot/install/traj_scripts/share/traj_scripts/package.xml
+[14.980s] Invoked command in '/home/robotics/ros2_cobot/build/traj_scripts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotics/ros2_cobot/build/traj_scripts

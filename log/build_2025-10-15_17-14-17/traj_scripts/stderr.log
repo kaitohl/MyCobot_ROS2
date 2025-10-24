@@ -1,0 +1,22 @@
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/traj_scripts.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/traj_scripts.cpp:59:39:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::core::RobotState::setToDefaultValues(const moveit::core::JointModelGroup*&)[m[K’
+   59 | [01;31m[Kent_state.setToDefaultValues(joint_model_group)[m[K;
+      | [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+
+In file included from [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+                 from [01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/traj_scripts.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:1230:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid moveit::core::RobotState::setToDefaultValues()[m[K’
+ 1230 |   void [01;36m[KsetToDefaultValues[m[K();
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:1230:8:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:1233:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::core::RobotState::setToDefaultValues(const moveit::core::JointModelGroup*, const string&)[m[K’
+ 1233 |   bool [01;36m[KsetToDefaultValues[m[K(const JointModelGroup* group, const std::string& name);
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:1233:8:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:1235:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::core::RobotState::setToDefaultValues(const string&, const string&)[m[K’
+ 1235 |   bool [01;36m[KsetToDefaultValues[m[K(const std::string& group_name, const std::string& state_name)
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:1235:8:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+gmake[2]: *** [CMakeFiles/traj_runner_node.dir/build.make:76: CMakeFiles/traj_runner_node.dir/src/traj_scripts.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:142: CMakeFiles/traj_runner_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

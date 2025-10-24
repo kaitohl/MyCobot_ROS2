@@ -1,0 +1,29 @@
+[2.805s] Invoking command in '/home/robotics/ros2_cobot/src/mycobot_ros2/mecharm/mecharm_pi': AMENT_PREFIX_PATH=/home/robotics/ros2_cobot/install/mycobot_description:${AMENT_PREFIX_PATH} PYTHONPATH=/home/robotics/ros2_cobot/build/mecharm_pi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotics/ros2_cobot/install/mecharm_pi/lib/python3.10/site-packages:/home/robotics/ros2_cobot/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/mecharm_pi build --build-base /home/robotics/ros2_cobot/build/mecharm_pi/build install --record /home/robotics/ros2_cobot/build/mecharm_pi/install.log --single-version-externally-managed install_data
+[3.065s] running egg_info
+[3.065s] writing ../../../../build/mecharm_pi/mecharm_pi.egg-info/PKG-INFO
+[3.065s] writing dependency_links to ../../../../build/mecharm_pi/mecharm_pi.egg-info/dependency_links.txt
+[3.065s] writing entry points to ../../../../build/mecharm_pi/mecharm_pi.egg-info/entry_points.txt
+[3.066s] writing requirements to ../../../../build/mecharm_pi/mecharm_pi.egg-info/requires.txt
+[3.067s] writing top-level names to ../../../../build/mecharm_pi/mecharm_pi.egg-info/top_level.txt
+[3.071s] reading manifest file '../../../../build/mecharm_pi/mecharm_pi.egg-info/SOURCES.txt'
+[3.071s] adding license file 'LICENSE'
+[3.072s] writing manifest file '../../../../build/mecharm_pi/mecharm_pi.egg-info/SOURCES.txt'
+[3.072s] running build
+[3.072s] running build_py
+[3.073s] running install
+[3.074s] running install_lib
+[3.076s] running install_data
+[3.077s] running install_egg_info
+[3.079s] removing '/home/robotics/ros2_cobot/install/mecharm_pi/lib/python3.10/site-packages/mecharm_pi-0.0.0-py3.10.egg-info' (and everything under it)
+[3.079s] Copying ../../../../build/mecharm_pi/mecharm_pi.egg-info to /home/robotics/ros2_cobot/install/mecharm_pi/lib/python3.10/site-packages/mecharm_pi-0.0.0-py3.10.egg-info
+[3.080s] running install_scripts
+[3.100s] Installing detect_marker script to /home/robotics/ros2_cobot/install/mecharm_pi/lib/mecharm_pi
+[3.100s] Installing follow_display script to /home/robotics/ros2_cobot/install/mecharm_pi/lib/mecharm_pi
+[3.101s] Installing following_marker script to /home/robotics/ros2_cobot/install/mecharm_pi/lib/mecharm_pi
+[3.101s] Installing listen_real script to /home/robotics/ros2_cobot/install/mecharm_pi/lib/mecharm_pi
+[3.101s] Installing listen_real_of_topic script to /home/robotics/ros2_cobot/install/mecharm_pi/lib/mecharm_pi
+[3.101s] Installing simple_gui script to /home/robotics/ros2_cobot/install/mecharm_pi/lib/mecharm_pi
+[3.101s] Installing slider_control script to /home/robotics/ros2_cobot/install/mecharm_pi/lib/mecharm_pi
+[3.101s] Installing teleop_keyboard script to /home/robotics/ros2_cobot/install/mecharm_pi/lib/mecharm_pi
+[3.101s] writing list of installed files to '/home/robotics/ros2_cobot/build/mecharm_pi/install.log'
+[3.968s] Invoked command in '/home/robotics/ros2_cobot/src/mycobot_ros2/mecharm/mecharm_pi' returned '0': AMENT_PREFIX_PATH=/home/robotics/ros2_cobot/install/mycobot_description:${AMENT_PREFIX_PATH} PYTHONPATH=/home/robotics/ros2_cobot/build/mecharm_pi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotics/ros2_cobot/install/mecharm_pi/lib/python3.10/site-packages:/home/robotics/ros2_cobot/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/mecharm_pi build --build-base /home/robotics/ros2_cobot/build/mecharm_pi/build install --record /home/robotics/ros2_cobot/build/mecharm_pi/install.log --single-version-externally-managed install_data

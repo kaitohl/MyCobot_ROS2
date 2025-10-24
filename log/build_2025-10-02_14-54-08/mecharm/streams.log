@@ -1,0 +1,29 @@
+[2.388s] Invoking command in '/home/robotics/ros2_cobot/src/mycobot_ros2/mecharm/mecharm': AMENT_PREFIX_PATH=/home/robotics/ros2_cobot/install/mycobot_description:${AMENT_PREFIX_PATH} PYTHONPATH=/home/robotics/ros2_cobot/build/mecharm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotics/ros2_cobot/install/mecharm/lib/python3.10/site-packages:/home/robotics/ros2_cobot/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/mecharm build --build-base /home/robotics/ros2_cobot/build/mecharm/build install --record /home/robotics/ros2_cobot/build/mecharm/install.log --single-version-externally-managed install_data
+[2.551s] running egg_info
+[2.551s] writing ../../../../build/mecharm/mecharm.egg-info/PKG-INFO
+[2.552s] writing dependency_links to ../../../../build/mecharm/mecharm.egg-info/dependency_links.txt
+[2.552s] writing entry points to ../../../../build/mecharm/mecharm.egg-info/entry_points.txt
+[2.552s] writing requirements to ../../../../build/mecharm/mecharm.egg-info/requires.txt
+[2.552s] writing top-level names to ../../../../build/mecharm/mecharm.egg-info/top_level.txt
+[2.554s] reading manifest file '../../../../build/mecharm/mecharm.egg-info/SOURCES.txt'
+[2.554s] adding license file 'LICENSE'
+[2.555s] writing manifest file '../../../../build/mecharm/mecharm.egg-info/SOURCES.txt'
+[2.555s] running build
+[2.555s] running build_py
+[2.555s] running install
+[2.556s] running install_lib
+[2.557s] running install_data
+[2.558s] running install_egg_info
+[2.559s] removing '/home/robotics/ros2_cobot/install/mecharm/lib/python3.10/site-packages/mecharm-0.0.0-py3.10.egg-info' (and everything under it)
+[2.559s] Copying ../../../../build/mecharm/mecharm.egg-info to /home/robotics/ros2_cobot/install/mecharm/lib/python3.10/site-packages/mecharm-0.0.0-py3.10.egg-info
+[2.560s] running install_scripts
+[2.576s] Installing detect_marker script to /home/robotics/ros2_cobot/install/mecharm/lib/mecharm
+[2.576s] Installing follow_display script to /home/robotics/ros2_cobot/install/mecharm/lib/mecharm
+[2.576s] Installing following_marker script to /home/robotics/ros2_cobot/install/mecharm/lib/mecharm
+[2.576s] Installing listen_real script to /home/robotics/ros2_cobot/install/mecharm/lib/mecharm
+[2.576s] Installing listen_real_of_topic script to /home/robotics/ros2_cobot/install/mecharm/lib/mecharm
+[2.576s] Installing simple_gui script to /home/robotics/ros2_cobot/install/mecharm/lib/mecharm
+[2.577s] Installing slider_control script to /home/robotics/ros2_cobot/install/mecharm/lib/mecharm
+[2.577s] Installing teleop_keyboard script to /home/robotics/ros2_cobot/install/mecharm/lib/mecharm
+[2.577s] writing list of installed files to '/home/robotics/ros2_cobot/build/mecharm/install.log'
+[3.013s] Invoked command in '/home/robotics/ros2_cobot/src/mycobot_ros2/mecharm/mecharm' returned '0': AMENT_PREFIX_PATH=/home/robotics/ros2_cobot/install/mycobot_description:${AMENT_PREFIX_PATH} PYTHONPATH=/home/robotics/ros2_cobot/build/mecharm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotics/ros2_cobot/install/mecharm/lib/python3.10/site-packages:/home/robotics/ros2_cobot/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/mecharm build --build-base /home/robotics/ros2_cobot/build/mecharm/build install --record /home/robotics/ros2_cobot/build/mecharm/install.log --single-version-externally-managed install_data
