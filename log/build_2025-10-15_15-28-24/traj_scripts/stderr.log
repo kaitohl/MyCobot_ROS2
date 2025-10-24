@@ -1,7 +1,0 @@
-[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/traj_scripts.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
-[01m[K/home/robotics/ros2_cobot/src/traj_scripts/src/traj_scripts.cpp:93:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass moveit::planning_interface::MoveGroupInterface[m[K’ has no member named ‘[01m[KwaitForMotionDone[m[K’
-   93 |     move_group.[01;31m[KwaitForMotionDone[m[K();
-      |                [01;31m[K^~~~~~~~~~~~~~~~~[m[K
-gmake[2]: *** [CMakeFiles/traj_runner_node.dir/build.make:76: CMakeFiles/traj_runner_node.dir/src/traj_scripts.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:142: CMakeFiles/traj_runner_node.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

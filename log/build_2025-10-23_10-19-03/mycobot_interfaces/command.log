@@ -1,4 +1,0 @@
-Invoking command in '/home/robotics/ros2_cobot/build/mycobot_interfaces': /usr/bin/cmake --build /home/robotics/ros2_cobot/build/mycobot_interfaces -- -j16 -l16
-Invoked command in '/home/robotics/ros2_cobot/build/mycobot_interfaces' returned '0': /usr/bin/cmake --build /home/robotics/ros2_cobot/build/mycobot_interfaces -- -j16 -l16
-Invoking command in '/home/robotics/ros2_cobot/build/mycobot_interfaces': /usr/bin/cmake --install /home/robotics/ros2_cobot/build/mycobot_interfaces
-Invoked command in '/home/robotics/ros2_cobot/build/mycobot_interfaces' returned '0': /usr/bin/cmake --install /home/robotics/ros2_cobot/build/mycobot_interfaces

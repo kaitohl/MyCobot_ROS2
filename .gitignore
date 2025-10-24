@@ -1,7 +1,7 @@
-ros2_cobot/build/
-ros2_cobot/install/
-ros2_cobot/log/
-ros2_cobot/.vscode/
+build/
+install/
+log/
+.vscode/
 *.swp
 *.pyc
 .DS_Store
