@@ -1,5 +1,6 @@
 #include <rclcpp/rclcpp.hpp>
 #include <std_msgs/msg/string.hpp>
+#include <std_msgs/msg/float64_multi_array.hpp>
 #include <geometry_msgs/msg/pose.hpp>
 #include <moveit/move_group_interface/move_group_interface.h>
 #include <moveit/robot_state/robot_state.h>
@@ -8,23 +9,49 @@
 #include <memory>
 #include <optional>
 
+// Parse Float64MultiArray into list of 3D points.
+// Supports either:
+//  - Flattened data with length = 3*N, or
+//  - layout.dim = [N, 3] (row-major)
+
 using json = nlohmann::json;
 
-// Parse JSON string into list of 3D points
-std::vector<std::vector<double>> parsePoints(const std::string& json_str) {
+std::vector<std::vector<double>>
+parsePoints(const std_msgs::msg::Float64MultiArray& msg)
+{
+  const auto& data = msg.data;
   std::vector<std::vector<double>> points;
-  try {
-    json j = json::parse(json_str);
-    for (const auto& pt : j) {
-      if (pt.size() == 3) {
-        points.push_back({pt[0], pt[1], pt[2]});
+
+  // Case A: 2D layout present and looks like [N, 3]
+  if (msg.layout.dim.size() >= 2) {
+    const auto rows = static_cast<size_t>(msg.layout.dim[0].size);
+    const auto cols = static_cast<size_t>(msg.layout.dim[1].size);
+
+    if (cols == 3 && data.size() == rows * cols) {
+      points.reserve(rows);
+      for (size_t i = 0; i < rows; ++i) {
+        const size_t base = i * cols;
+        points.push_back({ data[base + 0], data[base + 1], data[base + 2] });
       }
+      return points;
     }
-  } catch (const std::exception& e) {
-    std::cerr << "JSON parse error: " << e.what() << std::endl;
+    // Fall through to flattened parsing if layout is not consistent
+  }
+
+  // Case B: flattened [x0,y0,z0, x1,y1,z1, ...]
+  if (data.size() % 3 != 0) {
+    std::cerr << "Float64MultiArray length (" << data.size()
+              << ") is not a multiple of 3; ignoring trailing values.\n";
+  }
+  const size_t N = data.size() / 3;
+  points.reserve(N);
+  for (size_t i = 0; i < N; ++i) {
+    const size_t base = 3 * i;
+    points.push_back({ data[base + 0], data[base + 1], data[base + 2] });
   }
   return points;
 }
+
 
 // Compute IK for a single target pose using an optional seed state
 // Returns the joint solution if found, otherwise nullopt
@@ -38,7 +65,7 @@ std::optional<std::vector<double>> computeIK(
   geometry_msgs::msg::Pose target_pose;
   target_pose.position.x = point[0];
   target_pose.position.y = point[1];
-  target_pose.position.z = point[2];
+  target_pose.position.z = point[2] + 0.12;
   // Orient the tool Z-axis to point DOWN (world -Z).
   // 180 deg about Y-axis => quaternion [x=0, y=1, z=0, w=0]
   target_pose.orientation.x = 0.0;
@@ -108,9 +135,9 @@ public:
   joints_pub_ = this->create_publisher<std_msgs::msg::String>("/ordered_jointstates", 10);
 
     // Create subscription for ordered points
-    subscription_ = this->create_subscription<std_msgs::msg::String>(
-      "/ordered_points", 10,
-      std::bind(&GraphIKNode::pointsCallback, this, std::placeholders::_1));
+    subscription_ = this->create_subscription<std_msgs::msg::Float64MultiArray>(
+        "/ordered_points", 10,
+        std::bind(&GraphIKNode::pointsCallback, this, std::placeholders::_1));
     
     RCLCPP_INFO(this->get_logger(), "Ready! Waiting for messages on /ordered_points...");
   }
@@ -123,12 +150,13 @@ public:
   }
 
 private:
-  void pointsCallback(const std_msgs::msg::String::SharedPtr msg) {
-    RCLCPP_INFO(this->get_logger(), "Received points message");
+  void pointsCallback(const std_msgs::msg::Float64MultiArray::SharedPtr msg) {
+    RCLCPP_INFO(this->get_logger(), "Received Float64MultiArray on /ordered_points");
 
-    auto points = parsePoints(msg->data);
+    // Use your new parser for Float64MultiArray
+    auto points = parsePoints(*msg);
     if (points.empty()) {
-      RCLCPP_ERROR(this->get_logger(), "No valid points in message");
+      RCLCPP_ERROR(this->get_logger(), "No valid points in Float64MultiArray");
       return;
     }
 
@@ -172,7 +200,7 @@ private:
   std::shared_ptr<rclcpp::executors::SingleThreadedExecutor> moveit_executor_;
   std::thread moveit_thread_;
   std::shared_ptr<moveit::planning_interface::MoveGroupInterface> move_group_;
-  rclcpp::Subscription<std_msgs::msg::String>::SharedPtr subscription_;
+  rclcpp::Subscription<std_msgs::msg::Float64MultiArray>::SharedPtr subscription_;
   rclcpp::Publisher<std_msgs::msg::String>::SharedPtr joints_pub_;
 };
 

@@ -25,7 +25,6 @@ ament_target_dependencies(traj_runner_node
   moveit_msgs
 )
 
-
 # Add graph_ik node
 add_executable(graph_ik_node src/graph_ik.cpp)
 ament_target_dependencies(graph_ik_node
@@ -36,9 +35,19 @@ ament_target_dependencies(graph_ik_node
   tf2_eigen
 )
 
+# Add ik node
+add_executable(ik_node src/ik.cpp)
+ament_target_dependencies(ik_node
+  rclcpp
+  moveit_ros_planning_interface
+  geometry_msgs
+  std_msgs
+  sensor_msgs
+)
+
 # install the executable
 install(
-  TARGETS traj_runner_node graph_ik_node
+  TARGETS traj_runner_node graph_ik_node ik_node
   DESTINATION lib/${PROJECT_NAME}
 )
 
@@ -55,7 +64,6 @@ ament_python_install_package(${PROJECT_NAME})
 # Install Python executables
 install(PROGRAMS
   scripts/ghost.py
-  scripts/tsp_pointcloud_node.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

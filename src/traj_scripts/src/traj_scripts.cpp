@@ -4,6 +4,10 @@
 #include <nlohmann/json.hpp>
 #include <vector>
 #include <moveit/robot_state/robot_state.h>
+#include <sensor_msgs/msg/joint_state.hpp>
+#include <moveit_msgs/msg/display_trajectory.hpp>
+#include <moveit_msgs/msg/robot_trajectory.hpp>
+#include <moveit/robot_state/conversions.h>
 #include <atomic>
 #include <iostream>
 
@@ -106,21 +110,94 @@ int main(int argc, char** argv)
   }
 
   std::cout << "\n✓ All trajectories validated successfully!" << std::endl;
-  std::cout << "Starting sequential execution...\n" << std::endl;
 
-  // Execute all plans sequentially
+  // --- Create ghost joint state publisher ---
+  auto ghost_joint_pub =
+      node->create_publisher<sensor_msgs::msg::JointState>("/ghost/ghost_joint_states", 10);
+
+  std::cout << "Starting ghost trajectory playback (real robot will NOT move)...\n" << std::endl;
+
+  // --- Publish trajectories as ghost joint states ---
   for (size_t i = 0; i < plans.size(); ++i) {
-    std::cout << "Executing trajectory to joint state " << (i + 1) << "..." << std::endl;
-    auto result = move_group.execute(plans[i]);
-    if (result != moveit::core::MoveItErrorCode::SUCCESS) {
-      std::cerr << "ERROR: Execution failed for joint state " << (i + 1) << std::endl;
-      return 1;
+    const auto& traj = plans[i].trajectory_.joint_trajectory;
+
+    if (traj.points.empty()) {
+      std::cerr << "Warning: trajectory " << i << " has no points, skipping." << std::endl;
+      continue;
     }
-    std::cout << "✓ Reached joint state " << (i + 1) << std::endl;
-    rclcpp::sleep_for(std::chrono::milliseconds(500));
+
+    std::cout << "Ghost moving along trajectory to joint state " << (i + 1) << "..." << std::endl;
+
+    // Build ghost joint names (append "_ghost" to each original joint name)
+    std::vector<std::string> ghost_joint_names;
+    ghost_joint_names.reserve(traj.joint_names.size());
+    for (const auto& name : traj.joint_names) {
+      ghost_joint_names.push_back(name + "_ghost");
+    }
+
+    // Publish each trajectory point as a JointState message
+    for (const auto& point : traj.points) {
+      sensor_msgs::msg::JointState js;
+      js.header.stamp = node->now();
+
+      js.name = ghost_joint_names;             // Use ghost joint names
+      js.position = point.positions;           // Use same joint positions
+      if (!point.velocities.empty())
+        js.velocity = point.velocities;
+      if (!point.effort.empty())
+        js.effort = point.effort;
+
+      ghost_joint_pub->publish(js);
+
+      rclcpp::spin_some(node);
+      std::this_thread::sleep_for(std::chrono::milliseconds(50));  // Adjust playback rate
+    }
+
+    std::cout << "✓ Ghost reached joint state " << (i + 1) << std::endl;
   }
 
-  std::cout << "\n✓ Successfully completed all joint states!" << std::endl;
-  rclcpp::shutdown();
-  return 0;
+  std::cout << "\n✓ Ghost preview complete. Real robot has not moved." << std::endl;
+
+std::cout << "\n✓ Ghost preview complete. Real robot has not moved." << std::endl;
+
+// Subscriber for execute trigger (String from Slicer)
+auto exec_sub = node->create_subscription<std_msgs::msg::String>(
+    "/execute_preplanned_trajectory", 10,
+    [&move_group, &plans](const std_msgs::msg::String::SharedPtr msg)
+    {
+      if (plans.empty()) {
+        RCLCPP_WARN(rclcpp::get_logger("traj_scripts"),
+                    "No plans available to execute. Ignoring execute trigger.");
+        return;
+      }
+
+      RCLCPP_INFO(rclcpp::get_logger("traj_scripts"),
+                  "Received execute trigger: '%s'. Executing %zu segments...",
+                  msg->data.c_str(), plans.size());
+
+      // Your original execution loop:
+      for (size_t i = 0; i < plans.size(); ++i) {
+        RCLCPP_INFO(rclcpp::get_logger("traj_scripts"),
+                    "Executing trajectory to joint state %zu...", i + 1);
+        auto result = move_group.execute(plans[i]);
+        if (result != moveit::core::MoveItErrorCode::SUCCESS) {
+          RCLCPP_ERROR(rclcpp::get_logger("traj_scripts"),
+                       "Execution failed for joint state %zu. Aborting.", i + 1);
+          return;
+        }
+        RCLCPP_INFO(rclcpp::get_logger("traj_scripts"),
+                    "✓ Reached joint state %zu", i + 1);
+        rclcpp::sleep_for(std::chrono::milliseconds(500));
+      }
+
+      RCLCPP_INFO(rclcpp::get_logger("traj_scripts"),
+                  "✓ Successfully completed all joint states!");
+    });
+
+std::cout << "Waiting for execute trigger on /execute_preplanned_trajectory..." << std::endl;
+
+// Keep node alive to listen for triggers
+rclcpp::spin(node);
+rclcpp::shutdown();
+return 0;
 }

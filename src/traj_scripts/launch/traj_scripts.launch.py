@@ -18,6 +18,7 @@ def generate_launch_description():
 
     # Set launch argument "use_rviz" to false to disable RViz in the demo launch
     ld.add_action(SetLaunchConfiguration("use_rviz", "true"))
+    ld.add_action(SetLaunchConfiguration("use_move_group", "false"))
 
     # Crete demo launch
     demo_ld = generate_demo_launch(moveit_config)
@@ -57,7 +58,7 @@ def generate_launch_description():
     ghost_py = Node(
         package="traj_scripts",
         executable="ghost.py",
-        name="ghost_trajectory_replayer",
+        name="ghost_home",
         namespace="ghost",
         output="screen"
     )
@@ -88,18 +89,23 @@ def generate_launch_description():
         ]
     )
 
+    # IK node (single-pose inverse kinematics publishing joint values)
+    ik_node = Node(
+        package='traj_scripts',
+        executable='ik_node',
+        name='ik_node',
+        output='screen',
+        parameters=[
+            moveit_config.robot_description,
+            moveit_config.robot_description_semantic,
+            moveit_config.robot_description_kinematics,
+        ]
+    )
+
     ld.add_action(ghost_rsp)
     ld.add_action(ghost_py)
     ld.add_action(graph_ik_node)
     ld.add_action(traj_runner)
-
-    # TSP point cloud ordering node (listens for JSON path, publishes ordered points)
-    tsp_node = Node(
-        package='traj_scripts',
-        executable='tsp_pointcloud_node.py',
-        name='tsp_pointcloud_node',
-        output='screen'
-    )
-    ld.add_action(tsp_node)
+    ld.add_action(ik_node)
 
     return ld
