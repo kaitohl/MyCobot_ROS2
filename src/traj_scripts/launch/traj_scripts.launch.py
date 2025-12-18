@@ -1,6 +1,6 @@
 from moveit_configs_utils import MoveItConfigsBuilder
 from launch import LaunchDescription
-from launch.actions import SetLaunchConfiguration, DeclareLaunchArgument
+from launch.actions import SetLaunchConfiguration, DeclareLaunchArgument, TimerAction, ExecuteProcess
 from launch.substitutions import PathJoinSubstitution, Command
 from launch_ros.actions import Node
 from launch_ros.substitutions import FindPackageShare
@@ -17,8 +17,8 @@ def generate_launch_description():
     ld = LaunchDescription()
 
     # Set launch argument "use_rviz" to false to disable RViz in the demo launch
-    ld.add_action(SetLaunchConfiguration("use_rviz", "true"))
-    ld.add_action(SetLaunchConfiguration("use_move_group", "false"))
+    # ld.add_action(SetLaunchConfiguration("use_rviz", "true"))
+    # ld.add_action(SetLaunchConfiguration("use_move_group", "false"))
 
     # Crete demo launch
     demo_ld = generate_demo_launch(moveit_config)
@@ -52,7 +52,7 @@ def generate_launch_description():
         namespace='ghost',
         output='screen',
         parameters=[ghost_robot_description],
-        remappings=[('joint_states', 'ghost_joint_states')],
+        remappings=[('/joint_states', '/ghost/joint_states')]
     )
 
     ghost_py = Node(
